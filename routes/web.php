@@ -19,6 +19,30 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/kalender', function () {
+    return view('kalender.main');
+});
+
+Route::get('/lokasi', function () {
+    return view('lokasi.main');
+});
+
+Route::get('/taufiq', function () {
+    return view('lokasi.taufiq');
+});
+
+Route::get('/taqwa', function () {
+    return view('lokasi.taqwa');
+});
+
+Route::get('/RegLok1', function () {
+    return view('lokasi.RegisLok1');
+});
+
+Route::get('/RegLok2', function () {
+    return view('lokasi.RegisLok2');
+});
+
 Route::get('/mahasiswa', function () {
     return view('mahasiswa');
 });
