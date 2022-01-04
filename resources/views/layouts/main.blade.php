@@ -10,27 +10,34 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #3167AF">
         <a class="navbar-brand" href="#">
-          <img src="prettier/pkbm.png" width="30" height="35" class="d-inline-block align-top" alt="">PKBM At-Taufiq
+          <img src="prettier/pkbm.png" width="30" height="35" class="d-inline-block align-top" alt="">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-2">
+                <p style="color:white">PKBM At-Taufiq</p>
+              </div>
+            </div>
+          </div>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="/materi">Materi Pembelajaran</a>
+            <li class="nav-materi">
+              <a class="nav-link" style="color: #fff" href="/materi">Materi Pembelajaran</a>
             </li>
             <li class="nav-peta">
-              <a class="nav-link" href="/peta">Peta Lokasi</a>
+              <a class="nav-link" style="color: #fff" href="/peta">Peta Lokasi</a>
             </li>
             <li class="nav-ebook">
-              <a class="nav-link" href="/ebook">E-Book</a>
+              <a class="nav-link" style="color: #fff" href="/ebook">E-Book</a>
             </li>
             <li class="nav-kalender">
-              <a class="nav-link" href="/kalender">Kalender Akademik</a>
+              <a class="nav-link" style="color: #fff" href="/kalender">Kalender Akademik</a>
             </li>
-            <li class="nav-kalender">
-              <a class="nav-link" href="/profilku">Profilku</a>
+            <li class="nav-profil">
+              <a class="nav-link" style="color: #fff" href="/profilku">Profilku</a>
             </li>
           </ul>
         </div>
@@ -54,38 +61,47 @@
   
             <div class="col-lg-2 col-md-6 footer-links">
               <h4 class="judul-footer">Links</h4>
-              <ul>
-                <li class="link" href="#home">Home</li>
-                <li class="link" href="#tentang">Tentang Kami</li>
-                <li class="link" href="#visimisi">Visi Misi</li>
-                <li class="link" href="#mengapa">Mengapa Kami</li>
-                <li class="link" href="#kegiatan">Kegiatan</li>
-              </ul>
+                <li class="link" style="list-style:none;" href="#home">Home</a></li>
+                <li class="link" style="list-style:none;" href="#tentang">Tentang Kami</li>
+                <li class="link" style="list-style:none;" href="#visimisi">Visi Misi</li>
+                <li class="link" style="list-style:none;" href="#mengapa">Mengapa Kami</li>
+                <li class="link" style="list-style:none;" href="#kegiatan">Kegiatan</li>
             </div>
   
             <div class="col-lg-3 col-md-6 footer-links">
               <h4 class="judul-footer">Bantuan</h4>
-              <ul>
-                <li class="bantuan" href="/daftar">Cara Mendaftar</a></li>
-                <li class="bantuan" href="/masuk">Masuk</a></li>
-              </ul>
+                <li class="bantuan" style="list-style:none;" href="/daftar">Cara Mendaftar</a></li>
+                <li class="bantuan" style="list-style:none;" href="/masuk">Masuk</a></li>
             </div>
   
             <div class="col-lg-4 col-md-6 footer-links">
               <h6 class="judul-footer">Yuk berlangganan untuk mendapatkan info terkini</h6>
                 <form class="form-inline my-2 my-lg-0">
-                  <input class="form-control mr-sm-2" type="search" placeholder="Masukkan e-mail anda" aria-label="e-mail">
-                    <button class="btn btn-outline-success  my-2 my-sm-0" type="submit">Berlangganan</button>
+                    <div class="row">
+                      <div class="col-md-6" style="margin-right: 5px">
+                        <input class="form-control" type="search" placeholder="Masukkan e-mail anda" aria-label="e-mail">
+                      </div>
+                      <div class="col-md-6">
+                        <button class="btn btn-outline-success btn-md" type="submit">Berlangganan</button>
+                      </div>
+                    </div>
                 </form>
               <h6 class="judul-footer">Ikuti Kami</h6>
                 <div class="social-links mt-3">
                   <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                </div>
+                <div class="social-links mt-3">
                   <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                </div>
+                <div class="social-links mt-3">
                   <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                </div>
+                <div class="social-links mt-3">
                   <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                </div>
+                <div class="social-links mt-3">
                   <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
                 </div>
-            </div>
   
           </div>
         </div>

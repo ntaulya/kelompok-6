@@ -1,14 +1,6 @@
-.nav-item {
+.nav-materi {
     padding: 0;
     margin-left: 500px;
-}
-
-.nav-link {
-    color: #fff;
-}
-
-.pkbm {
-    color: #fff;
 }
 
 .fixed-bottom {
@@ -19,18 +11,18 @@
     color: #F7DE06;
 }
 
-.link #bantuan{
+.link {
     color: #fff;
 }
 
 .form-control {
-    width: 250px;
+    width: 200px;
 }
 
 .social-links {
     font-size: 18px;
     display: inline-block;
-    background: #1E4607;
+    background: #F7DE06;
     color: #fff;
     line-height: 1;
     padding: 8px 0;
