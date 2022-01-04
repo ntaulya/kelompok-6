@@ -17,7 +17,7 @@
           <div class="container">
             <div class="row">
               <div class="col-lg-2 mx-2 mb-2">
-                <img src="prettier/pkbm.png" width="50" height="50" class="d-inline" style="margin-right:10px;" alt="">
+                <img src="prettier/images/pkbm.png" width="50" height="50" class="d-inline" style="margin-right:10px;" alt="">
                 <p class="d-inline mx-2 pb-0 mb-0" style="color:white;">PKBM At-Taufiq</p>
               </div>
             </div>
@@ -60,7 +60,7 @@
 
 
     {{-- FOOTER --}}
-    <div class="fixed-bottom p-4" style="background-color: #3167AF">
+    <div class="bottom footer p-4" style="background-color: #3167AF">
       <div class="footer-top">
         <div class="container">
           <div class="row">
@@ -92,7 +92,7 @@
 
                 <form class="form-inline my-2 my-lg-0">
                     <div class="row">
-                      <div class="col-md-6" style="margin-right: 5px">
+                      <div class="col-12" style="margin-right: 5px">
                         <input class="form-control" type="search" placeholder="Masukkan e-mail anda" aria-label="e-mail">
                         <button class="d-inline btn btn-success btn-outline-warning btn-md" type="submit">Berlangganan</button>
                       </div>
