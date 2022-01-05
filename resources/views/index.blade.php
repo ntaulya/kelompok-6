@@ -4,8 +4,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="prettier/main.css">
-    <title>@yield('title')</title>
+    <link rel="stylesheet" href="prettier/index.css">
+    <title>Pusat Kegiatan Belajar Masyarakat At-Taufiq</title>
 </head>
 
 <body>
@@ -18,7 +18,7 @@
             <div class="row">
               <div class="col-lg-2 mx-2 mb-2">
                 <img src="prettier/images/pkbm.png" width="40" height="50" class="d-inline" style="margin-right:10px;" alt="">
-                <p class="d-inline mx-2 pb-0 mb-0" style="color:white;">PKBM At-Taufiq</p>
+                <p class="d-inline mx-2 pb-0 mb-0" style="color:white;">Pusat Kegiatan Belajar Masyarakat At-Taufiq</p>
               </div>
             </div>
           </div>
@@ -29,20 +29,11 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
-            <li class="nav-materi">
-              <a class="nav-link" style="color: #fff" href="/materi">Materi Pembelajaran</a>
+            <li class="nav-masuk">
+              <a class="nav-link" style="color: white" href="/materi">Masuk</a>
             </li>
-            <li class="nav-peta">
-              <a class="nav-link" style="color: #fff" href="/lokasi">Peta Lokasi</a>
-            </li>
-            <li class="nav-ebook">
-              <a class="nav-link" style="color: #fff" href="/ebook">E-Book</a>
-            </li>
-            <li class="nav-kalender">
-              <a class="nav-link" style="color: #fff" href="/kalender">Kalender Akademik</a>
-            </li>
-            <li class="nav-profil">
-              <a class="nav-link" style="color: #fff" href="/profilku">Profilku</a>
+            <li class="nav-daftar">
+              <button type="button" class="btn" style="background-color: #F7DE06; color: #3167AF">Daftar</button>
             </li>
           </ul>
         </div>
@@ -51,13 +42,40 @@
 
 
     {{-- MAIN CONTENT --}}
-    <div class="container mt-4">
-        @yield('container')
+    <div class="container mt-5">
+      <h5>Solusi Pendidikan Indonesia Maju</h5>
+      {{-- <img class="d-inline mx-2 pb-0 mb-0" src="prettier/images/education.png" width="300px" height="190px" style="text-align: right"> --}}
+      <p>Mari menjadi pelopor pendidikan di Indonesia yang berkontribusi<br>penting dalam pembangunan manusia</p>
+      <button type="button" class="btn btn-light" style="background-color: #7397CB; color: #fff">Mulai Belajar<img src="prettier/emoji/book-emoji.png" width="30px" height="30px"></button>
     </div>
+    
+    <div class="col-lg-12 col-md-6 mt-5" style="background-color: #3167AF">
+      <h5 class="tentang-judul text-center">Tentang</h5>
+      <img class="tentang" src="prettier/images/ink.png" width="200px" width="200px">
+      <p class="d-inline mx-2 pb-0 mb-0" style="color:white;">
+        Pusat Kegiatan Belajar Masyarakat (PKBM) At-Taufiq adalah lembaga yang dibentuk 
+        oleh masyarakat untuk masyarakat yang bergerak dalam bidang pendidikan Non Formal
+        yang berada di desa Majannang, Kecamatan Parigi, Kab. Gowa. PKBM ini masih berada di bawah pengawasan dan bimbingan dari Dinas Pendidikan Nasional. 
+        PKBM ini bisa berupa tingkat desa ataupun kecamatan</p>
+      </p>
+    </div>
+    
+    <div class="container mt-5">
+      <img class="visi-misi-gambar" src="prettier/images/visi-misi.png" width="200px" width="200px">
+      <div class="d-inline mx-2 pb-0 mb-0">
+        <h5 class="visi-judul text-right">Visi</h5>
+          <p class="visi text-right">Menjadi lembaga pendidikan dan pelatihan yang berkualitas<br>menciptakan usaha mandiri</p>
+        <h5 class="misi-judul text-right">Misi</h5>
+          <p class="misi text-right">1. Menyelenggarakan pendidikan dan pelatihan bagi masyarakat<br>
+            2. Melakukan pelatihan dan bimbingan sesuai dengan kebutuhan lapagan pekerjaan yang ada<br>
+            3. Memberikan motivasi menjadi wirausaha yang mandiri<br>
+            4. Menjadi lembaga pendidikan yang menciptakan SDM pekerja keras, cerdas, tuntas, dan ikhlas<br>
+            5. Melakukan kerjasama kemitraan yang sinergis dengan pihak lain</p>
+      </div>
+    </div>
+    
+    
     {{-- END OF MAIN CONTENT --}}
-
-
-
 
     {{-- FOOTER --}}
     <div class="bottom footer p-4" style="background-color: #3167AF">

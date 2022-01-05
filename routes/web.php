@@ -16,6 +16,10 @@ use App\Http\Controllers\MahasiswaController;
 */
 
 Route::get('/', function () {
+    return view('index');
+});
+
+Route::get('/bug', function () {
     return view('welcome');
 });
 
@@ -41,10 +45,6 @@ Route::get('/RegLok1', function () {
 
 Route::get('/RegLok2', function () {
     return view('lokasi.RegisLok2');
-});
-
-Route::get('/mahasiswa', function () {
-    return view('mahasiswa');
 });
 
 Route::get('/mahasiswa', [MahasiswaController::class, 'mahasiswa']);
