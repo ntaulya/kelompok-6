@@ -50,35 +50,114 @@
     </div>
     
     <div class="col-lg-12 col-md-6 mt-5" style="background-color: #3167AF">
-      <h5 class="tentang-judul text-center">Tentang</h5>
-      <img class="tentang" src="prettier/images/ink.png" width="200px" width="200px">
-      <p class="d-inline mx-2 pb-0 mb-0" style="color:white;">
-        Pusat Kegiatan Belajar Masyarakat (PKBM) At-Taufiq adalah lembaga yang dibentuk 
-        oleh masyarakat untuk masyarakat yang bergerak dalam bidang pendidikan Non Formal
-        yang berada di desa Majannang, Kecamatan Parigi, Kab. Gowa. PKBM ini masih berada di bawah pengawasan dan bimbingan dari Dinas Pendidikan Nasional. 
-        PKBM ini bisa berupa tingkat desa ataupun kecamatan</p>
-      </p>
-    </div>
-    
-    <div class="container mt-5">
-      <img class="visi-misi-gambar" src="prettier/images/visi-misi.png" width="200px" width="200px">
-      <div class="d-inline mx-2 pb-0 mb-0">
-        <h5 class="visi-judul text-right">Visi</h5>
-          <p class="visi text-right">Menjadi lembaga pendidikan dan pelatihan yang berkualitas<br>menciptakan usaha mandiri</p>
-        <h5 class="misi-judul text-right">Misi</h5>
-          <p class="misi text-right">1. Menyelenggarakan pendidikan dan pelatihan bagi masyarakat<br>
-            2. Melakukan pelatihan dan bimbingan sesuai dengan kebutuhan lapagan pekerjaan yang ada<br>
-            3. Memberikan motivasi menjadi wirausaha yang mandiri<br>
-            4. Menjadi lembaga pendidikan yang menciptakan SDM pekerja keras, cerdas, tuntas, dan ikhlas<br>
-            5. Melakukan kerjasama kemitraan yang sinergis dengan pihak lain</p>
+      <h5 class="judul text-center">Tentang</h5>
+      <div class="row">
+        <div class="col-sm-2">
+          <img class="tentang" src="prettier/images/ink.png" width="200px" width="200px">
+        </div>
+        <div class="col-sm-10 mt-2" style="color:white;">
+          Pusat Kegiatan Belajar Masyarakat (PKBM) At-Taufiq adalah lembaga yang dibentuk 
+          oleh masyarakat untuk masyarakat yang bergerak dalam bidang pendidikan Non Formal
+          yang berada di desa Majannang, Kecamatan Parigi, Kab. Gowa. PKBM ini masih berada di bawah pengawasan dan bimbingan dari Dinas Pendidikan Nasional. 
+          PKBM ini bisa berupa tingkat desa ataupun kecamatan</p>
+        </div>
       </div>
     </div>
     
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-sm-2">
+          <img class="visi-misi-gambar" src="prettier/images/visi-misi.png" width="200px" width="200px">
+        </div>
+        <div class="col-sm-10">
+          <h5 class="visi-judul text-right">Visi</h5>
+            <p class="visi text-right">Menjadi lembaga pendidikan dan pelatihan yang berkualitas<br>menciptakan usaha mandiri</p>
+          <h5 class="misi-judul text-right">Misi</h5>
+            <p class="misi text-right">1. Menyelenggarakan pendidikan dan pelatihan bagi masyarakat<br>
+              2. Melakukan pelatihan dan bimbingan sesuai dengan kebutuhan lapagan pekerjaan yang ada<br>
+              3. Memberikan motivasi menjadi wirausaha yang mandiri<br>
+              4. Menjadi lembaga pendidikan yang menciptakan SDM pekerja keras, cerdas, tuntas, dan ikhlas<br>
+              5. Melakukan kerjasama kemitraan yang sinergis dengan pihak lain</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-12 col-md-6 mt-5" style="background-color: #3167AF">
+      <h5 class="judul text-center">Mengapa PKBM?</h5>
+      <div class="row">
+        <div class="col-sm-12 mt-2" style="color:white;">
+          <img class="ceklis" src="prettier/emoji/checklist-emoji.png" width="20px" width="20px">
+          Pembelajaran pada PKBM sudah setara dengan pendidikan formal
+        </div>
+        <div class="col-sm-12 mt-3" style="color:white;">
+          <img class="ceklis" src="prettier/emoji/checklist-emoji.png" width="20px" width="20px">
+          Di PKBM menyediakan layanan program berupa:
+          <ul>
+            <li>Pendidikan Anak Usia Dini (PAUD)</li>
+            <li>Pendidikan Kesetaraan</li>
+            <li>Pendidikan Keaksaraan</li>
+            <li>Taman Bacaan Masyarakat (TBM)</li>
+            <li>Kursus dan Pelatihan</li>
+            <li>Pendidikan Keluarga</li>
+          </ul>
+        </div>
+        <div class="col-sm-12 mt-3" style="color:white;">
+          <img class="ceklis" src="prettier/emoji/checklist-emoji.png" width="20px" width="20px">
+          Meningkatkan kemandirian dan kreativitas peserta didik
+        </div>
+        <div class="col-sm-12 mt-3" style="color:white;">
+          <img class="ceklis" src="prettier/emoji/checklist-emoji.png" width="20px" width="20px">
+          Pembelajaran peserta didik  merupakan pembelajaran yang fleksibel, dapat dilakukan dimana saja dan kapan saja
+        </div>
+        <div class="col-sm-12 mt-3" style="color:white;">
+          <img class="ceklis" src="prettier/emoji/checklist-emoji.png" width="20px" width="20px">
+          Pembelajaran peserta didik menerapkan teori dalam praktik nyata sehingga kedepannya lebih mudah dalam penerapan kehidupan sehari-hari 
+        </div>
+        <div class="col-sm-12 mt-3" style="color:white;">
+          <img class="ceklis" src="prettier/emoji/checklist-emoji.png" width="20px" width="20px">
+          Peserta didik memperoleh keterampilan yang dapat digunakan ketika lulus pembelajaran 
+        </div>
+      </div>
+    </div>
+    
+    <div class="container mt-5">
+      <h5 class="kegiatan text-center">Kegiatan Kami</h5>
+      <p class="deskripsi text-center">Kami melakukan pembelajaran berbasis online dan onsite dengan rincian sebagai berikut</p>
+        <div class="row row-cols-1 row-cols-md-3">
+          <div class="col mb-4">
+            <div class="card">
+              <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Pendidikan Keaksaraan</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+              <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">TPAD</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+              <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Pendidikan Keluarga</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
     
     {{-- END OF MAIN CONTENT --}}
 
     {{-- FOOTER --}}
-    <div class="bottom footer p-4" style="background-color: #3167AF">
+    <div class="bottom footer p-4 mt-2" style="background-color: #3167AF">
       <div class="footer-top">
         <div class="container">
           <div class="row">
