@@ -77,7 +77,7 @@
             </div>
           </div>
 
-          <div class="container text-center">
+          <div class="container text-center mt-5">
             <a href="/suksesdaftar" class="btn btn-primary">Daftar Ujian</a></button>
           </div>
 
