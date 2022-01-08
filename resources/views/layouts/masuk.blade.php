@@ -81,16 +81,12 @@
             <div class="col-lg-4 col-md-6 footer-links">
               <h6 class="judul-footer">Yuk berlangganan untuk mendapatkan info terkini</h6>
 
-                <form class="form-inline my-2 my-lg-0">
-                    <div class="row">
-                      <div class="col-12" style="margin-right: 5px">
-                        <input class="form-control" type="search" placeholder="Masukkan e-mail anda" aria-label="e-mail">
-                        <button class="d-inline btn btn-success btn-outline-warning btn-md" type="submit">Berlangganan</button>
-                      </div>
-                    </div>
-                </form>
-
-
+              <div class="input-group">
+                <input type="text" placeholder="Masukan Email Anda" class="form-control">
+                <span class="input-group-btn">
+                  <button class="btn btn-success btn-outline-warning btn-md" type="submit">Berlangganan</button>                
+                </span>
+              </div>
 
               <h6 class="judul-footer mt-5">Ikuti Kami</h6>
                 <div class="social-links mt-3">
