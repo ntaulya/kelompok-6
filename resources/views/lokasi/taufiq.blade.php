@@ -1,5 +1,5 @@
 @extends('layouts.main')
-@section('title','Pusat Kegiatan Belajar Masyarakat At-Taufiq')
+@section('title','Peta Lokasi Pusat Kegiatan Belajar Masyarakat At-Taufiq')
 @section('container')
 
   {{-- Begin of Lokasi --}}
@@ -23,12 +23,12 @@
     {{-- END OF PETA LOKASI --}}
 
     {{-- BEGIN OF TEMPAT 2 --}}
-    <div class="card mb-3" style="width: 100%;">
+    <div class="card mb-3 mt-3" style="width: 100%;">
       <div class="row no-gutters">
         <div class="col-md-12">
           <div class="card-body" style="width: 100%;">
             <h5 class="card-title">PKBM AT-Taufiq</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, perferendis optio! Veniam consequatur commodi, magnam nisi saepe quidem blanditiis adipisci officia, nulla, cupiditate numquam aspernatur. Laboriosam laborum aliquam dignissimos quasi!</p>
+            <p class="card-text">Jl. Sukamakmur No.15 Desa Majannang , Kecamatan Parigi, Kab. Gowa</p>
             <p class="card-text text-center"><a href="/RegLok1" class="btn btn-primary">Pilih Tempat Ujian</a></p>
           </div>
         </div>

@@ -1,5 +1,5 @@
 @extends('layouts.main')
-@section('title','Pusat Kegiatan Belajar Masyarakat At-Taufiq')
+@section('title','Pilih Lokasi Tempat Ujian')
 @section('container')
 
   {{-- Begin of Lokasi --}}
@@ -17,12 +17,12 @@
     {{-- END OF PETA LOKASI --}}
 
     {{-- BEGIN OF TEMPAT 1 --}}
-    <div class="card mb-3" style="width: 100%;">
+    <div class="card mb-3 mt-3" style="width: 100%;">
       <div class="row no-gutters">
         <div class="col-md-4">
-          <img src="https://www.idlememe.com/wp-content/uploads/2021/10/beluga-cat-meme-idlememe-5.jpg" width="400px" height="140px" alt="Lokasi 1">
+          <img src="prettier/images/taufiq.jpeg" width="300px" height="140px" alt="Lokasi 1">
         </div>
-        <div class="col-md-8">
+        <div class="col-md-6">
           <div class="card-body">
             <h5 class="card-title">PKBM AT-Taufiq</h5>
             <p class="card-text">Jl. Sukamakmur No.15 Desa Majannang , Kecamatan Parigi, Kab. Gowa</p>
@@ -37,7 +37,7 @@
     <div class="card mb-3" style="width: 100%;">
       <div class="row no-gutters">
         <div class="col-md-4">
-          <img src="https://i.ytimg.com/vi/UVhHYHYXao8/mqdefault.jpg" width="400px" height="140px" alt="Lokasi 1">
+          <img src="https://i.ytimg.com/vi/UVhHYHYXao8/mqdefault.jpg" width="300px" height="140px" alt="Lokasi 1">
         </div>
         <div class="col-md-8">
           <div class="card-body">

@@ -30,7 +30,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-masuk">
-              <a class="nav-link" style="color: white" href="/materi">Masuk</a>
+              <a class="nav-link" style="color: white" href="/masuk">Masuk</a>
             </li>
             <li class="nav-daftar">
               <button type="button" class="btn" style="background-color: #F7DE06; color: #3167AF">Daftar</button>
@@ -82,40 +82,42 @@
       </div>
     </div>
 
-    <div class="col-lg-12 col-md-6 mt-5" style="background-color: #3167AF">
-      <h5 class="judul text-center">Mengapa PKBM?</h5>
-      <div class="row">
-        <div class="col-sm-12 mt-2" style="color:white;">
-          <img class="ceklis" src="prettier/emoji/checklist-emoji.png" width="20px" width="20px">
-          Pembelajaran pada PKBM sudah setara dengan pendidikan formal
-        </div>
-        <div class="col-sm-12 mt-3" style="color:white;">
-          <img class="ceklis" src="prettier/emoji/checklist-emoji.png" width="20px" width="20px">
-          Di PKBM menyediakan layanan program berupa:
-          <ul>
-            <li>Pendidikan Anak Usia Dini (PAUD)</li>
-            <li>Pendidikan Kesetaraan</li>
-            <li>Pendidikan Keaksaraan</li>
-            <li>Taman Bacaan Masyarakat (TBM)</li>
-            <li>Kursus dan Pelatihan</li>
-            <li>Pendidikan Keluarga</li>
-          </ul>
-        </div>
-        <div class="col-sm-12 mt-3" style="color:white;">
-          <img class="ceklis" src="prettier/emoji/checklist-emoji.png" width="20px" width="20px">
-          Meningkatkan kemandirian dan kreativitas peserta didik
-        </div>
-        <div class="col-sm-12 mt-3" style="color:white;">
-          <img class="ceklis" src="prettier/emoji/checklist-emoji.png" width="20px" width="20px">
-          Pembelajaran peserta didik  merupakan pembelajaran yang fleksibel, dapat dilakukan dimana saja dan kapan saja
-        </div>
-        <div class="col-sm-12 mt-3" style="color:white;">
-          <img class="ceklis" src="prettier/emoji/checklist-emoji.png" width="20px" width="20px">
-          Pembelajaran peserta didik menerapkan teori dalam praktik nyata sehingga kedepannya lebih mudah dalam penerapan kehidupan sehari-hari 
-        </div>
-        <div class="col-sm-12 mt-3" style="color:white;">
-          <img class="ceklis" src="prettier/emoji/checklist-emoji.png" width="20px" width="20px">
-          Peserta didik memperoleh keterampilan yang dapat digunakan ketika lulus pembelajaran 
+    <div class="col-lg-12 col-md-6 mt-5" style="background-color: #3167AF; margin-top: 2px; margin-bottom: 3px">
+      <div class="container">
+        <h5 class="judul text-center">Mengapa PKBM?</h5>
+        <div class="row">
+          <div class="col-sm-12 mt-2" style="color:white;">
+            <img class="ceklis" src="prettier/emoji/checklist-emoji.png" width="20px" width="20px">
+            Pembelajaran pada PKBM sudah setara dengan pendidikan formal
+          </div>
+          <div class="col-sm-12 mt-3" style="color:white;">
+            <img class="ceklis" src="prettier/emoji/checklist-emoji.png" width="20px" width="20px">
+            Di PKBM menyediakan layanan program berupa:
+            <ul>
+              <li>Pendidikan Anak Usia Dini (PAUD)</li>
+              <li>Pendidikan Kesetaraan</li>
+              <li>Pendidikan Keaksaraan</li>
+              <li>Taman Bacaan Masyarakat (TBM)</li>
+              <li>Kursus dan Pelatihan</li>
+              <li>Pendidikan Keluarga</li>
+            </ul>
+          </div>
+          <div class="col-sm-12" style="color:white;">
+            <img class="ceklis" src="prettier/emoji/checklist-emoji.png" width="20px" width="20px">
+            Meningkatkan kemandirian dan kreativitas peserta didik
+          </div>
+          <div class="col-sm-12 mt-3" style="color:white;">
+            <img class="ceklis" src="prettier/emoji/checklist-emoji.png" width="20px" width="20px">
+            Pembelajaran peserta didik  merupakan pembelajaran yang fleksibel, dapat dilakukan dimana saja dan kapan saja
+          </div>
+          <div class="col-sm-12 mt-3" style="color:white;">
+            <img class="ceklis" src="prettier/emoji/checklist-emoji.png" width="20px" width="20px">
+            Pembelajaran peserta didik menerapkan teori dalam praktik nyata sehingga kedepannya lebih mudah dalam penerapan kehidupan sehari-hari 
+          </div>
+          <div class="col-sm-12 mt-3" style="color:white;">
+            <img class="ceklis" src="prettier/emoji/checklist-emoji.png" width="20px" width="20px">
+            Peserta didik memperoleh keterampilan yang dapat digunakan ketika lulus pembelajaran 
+          </div>
         </div>
       </div>
     </div>
@@ -126,28 +128,55 @@
         <div class="row row-cols-1 row-cols-md-3">
           <div class="col mb-4">
             <div class="card">
-              <img src="..." class="card-img-top" alt="...">
+              <img src="prettier/images/kesetaraan.jpeg" class="card-img-top" alt="pendidikan kesetaraan">
                 <div class="card-body">
-                  <h5 class="card-title">Pendidikan Keaksaraan</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <h5 class="card-title">Pendidikan Kesetaraan</h5>
+                  <p class="card-text">Merupakan bagian dari Pendidikan non-formal yang memberikan layanan Pendidikan Program Paket A, Program Paket B, dan Program Paket C</p>
                 </div>
             </div>
           </div>
           <div class="col mb-4">
             <div class="card">
-              <img src="..." class="card-img-top" alt="...">
+              <img src="prettier/images/tpad.jpeg" class="card-img-top" alt="taman pendidikan al-quran dewasa">
                 <div class="card-body">
-                  <h5 class="card-title">TPAD</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <h5 class="card-title">Kursus dan Pelatihan</h5>
+                  <p class="card-text">Merupakan layanan yang menyediakan kursus dan pelatihan, seperti kursus menjahit, kursus komputer dan lainnya</p>
                 </div>
             </div>
           </div>
           <div class="col mb-4">
             <div class="card">
-              <img src="..." class="card-img-top" alt="...">
+              <img src="prettier/images/pkeluarga.jpeg" class="card-img-top" alt="pendidikan keluarga">
                 <div class="card-body">
                   <h5 class="card-title">Pendidikan Keluarga</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                  <p class="card-text">Merupakan layanan yang memberikan edukasi tentang hidup berkeluarga</p>
+                </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+              <img src="prettier/images/paud.jpeg" class="card-img-top" alt="pendidikan anak usia dini">
+                <div class="card-body">
+                  <h5 class="card-title">PAUD</h5>
+                  <p class="card-text">Merupakan anak-anak yang belajar di kelompok paud atau anak-anak yang berusia 0-6 tahun</p>
+                </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+              <img src="prettier/images/tbm.jpeg" class="card-img-top" alt="taman bacaan masyarakat">
+                <div class="card-body">
+                  <h5 class="card-title">Taman Bacaan Masyarakat</h5>
+                  <p class="card-text">Merupakan layanan yang menyediakan berbagai macam bacaan/buku untuk masyarakat sekitar</p>
+                </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+              <img src="prettier/images/kbm.jpeg" class="card-img-top" alt="keaksaraan buta mandiri">
+                <div class="card-body">
+                  <h5 class="card-title">Keaksaraan Buta Mandiri</h5>
+                  <p class="card-text">Merupakan bentuk layanan Pendidikan non-formal bagi warga masyarakat yang tidak bisa membaca, menulis, dan berhitung.</p>
                 </div>
             </div>
           </div>
@@ -157,7 +186,7 @@
     {{-- END OF MAIN CONTENT --}}
 
     {{-- FOOTER --}}
-    <div class="bottom footer p-4 mt-2" style="background-color: #3167AF">
+    <div class="bottom footer p-4 mt-5" style="background-color: #3167AF">
       <div class="footer-top">
         <div class="container">
           <div class="row">
