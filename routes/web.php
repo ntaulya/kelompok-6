@@ -47,4 +47,8 @@ Route::get('/RegLok2', function () {
     return view('lokasi.RegisLok2');
 });
 
+Route::get('/suksesdaftar', function () {
+    return view('lokasi.suksesdaftar');
+});
+
 Route::get('/mahasiswa', [MahasiswaController::class, 'mahasiswa']);

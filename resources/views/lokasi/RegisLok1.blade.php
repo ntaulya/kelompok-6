@@ -78,7 +78,7 @@
           </div>
 
           <div class="container text-center">
-            <button type="button" class="btn btn-primary text-center">Daftar Ujian</button>
+            <a href="/suksesdaftar" class="btn btn-primary">Daftar Ujian</a></button>
           </div>
 
         </form>
