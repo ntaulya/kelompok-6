@@ -17,8 +17,10 @@
       <li>Menambahkan halaman serta mengembeed google maps untuk memilih lokasi</li>
       <li>Menambahkan halaman profil lokasi</li>
       <li>Menambahkan Form data diri</li>
+    </ol>
       <br>
       <h3>08/01/2022</h3>
+    <ol>
       <li>Memperbaiki Form Cebol</li>
       <li>Memperbaiki Bug Form berlangganan</li>
       <li>Menambah Regist page untuk PKBM At-Taqwa<li>
