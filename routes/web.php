@@ -51,4 +51,12 @@ Route::get('/suksesdaftar', function () {
     return view('lokasi.suksesdaftar');
 });
 
+Route::get('/daftar', function () {
+    return view('Daftar.main');
+});
+
+Route::get('/masuk', function () {
+    return view('Masuk.main');
+});
+
 Route::get('/mahasiswa', [MahasiswaController::class, 'mahasiswa']);
