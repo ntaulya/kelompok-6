@@ -33,7 +33,7 @@
               <a class="nav-link" style="color: white" href="/masuk">Masuk</a>
             </li>
             <li class="nav-daftar">
-              <button type="button" class="btn" style="background-color: #F7DE06; color: #3167AF">Daftar</button>
+              <button type="button" class="btn" style="background-color: #F7DE06; color: #3167AF"><a href="/daftar">Daftar</a></button>
             </li>
           </ul>
         </div>

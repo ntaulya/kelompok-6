@@ -35,12 +35,6 @@
             <li class="nav-peta">
               <a class="nav-link" style="color: #fff" href="/lokasi">Peta Lokasi</a>
             </li>
-            <li class="nav-ebook">
-              <a class="nav-link" style="color: #fff" href="/ebook">E-Book</a>
-            </li>
-            <li class="nav-kalender">
-              <a class="nav-link" style="color: #fff" href="/kalender">Kalender Akademik</a>
-            </li>
             <li class="nav-profil">
               <a class="nav-link" style="color: #fff" href="/profilku">Profilku</a>
             </li>
