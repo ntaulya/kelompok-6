@@ -11,8 +11,8 @@
                     <form action="" method="post">
                           {{-- Nomor id --}}
                           <div class="form-group mb-3 mt-3">
-                              <label for="no_id" style="color: #FFFFFF;">Nomor ID Siswa</label>
-                              <input type="number" required class="form-control" name="no_id" id="no_id"
+                              <label for="no_id" style="color: #FFFFFF;">Username</label>
+                              <input type="text" required class="form-control" name="no_id" id="no_id"
                                       placeholder="Masukkan Nomor ID Siswa">
                           </div>
                           {{-- sandi --}}

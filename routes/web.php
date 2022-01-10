@@ -2,7 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MahasiswaController;
-
+use App\Http\Controllers\SiswaController;
+use App\Http\Controllers\AdminController;
 
 /*
 |--------------------------------------------------------------------------
@@ -51,7 +52,7 @@ Route::get('/suksesdaftar', function () {
     return view('lokasi.suksesdaftar');
 });
 
-Route::get('/daftar', function () {
+Route::post('/daftar', function () {
     return view('Daftar.main');
 });
 
@@ -59,8 +60,10 @@ Route::get('/masuk', function () {
     return view('Masuk.main');
 });
 
-Route::get('/materi', function () {
+Route::post('/materi', function () {
     return view('Materi.main');
 });
 
-Route::get('/mahasiswa', [MahasiswaController::class, 'mahasiswa']);
+// Route::get('/mahasiswa', [MahasiswaController::class, 'mahasiswa']);
+Route::get('/siswa', [SiswaController::class]);
+Route::get('/admin', [AdminController::class]);

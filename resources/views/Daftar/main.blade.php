@@ -8,7 +8,8 @@
         <center><h4>Halo, Buat Akun dulu ya!</h4></center> <br>
           <div class="card">
               <div class="card-body px-5 pt-4" style="background-color: #3167AF;">
-                  <form action="" method="post">
+                  <form method="POST" action="" enctype="multipart/form-data">
+                        @csrf
                         {{-- nama lengkap --}}
                         <div class="form-group mb-3 mt-4">
                             <label for="nama" style="color: #FFFFFF;">Nama Lengkap</label>
@@ -20,6 +21,12 @@
                             <label for="no_id" style="color: #FFFFFF;">Nomor ID Siswa</label>
                             <input type="number" required class="form-control" name="no_id" id="no_id"
                                     placeholder="Masukkan Nomor ID Siswa">
+                        </div>
+                        {{-- username --}}
+                        <div class="form-group mb-3">
+                            <label for="username" style="color: #FFFFFF;">Username</label>
+                            <input type="text" required class="form-control" name="username" id="username"
+                                    placeholder="Masukkan Username">
                         </div>
                         {{-- email --}}
                         <div class="form-group mb-3">
@@ -36,7 +43,7 @@
                         {{-- konfirmasi sandi --}}
                         <div class="form-group mb-4">
                             <label for="konfsandi" style="color: #FFFFFF;">Konfirmasi Kata Sandi</label>
-                            <input type="password" required class="form-control" name="konfsandi" id="konfsandi"
+                            <input type="password" required class="form-control" name="password_confirmation" id="password_confirmation"
                                     placeholder="Konfirmasi Kata Sandi Anda">
                         </div>
                         {{-- bawah --}}
