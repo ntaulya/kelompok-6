@@ -60,8 +60,12 @@ Route::get('/masuk', function () {
     return view('Masuk.main');
 });
 
-Route::post('/materi', function () {
+Route::get('/materi', function () {
     return view('Materi.main');
+});
+
+Route::get('/profilku', function () {
+    return view('Profile.profilku');
 });
 
 // Route::get('/mahasiswa', [MahasiswaController::class, 'mahasiswa']);
