@@ -20,7 +20,7 @@ class CreateSubmisiSiswaTable extends Migration
             $table->text('submisi');
             $table->integer('nilai');
             $table->foreign('id_tugas')->references('id')->on('tugas');
-            $table->foreign('id_siswa')->references('id')->on('siswa');
+            $table->foreign('id_siswa')->references('id')->on('siswas');
         });
     }
 

@@ -31,7 +31,7 @@
                         {{-- email --}}
                         <div class="form-group mb-3">
                             <label for="e-mail" style="color: #FFFFFF;">Email</label>
-                            <input type="email" required class="form-control" name="email" id="e-mail"
+                            <input type="email" required class="form-control" name="email" id="email"
                                 placeholder="Masukkan Alamat E-mail">
                         </div>
                         {{-- sandi --}}
