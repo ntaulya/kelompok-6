@@ -48,7 +48,7 @@
  <!-- satu kotak-->
               <div class="card">
                 <div class="card-body">
-                  <h5 class="card-title">Matematika</h5>
+                  <h4 class="card-title">Matematika</h4>
                   <h class="card-text">Tugas membuat kerajinan tangan <a href="#" class="col-md-1 offset-md-7 btn btn-warning" type="button"> Kirim</a> </p>
                   <h class="card-text">Tugas membuat kerajinan kepala <a href="#" class="col-md-1 offset-md-7 btn btn-warning" type="button"> Kirim</a> </p>
                   <h class="card-text">Tugas membuat kerajinan kaki <a href="#" class="col-md-1 offset-md-7 btn btn-warning" type="button"> Kirim</a> </p>
@@ -58,14 +58,13 @@
                <!-- satu kotak-->
               <div class="card">
                 <div class="card-body">
-                  <h5 class="card-title">Ilmu pengetahuan sosial</h5>
+                  <h4 class="card-title">Ilmu pengetahuan sosial</h4>
                   <h class="card-text">Tugas membuat kerajinan tangan <a href="#" class="col-md-1 offset-md-7 btn btn-warning" type="button"> Kirim</a> </p>
                   <h class="card-text">Tugas membuat kerajinan kepala <a href="#" class="col-md-1 offset-md-7 btn btn-warning" type="button"> Kirim</a> </p>
                   <h class="card-text">Tugas membuat kerajinan kaki <a href="#" class="col-md-1 offset-md-7 btn btn-warning" type="button"> Kirim</a> </p>
                   <h class="card-text">Tugas membuat kerajinan perut <a href="#" class="col-md-1 offset-md-7 btn btn-warning" type="button"> Kirim</a> </p>
                 </div>
               </div>
- 
         </div>
     </section>
     {{-- END OF MAIN CONTENT --}}
