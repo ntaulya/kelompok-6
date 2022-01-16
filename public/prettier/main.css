@@ -2,24 +2,23 @@
     padding: 0;
     margin-left: 700px;
 }
-
+ 
 .bottom {
     color: #fff;
 }
-
-
+ 
 .judul-footer {
-    color: #F7DE06;
+    color: #f7de06;
 }
-
+ 
 .link {
     color: #fff;
 }
-
+ 
 .social-links {
     font-size: 18px;
     display: inline-block;
-    background-color: #F7DE06;
+    background-color: #f7de06;
     color: #fff;
     line-height: 1;
     padding: 8px 0;
@@ -29,4 +28,22 @@
     width: 36px;
     height: 36px;
     transition: 0.3s;
+}
+ 
+/* Materi */
+.grid-container {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+ 
+#grid-left {
+    background-color: #ffff;
+}
+ 
+#grid-right {
+    background-color: #f5f5f5;
+}
+ 
+#materi-card {
+    width: 20rem;
 }
