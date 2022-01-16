@@ -72,6 +72,10 @@ Route::get('/profilku', function () {
     return view('Profile.profilku');
 });
 
+Route::get('/tugas', function () {
+    return view('Tugas.tugas');
+});
+
 // Route::get('/mahasiswa', [MahasiswaController::class, 'mahasiswa']);
 Route::get('/daftar', [SiswaController::class, 'index']);
 Route::post('/daftar', [SiswaController::class, 'store']);
