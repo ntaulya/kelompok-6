@@ -2,55 +2,73 @@
 @section('title','Tugas')
 @section('container')
 
-<div>
-      <div class="row">
-        <div class="col-lg-3">
-          <div class="col-lg-12 col-md-6" style="background-color: #fff">
-            <ul>
-              <li>Kelas</li>
-              <li>Tugas</li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-9">
-          <div class="col-lg-12 col-md-6" style="background-color: #f5f5f5">
-            <h5>Semua Tugas</h5>
-            <br><br>
-            <div class="card">
 
-              </div>
-              <div class="col mb-4">
-                <div class="card">
-                  <img src="" class="card-img-top" alt="matematika">
-                    <div class="card-body">
-                      <h5 class="card-title">Ilmu pengetahuan alam</h5>
-                      <p class="card-text">Cabang matematika yang melingkupi penerapan 
-                        pengetahuan matematika ke bidang-bidang lain, 
-                        mengilhami dan membuat penggunaan temuan-temuan 
-                        matematika baru seperti statistika dan teori permainan.</p>
+{{-- MAIN CONTENT --}}
+    <section>
+        <div class="grid-container">
+            <!-- left content -->
+            <div id="grid-left" class="pt-5 pb-5">
+                <div id="tugas" class="row justify-content-center">
+                    <div class="col-1">
+                        <img src="prettier/emoji/kelas.png"  alt="..">
                     </div>
-                    <div class="card-footer">
-                      <button type="button" class="btn btn-light">Lanjutkan</button>
+                    <div class="col-6">
+                      <p >Kelas</p>
                     </div>
                 </div>
-              </div>
-              <div class="col mb-4">
-                <div class="card">
-                  <img src="" class="card-img-top" alt="ips">
-                    <div class="card-body">
-                      <h5 class="card-title">Ilmu Pengetahuan Sosial</h5>
-                      <p class="card-text">Sekelompok disiplin akademis yang mempelajari aspek-aspek yang berhubungan dengan manusia dan lingkungan sosialnya. Ilmu ini berbeda dengan seni dan humaniora yang menekankan kepada ilmu humaniora.</p>
+ 
+                <div id="tugas" class="row justify-content-center">
+                    <div class="col-1">
+                      <img src="prettier/emoji/tugas.png" style="color:#3167AF" alt="..">
                     </div>
-                    <div class="card-footer">
-                      <button type="button" class="btn btn-light">Lanjutkan</button>
+                    <div class="col-6">
+                    <p class="kelas" style="color:#3167AF">Tugas</p>
                     </div>
                 </div>
-              </div>
             </div>
-          </div>
+
+            
+ 
+            <!-- right content -->
+ 
+            <div id="grid-right" class="pt-5 pb-5">
+                <div class="card">
+                  <h5>Semua Tugas</h5>
+                </div>
+ 
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Ilmu Pengetahuan Alam</h4>
+                  <h class="card-text">Tugas membuat kerajinan tangan <a href="#" class="col-md-1 offset-md-7 btn btn-warning" type="button"> Kirim</a> </p>
+                  <h class="card-text">Tugas membuat kerajinan kepala <a href="#" class="col-md-1 offset-md-7 btn btn-warning" type="button"> Kirim</a> </p>
+                  <h class="card-text">Tugas membuat kerajinan kaki <a href="#" class="col-md-1 offset-md-7 btn btn-warning" type="button"> Kirim</a> </p>
+                  <h class="card-text">Tugas membuat kerajinan perut <a href="#" class="col-md-1 offset-md-7 btn btn-warning" type="button"> Kirim</a> </p>
+                </div>
+              </div>
+ <!-- satu kotak-->
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Matematika</h5>
+                  <h class="card-text">Tugas membuat kerajinan tangan <a href="#" class="col-md-1 offset-md-7 btn btn-warning" type="button"> Kirim</a> </p>
+                  <h class="card-text">Tugas membuat kerajinan kepala <a href="#" class="col-md-1 offset-md-7 btn btn-warning" type="button"> Kirim</a> </p>
+                  <h class="card-text">Tugas membuat kerajinan kaki <a href="#" class="col-md-1 offset-md-7 btn btn-warning" type="button"> Kirim</a> </p>
+                  <h class="card-text">Tugas membuat kerajinan perut <a href="#" class="col-md-1 offset-md-7 btn btn-warning" type="button"> Kirim</a> </p>
+                </div>
+              </div>
+               <!-- satu kotak-->
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Ilmu pengetahuan sosial</h5>
+                  <h class="card-text">Tugas membuat kerajinan tangan <a href="#" class="col-md-1 offset-md-7 btn btn-warning" type="button"> Kirim</a> </p>
+                  <h class="card-text">Tugas membuat kerajinan kepala <a href="#" class="col-md-1 offset-md-7 btn btn-warning" type="button"> Kirim</a> </p>
+                  <h class="card-text">Tugas membuat kerajinan kaki <a href="#" class="col-md-1 offset-md-7 btn btn-warning" type="button"> Kirim</a> </p>
+                  <h class="card-text">Tugas membuat kerajinan perut <a href="#" class="col-md-1 offset-md-7 btn btn-warning" type="button"> Kirim</a> </p>
+                </div>
+              </div>
+ 
         </div>
-      </div>
-    </div>
+    </section>
+    {{-- END OF MAIN CONTENT --}}
 
 
 @endsection
