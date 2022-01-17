@@ -96,6 +96,14 @@ class SiswaController extends Controller
      */
     public function update(Request $request, $id)
     {
+        $profil = Siswa::find($id);
+        $profil->username =$request->username;
+        $profil->tempat_lahir =$request->tempat_lahir;
+        $profil->tanggal_lahir =$request->tanggal_lahir;
+        $profil->id_paket =$request->id_paket;
+        $profil->nama =$request->nama;
+        $profil->save();
+        
         //
     }
 

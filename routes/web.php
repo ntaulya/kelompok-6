@@ -81,3 +81,5 @@ Route::get('/daftar', [SiswaController::class, 'index']);
 Route::post('/daftar', [SiswaController::class, 'store']);
 Route::get('/siswa', [SiswaController::class]);
 Route::get('/admin', [AdminController::class]);
+
+Route::post('/profil/{id}', [SiswaController::class, 'update'])->name('edit');

@@ -6,11 +6,12 @@
     <div class="card-body mb-5">
       <h5 class="card-title text-center text-primary mb-5 pb-2">Profile Saya</h5>
       <center><img class="profile-picture" src="prettier/images/profile-picture.jpg" width="150px" height="150px"></center>
-      <form class="form-inline">
+      <form action='{{ route('edit') }}' method='post' class="form-inline">
+        @csrf
         <div class="form-group row mt-5">
           <label for="inputPassword" class="col-sm-2 col-form-label">Nama Lengkap</label>
           <div class="col-sm-10">
-            <input type="text" class="form-control" id="inputPassword" placeholder="Neta Aulya Kurnia Ningrum">
+            <input name="nama" type="text" class="form-control" id="inputPassword" placeholder="Neta Aulya Kurnia Ningrum">
           </div>
         </div>
 
@@ -25,19 +26,19 @@
           <label for="inputPassword" class="col-sm-2 col-form-label">Paket Program</label>
           <div class="col-sm-10">
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+              <input name="id_paket" class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="1">
               <label class="form-check-label" for="exampleRadios1">
                 Paket Kesetaraan A
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+              <input name="id_paket" class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="2">
               <label class="form-check-label" for="exampleRadios2">
                 Paket Kesetaraan B
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+              <input name="id_paket" class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="3">
               <label class="form-check-label" for="exampleRadios3">
                 Paket Kesetaraan C
               </label>
@@ -48,21 +49,21 @@
         <div class="form-group row mt-3">
           <label for="inputPassword" class="col-sm-2 col-form-label">Username</label>
           <div class="col-sm-10">
-            <input type="text" class="form-control" id="inputPassword" placeholder="netaaulya">
+            <input name="username" type="text" class="form-control" id="inputPassword" placeholder="netaaulya">
           </div>
         </div>
 
         <div class="form-group row mt-3">
           <label for="inputPassword" class="col-sm-2 col-form-label">E-mail</label>
           <div class="col-sm-10">
-            <input type="email" class="form-control" id="inputPassword" placeholder="netaaulya@gmail.com">
+            <input name="email" type="email" class="form-control" id="inputPassword" placeholder="netaaulya@gmail.com">
           </div>
         </div>
 
         <div class="form-group row mt-3">
           <label for="inputPassword" class="col-sm-2 col-form-label">Kata Sandi</label>
           <div class="col-sm-10">
-            <input type="password" class="form-control" id="inputPassword" placeholder="neta1233.">
+            <input name="password" type="password" class="form-control" id="inputPassword" placeholder="neta1233.">
           </div>
         </div>
 
