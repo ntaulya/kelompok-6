@@ -52,20 +52,20 @@ Route::get('/suksesdaftar', function () {
     return view('lokasi.suksesdaftar');
 });
 
-// Route::get('/daftar', function () {
-//     return view('Daftar.main');
-// });
-
-// Route::post('/daftar', function () {
-//     return view('Daftar.main');
-// });
-
 Route::get('/masuk', function () {
     return view('Masuk.main');
 });
 
 Route::get('/materi', function () {
     return view('Materi.main');
+});
+
+Route::get('/mainmateri', function () {
+    return view('Materi.mainmateri');
+});
+
+Route::get('/isimateri', function () {
+    return view('Materi.materi');
 });
 
 Route::get('/profilku', function () {
