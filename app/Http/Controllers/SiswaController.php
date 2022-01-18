@@ -44,25 +44,11 @@ class SiswaController extends Controller
             'id' => $request->no_id,
             'username' => $request->username,
             'email' => $request->email,
-            'password' => Hash::make($request->sandi),
+            'password' => $request->sandi,
             'password_confirmation' => $request->password_confirmation,
         ]);
 
         return redirect('/masuk')->with('success', 'Registrasi berhasil');
-
-        // $validatedData = $request->validate([
-        //     'nama' => 'required',
-        //     'no_id' => 'required',
-        //     'username' => 'required',
-        //     'email' => 'required',
-        //     'sandi' => 'required',
-        //     'password_confirmation' => 'required'
-        // ]);
-        
-        // $validatedData['sandi'] = Hash::make($validatedData['sandi']);
-
-        // User::create($validatedData);
-        // return redirect('/masuk')->with('success', 'Registrasi berhasil');
     }
 
     /**
