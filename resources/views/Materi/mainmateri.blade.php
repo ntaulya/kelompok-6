@@ -26,8 +26,7 @@
             </div>
             {{-- END OF LOGO --}}
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -52,7 +51,7 @@
         <div class="grid-container">
             <!-- left content -->
             <div id="grid-left" class="pt-5 pb-5">
-                <div id="tugas" class="row justify-content-center">
+                <div id="kelas" class="row justify-content-center">
                     <div class="col-1">
                         <img src="prettier/emoji/kelas.png" alt="..">
                     </div>
@@ -60,7 +59,6 @@
                       <p class="kelas" style="color:#3167AF">Kelas</p>
                     </div>
                 </div>
- 
                 <div id="tugas" class="row justify-content-center">
                     <div class="col-1">
                       <img src="prettier/emoji/tugas.png" alt="..">
@@ -72,113 +70,94 @@
             </div>
  
             <!-- right content -->
- 
             <div id="grid-right" class="pt-5 pb-5">
-                <div class="ps-3">
-                  <h5>Semua Kelas</h6>
+                <div style="margin-bottom:0%; margin-left:15px">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item"><a href="/materi">Semua Kelas</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">Ilmu Pengetahuan Alam</li>
+                    </ol>
                 </div>
- 
-                <div class="container mt-4">
-                    <div class="row justify-content-start pb-5">
-                        <div class="col-4">
-                            <div class="card">
-                                <img src="prettier/images/science.jpg" class="card-img-top" alt="ipa" width="250px" height="190px">
-                                <div class="card-body">
-                                    <h5 class="card-title">Ilmu Pengetahuan Alam</h5>
-                                    <p class="card-text">Ilmu alam mempelajari aspek-aspek fisik & nonmanusia tentang
-                                        Bumi
-                                        dan alam sekitarnya. Ilmu-ilmu alam membentuk landasan bagi ilmu terapan, yang
-                                        keduanya dibedakan dari ilmu sosial, humaniora, teologi, dan seni.</p>
-                                </div>
-                                <div id="tugas" class="row justify-content-center">
-                                    <div class="col-1">
-                                        <img src="prettier/emoji/bab.png" alt="..">
-                                    </div>
-                                    <div class="col-9">
-                                        <p>4 Bab</p>
-                                    </div>
-                                </div>
- 
-                                <div id="tugas" class="row justify-content-center">
-                                    <div class="col-1">
-                                        <img src="prettier/emoji/sub-bab.png" alt="..">
-                                    </div>
-                                    <div class="col-9 ">
-                                        <p>12 Sub-bab</p>
+                <div class="card" style="width: 95%; margin-left:15px">
+                    <img src="prettier/images/science.jpg" class="card-img-top" alt="ipa" style="width: 100%; height:400px">
+                    <div class="card-body">
+                      <div class="card-text">
+                        <h6>Konten Pelajaran</h6>
+                        <div class="card mb-2">
+                            <div class="card-body">
+                                <h6 style="color: #3167AF">1. Objek IPA dan Pengamatannya</h6>
+                                <ul>
+                                    <li>I : Pendahuluan</li>
+                                    <li>II : Penyelidikan IPA</li>
+                                    <li>III : Pengukuan Dasar</li>
+                                    <li>IV : Jangka Sorong dan Mikrometer Sekrup</li>
+                                    <li>V : Mengolah Data Hasil Pengukuran</li>
+                                </ul>
+                                <div class="container">
+                                    <div class="row row-cols-2">
+                                        <div class="col-10">
+                                            <div class="progress mt-2">
+                                                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <a type="button" class="btn btn-light" style="background-color: #3167AF; color:#fff" href="/isimateri">Mulai Belajar</a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="card-footer" style="background-color: #3167af;">
-                                <a class="btn text-light" style="width: 100%; color: #3167af;" href="/mainmateri">MULAI</a>
                             </div>
                         </div>
- 
-                        <div class="col-4">
-                            <div class="card">
-                                <img src="prettier/images/mathematics.jpg" class="card-img-top" alt="mtk" width="250px" height="190px">
-                                <div class="card-body">
-                                    <h5 class="card-title">Matematika</h5>
-                                    <p class="card-text">Cabang matematika yang melingkupi penerapan 
-                                      pengetahuan matematika ke bidang-bidang lain, 
-                                      mengilhami dan membuat penggunaan temuan-temuan 
-                                      matematika baru seperti statistika dan teori permainan.</p>
-                                </div>
-                                <div id="tugas" class="row justify-content-center">
-                                    <div class="col-1">
-                                        <img src="prettier/emoji/bab.png" alt="..">
-                                    </div>
-                                    <div class="col-9">
-                                        <p>4 Bab</p>
-                                    </div>
-                                </div>
- 
-                                <div id="tugas" class="row justify-content-center">
-                                    <div class="col-1">
-                                        <img src="prettier/emoji/sub-bab.png" alt="..">
-                                    </div>
-                                    <div class="col-9 ">
-                                        <p>12 Sub-bab</p>
+                        <div class="card mb-2">
+                            <div class="card-body">
+                                <h6 style="color: #3167AF">2. Klasifikasi Mahluk Hidup</h6>
+                                <ul>
+                                    <li>I : Pendahuluan</li>
+                                    <li>II : Ciri-ciri benda di Lingkungan Kita</li>
+                                    <li>III : Pengklasifikasian Mahluk Hidup</li>
+                                    <li>IV : Kelompok Mahluk Hidup Berukuran Kecil</li>
+                                    <li>V : Kelompok Tumbuh-Tumbuhan</li>
+                                </ul>
+                                <div class="container">
+                                    <div class="row row-cols-2">
+                                        <div class="col-10">
+                                            <div class="progress mt-2">
+                                                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <button type="button" class="btn btn-light" style="background-color: #3167AF; color:#fff">Mulai Belajar</button>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="card-footer" style="background-color: #3167af;">
-                                <button class="btn text-light" style="width: 100%; color: #3167af;">LANJUTKAN</button>
                             </div>
                         </div>
-                        <div class="col-4">
-                            <div class="card">
-                                <img src="prettier/images/social.jpg" class="card-img-top" alt="ips" width="250px" height="190px">
-                                <div class="card-body">
-                                    <h5 class="card-title">Ilmu Pengetahuan Sosial</h5>
-                                    <p class="card-text">Sekelompok disiplin akademis yang mempelajari aspek-aspek yang berhubungan dengan manusia dan lingkungan sosialnya. Ilmu ini berbeda dengan seni dan humaniora yang menekankan kepada ilmu humaniora.</p>
-                                </div>
-                                <div id="tugas" class="row justify-content-center">
-                                    <div class="col-1">
-                                        <img src="prettier/emoji/bab.png" alt="..">
-                                    </div>
-                                    <div class="col-9">
-                                        <p>4 Bab</p>
-                                    </div>
-                                </div>
- 
-                                <div id="tugas" class="row justify-content-center">
-                                    <div class="col-1">
-                                        <img src="prettier/emoji/sub-bab.png" alt="..">
-                                    </div>
-                                    <div class="col-9 ">
-                                        <p>12 Sub-bab</p>
+                        <div class="card mb-2">
+                            <div class="card-body">
+                                <h6 style="color: #3167AF">3. Suhu dan Kalor</h6>
+                                <ul>
+                                    <li>I : Pendahuluan</li>
+                                    <li>II : Suhu dan Pemuaian</li>
+                                    <li>III : Kalor</li>
+                                    <li>IV : Perpindahan Kalor serta Penerapannya</li>
+                                    <li>V : Tes Akhir</li>
+                                </ul>
+                                <div class="container">
+                                    <div class="row row-cols-2">
+                                        <div class="col-10">
+                                            <div class="progress mt-2">
+                                                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <button type="button" class="btn btn-light" style="background-color: #3167AF; color:#fff">Mulai Belajar</button>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="card-footer" style="background-color: #3167af;">
-                                <button class="btn text-light" style="width: 100%; color: #3167af;">LANJUTKAN</button>
                             </div>
                         </div>
                     </div>
+                  </div>
                 </div>
             </div>
-        </div>
- 
         </div>
     </section>
     {{-- END OF MAIN CONTENT --}}
@@ -241,12 +220,11 @@
                 </div>
             </div>
         </div>
-        {{-- AKHIR DARI FOOTER --}}
- 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-
     </div>
+    {{-- AKHIR DARI FOOTER --}}
+ 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
 </html>
