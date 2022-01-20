@@ -22,12 +22,6 @@
                             <input type="number" required class="form-control" name="no_id" id="no_id"
                                     placeholder="Masukkan Nomor ID Siswa">
                         </div>
-                        {{-- username --}}
-                        <div class="form-group mb-3">
-                            <label for="username" style="color: #FFFFFF;">Username</label>
-                            <input type="text" required class="form-control" name="username" id="username"
-                                    placeholder="Masukkan Username">
-                        </div>
                         {{-- email --}}
                         <div class="form-group mb-3">
                             <label for="e-mail" style="color: #FFFFFF;">Email</label>
