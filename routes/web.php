@@ -60,12 +60,12 @@ Route::get('/materi', function () {
     return view('Materi.main');
 });
 
-Route::get('/mainmateri', function () {
-    return view('Materi.mainmateri');
+Route::get('/materidetail', function () {
+    return view('Materi.materidetail');
 });
 
 Route::get('/isimateri', function () {
-    return view('Materi.materi');
+    return view('Materi.isimateri');
 });
 
 Route::get('/profilku', function () {
