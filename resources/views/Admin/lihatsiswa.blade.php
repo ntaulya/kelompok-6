@@ -51,34 +51,37 @@
     {{-- AKHIR DARI NAVBAR --}}
 
     <div class="container mt-5 mb-5">
-        <div class="row">
-            <div class="col-sm-4 text-center">
-                <div class="card">
-                    <div class="card-body">
-                    <h5 class="card-title">Daftar Siswa</h5>
-                    <a href="/lihatsiswa" class="btn btn-primary">Lihat</a>
-                    </div>
-                </div>
-                </div>
-            <div class="col-sm-4 text-center">
-            <div class="card">
-                <div class="card-body">
-                <h5 class="card-title">Kelas</h5>
-                <a href="#" class="btn btn-primary">Tambahkan</a>
-                </div>
-            </div>
-            </div>
-            <div class="col-sm-4 text-center">
-                <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Tugas</h5>
-                    <a href="#" class="btn btn-primary">Tambahkan</a>
-                </div>
-                </div>
-            </div>
-        </div>
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">No</th>
+                <th scope="col">Nama</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td colspan="2">Larry the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
     </div>
-    
+
     {{-- FOOTER --}}
     <div class="bottom footer p-4" style="background-color: #3167AF">
         <div class="footer-top">

@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\MahasiswaController;
 use App\Http\Controllers\SiswaController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\MateriController;
@@ -55,12 +54,13 @@ Route::get('/tugas', function () {
 
 // Route::get('/mahasiswa', [MahasiswaController::class, 'mahasiswa']);
 Route::get('/daftar', [SiswaController::class, 'index']);
-Route::post('/daftar', [SiswaController::class, 'store']);
+Route::post('/daftar_store', [SiswaController::class, 'store'])->name('daftar_store');
 Route::get('/siswa', [SiswaController::class]);
 Route::get('/admin', [AdminController::class]);
 
 // Admin
 Route::get('/Admin', [AdminController::class, 'index']);
+Route::get('/lihatsiswa', [AdminController::class, 'lihatsiswa']);
 
 //Login
 Route::get('/masuk', [SiswaController::class, 'login']);

@@ -2,56 +2,81 @@
 @section('title','Daftar Akun PKBM At-Taufiq')
 @section('container')
 
-<div class="container align-content-center px-5 pb-5 pt-4">
-  <div class="row justify-content-center d-flex">
-      <div class="col-5 justify-content-center align-middle">
-        <center><h4>Halo, Buat Akun dulu ya!</h4></center> <br>
-          <div class="card">
-              <div class="card-body px-5 pt-4" style="background-color: #3167AF;">
-                  <form method="POST" action="" enctype="multipart/form-data">
-                        @csrf
-                        {{-- nama lengkap --}}
-                        <div class="form-group mb-3 mt-4">
-                            <label for="nama" style="color: #FFFFFF;">Nama Lengkap</label>
-                            <input type="text" required class="form-control" name="nama" id="nama"
-                                    placeholder="Masukkan Nama Lengkap">
-                        </div>
-                        {{-- Nomor id --}}
-                        <div class="form-group mb-3">
-                            <label for="no_id" style="color: #FFFFFF;">Nomor ID Siswa</label>
-                            <input type="number" required class="form-control" name="no_id" id="no_id"
-                                    placeholder="Masukkan Nomor ID Siswa">
-                        </div>
-                        {{-- email --}}
-                        <div class="form-group mb-3">
-                            <label for="e-mail" style="color: #FFFFFF;">Email</label>
-                            <input type="email" required class="form-control" name="email" id="email"
-                                placeholder="Masukkan Alamat E-mail">
-                        </div>
-                        {{-- sandi --}}
-                        <div class="form-group mb-3">
-                            <label for="sandi" style="color: #FFFFFF;">Kata Sandi</label>
-                            <input type="password" required class="form-control" name="sandi" id="sandi"
-                                    placeholder="Kata Sandi Anda">
-                        </div>
-                        {{-- konfirmasi sandi --}}
-                        <div class="form-group mb-4">
-                            <label for="konfsandi" style="color: #FFFFFF;">Konfirmasi Kata Sandi</label>
-                            <input type="password" required class="form-control" name="password_confirmation" id="password_confirmation"
-                                    placeholder="Konfirmasi Kata Sandi Anda">
-                        </div>
-                        {{-- bawah --}}
-                        <div class="form-group mb-3 text-center d-grid gap-2 col-3 mx-auto">
-                            <button class="btn btn-primary"  style="background-color: #F7DE06; color: #3167AF;" name="submit" type="submit"><b>Daftar</b></button>
-                        </div>
-                        <div class="form-group mb-2 text-center"style="color: #FFFFFF;">
-                            <p class="d-inline">Anda sudah memiliki akun? </p><a href="/masuk" style="color: #F7DE06; text-decoration:none;">Masuk</a>
-                        </div>
-                  </form>
-              </div>
+<div class="card border border-primary mb-5" style="width: 100%;">
+    <div class="card-body mb-5">
+      <h5 class="card-title text-center text-primary mb-5 pb-2">Daftar Akun</h5>
+      <form action="{{ route('daftar_store') }}" method="POST" enctype="multipart/form-data">
+        @csrf
+        <div class="form-group row mt-5">
+          <label for="inputPassword" class="col-sm-2 col-form-label">Nama Lengkap</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="inputPassword" placeholder="" name="nama">
           </div>
-      </div>
-  </div>
+        </div>
+
+        <div class="form-group row mt-3">
+          <label for="inputPassword" class="col-sm-2 col-form-label">Nomor ID Siswa</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="inputPassword" placeholder="" name="no_id">
+          </div>
+        </div>
+
+        <div class="form-group row mt-3">
+          <label for="inputPassword" class="col-sm-2 col-form-label">Paket Program</label>
+          <div class="col-sm-10">
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="paket_program" id="exampleRadios1" value="Paket A">
+              <label class="form-check-label" for="exampleRadios1">
+                Paket Kesetaraan A
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="paket_program" id="exampleRadios2" value="Paket B">
+              <label class="form-check-label" for="exampleRadios2">
+                Paket Kesetaraan B
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="paket_program" id="exampleRadios3" value="Paket C">
+              <label class="form-check-label" for="exampleRadios3">
+                Paket Kesetaraan C
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group row mt-3">
+          <label for="inputPassword" class="col-sm-2 col-form-label">E-mail</label>
+          <div class="col-sm-10">
+            <input type="email" class="form-control" id="inputPassword" placeholder="" name="email">
+          </div>
+        </div>
+
+        <div class="form-group row mt-3">
+          <label for="inputPassword" class="col-sm-2 col-form-label">Kata Sandi</label>
+          <div class="col-sm-10">
+            <input type="password" class="form-control" id="inputPassword" placeholder="" name="password">
+          </div>
+        </div>
+
+        <div class="form-group row mt-3">
+            <label for="inputPassword" class="col-sm-2 col-form-label">Konfirmasi Kata Sandi</label>
+            <div class="col-sm-10">
+              <input type="password" class="form-control" id="inputPassword" placeholder="" name="password_confirmation">
+            </div>
+          </div>
+
+        <div class="form-group mt-3">
+            <label for="exampleFormControlFile1" class="col-sm-2 col-form-label">KTP/KK</label>
+            <input type="file" class="form-control-file" id="exampleFormControlFile1" name="ktp_kk">
+        </div>
+
+        <div class="container text-center mt-5">
+          <input type="submit" class="btn btn-primary" value="Daftar"/>
+        </div>
+
+      </form>
+    </div>
 </div>
 
 @endsection
