@@ -31,7 +31,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-materi">
-                    <a class="nav-link" style="color: #fff" href="/materi">Materi Pembelajaran</a>
+                    <a class="nav-link" style="color: #fff" href="/Materi">Materi Pembelajaran</a>
                 </li>
                 <li class="nav-peta">
                     <a class="nav-link" style="color: #fff" href="/lokasi">Peta Lokasi</a>
@@ -78,7 +78,7 @@
             <div id="grid-right" class="pt-5 pb-5">
                 <div style="margin-bottom:0%; margin-left:15px">
                     <ol class="breadcrumb">
-                      <li class="breadcrumb-item"><a href="/materi">Semua Kelas</a></li>
+                      <li class="breadcrumb-item"><a href="/Materi">Semua Kelas</a></li>
                       <li class="breadcrumb-item active" aria-current="page">Ilmu Pengetahuan Alam</li>
                     </ol>
                 </div>

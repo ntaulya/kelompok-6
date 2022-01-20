@@ -33,7 +33,7 @@ class SiswaController extends Controller
             'password_confirmation' => $request->password_confirmation,
         ]);
 
-        return redirect('/masuk')->with('success', 'Registrasi berhasil');
+        return redirect('/masuk')->with('alert', 'Registrasi berhasil');
     }
 
     public function login()
@@ -62,10 +62,4 @@ class SiswaController extends Controller
             return back()->with('loginError', 'Gagal Login Email atau Password Salah!');
         }
     }
-
-    public function materi()
-    {
-        return view('Materi.main');
-    }
-
 }

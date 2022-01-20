@@ -30,28 +30,30 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-materi">
-              <a class="nav-link" style="color: #fff" href="/materi">Materi Pembelajaran</a>
+              <a class="nav-link" style="color: #fff" href="/Materi">Materi Pembelajaran</a>
             </li>
             <li class="nav-peta">
               <a class="nav-link" style="color: #fff" href="/lokasi">Peta Lokasi</a>
             </li>
-            <li class="nav-profil">
-              <a class="nav-link" style="color: #fff" href="/profilku">Profilku</a>
-            </li>
+            <div class="dropdown">
+              <button class="dropbtn" onclick="myFunction()">Pengaturan
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content" id="myDropdown">
+                <a href="/profilku">Profilku</a>
+                <a href="#">Keluar</a>
+              </div>
+            </div>
           </ul>
         </div>
     </nav>
     {{-- AKHIR DARI NAVBAR --}}
 
-
     {{-- MAIN CONTENT --}}
     <div class="container mt-4">
-        @yield('container')
+      @yield('container')
     </div>
     {{-- END OF MAIN CONTENT --}}
-
-
-
 
     {{-- FOOTER --}}
     <div class="bottom footer p-4" style="background-color: #3167AF">
@@ -119,5 +121,22 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script>
+      /* When the user clicks on the button, 
+      toggle between hiding and showing the dropdown content */
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+      
+      // Close the dropdown if the user clicks outside of it
+      window.onclick = function(e) {
+        if (!e.target.matches('.dropbtn')) {
+        var myDropdown = document.getElementById("myDropdown");
+          if (myDropdown.classList.contains('show')) {
+            myDropdown.classList.remove('show');
+          }
+        }
+      }
+    </script>
 </body>
 </html>

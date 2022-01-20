@@ -13,4 +13,14 @@ class MateriController extends Controller
     {
         return view('Materi.main');
     }
+
+    public function materidetail()
+    {
+        return view('Materi.materidetail');
+    }
+
+    public function isimateri()
+    {
+        return view('Materi.isimateri');
+    }
 }

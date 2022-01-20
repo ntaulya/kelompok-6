@@ -1,5 +1,5 @@
-@extends('layouts.masuk')
-@section('title','Masuk Akun PKBM At-Taufiq')
+@extends('layouts.main')
+@section('title','Admin Page')
 @section('container')
 
 <h1>HAI GANTENG</h1>
