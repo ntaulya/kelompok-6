@@ -52,10 +52,6 @@ Route::get('/suksesdaftar', function () {
     return view('lokasi.suksesdaftar');
 });
 
-// Route::get('/masuk', function () {
-//     return view('Masuk.main');
-// });
-
 Route::get('/materi', function () {
     return view('Materi.main');
 });
@@ -82,12 +78,12 @@ Route::post('/daftar', [SiswaController::class, 'store']);
 Route::get('/siswa', [SiswaController::class]);
 Route::get('/admin', [AdminController::class]);
 
+// Admin
+Route::get('/Admin', [AdminController::class, 'index']);
+
 //Login
 Route::get('/masuk', [SiswaController::class, 'login']);
 Route::post('/masuk', [SiswaController::class, 'authenticate'])->name('login');
 
 //Materi
 Route::get('/Materi', [SiswaController::class, 'materi']);
-
-// Admin
-Route::get('/Admin', [AdminController::class, 'index']);
