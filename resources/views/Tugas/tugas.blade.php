@@ -85,7 +85,7 @@
                     <tr>
                         <td><p class="card-text">Tugas membuat kerajinan tangan</p></td>
                         <td>Deadline : 32 Maret 2022</td>
-                        <td><a href="#" class="btn btn-warning" type="button"> Kirim</a></td>
+                        <td><a href="#" class="btn btn-warning" type="button" href="/kumpultugas"> Kirim</a></td>
                     </tr>
 
                     <tr>

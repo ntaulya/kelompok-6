@@ -48,9 +48,16 @@ Route::get('/profilku', function () {
     return view('Profile.profilku');
 });
 
+//tugas
 Route::get('/tugas', function () {
     return view('Tugas.tugas');
 });
+
+Route::get('/kumpultugas', function () {
+    return view('Kumpultugas.kumpultugas');
+});
+
+
 
 // Route::get('/mahasiswa', [MahasiswaController::class, 'mahasiswa']);
 Route::get('/daftar', [SiswaController::class, 'index']);
@@ -70,3 +77,4 @@ Route::post('/masuk', [SiswaController::class, 'authenticate'])->name('login');
 Route::get('/Materi', [MateriController::class, 'materi']);
 Route::get('/materidetail', [MateriController::class, 'materidetail']);
 Route::get('/isimateri', [MateriController::class, 'isimateri']);
+
