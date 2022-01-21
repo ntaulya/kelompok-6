@@ -54,7 +54,7 @@ Route::get('/tugas', function () {
 });
 
 Route::get('/kumpultugas', function () {
-    return view('Kumpultugas.kumpultugas');
+    return view('tugas.kumpultugas');
 });
 
 
