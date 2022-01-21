@@ -58,8 +58,8 @@
       </div>
     </div>
     
-    <div class="col-lg-12 col-md-6" style="background-color: #3167AF; padding-top: 5rem;">
-      <h4 class="judul text-center">Tentang</h4> <br>
+    <div class="col-lg-12 col-md-6" style="background-color: #3167AF; padding-top: 2rem;">
+      <h4 class="judul text-center">Tentang</h4>
       <div class="row">
         <div class="col-sm-2">
           <img class="tentang" src="prettier/images/ink.png" width="200px" width="200px">
@@ -92,7 +92,7 @@
       </div>
     </div>
 
-    <div class="col-lg-12 col-md-6" style="background-color: #3167AF; padding-top: 50px; padding-bottom: 50px">
+    <div class="col-lg-12 col-md-6" style="background-color: #3167AF; padding-top: 2rem; padding-bottom: 50px">
       <div class="container">
         <h5 class="judul text-center">Mengapa PKBM?</h5>
         <div class="row">

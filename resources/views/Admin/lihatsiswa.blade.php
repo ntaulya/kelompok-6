@@ -56,8 +56,10 @@
               <tr>
                 <th scope="col">No</th>
                 <th scope="col">Nama</th>
-                <th scope="col">Last</th>
-                <th scope="col">Handle</th>
+                <th scope="col">Nomor ID</th>
+                <th scope="col">Email</th>
+                <th scope="col">Paket Program</th>
+                <th scope="col">KTP/KK</th>
               </tr>
             </thead>
             <tbody>
@@ -66,17 +68,6 @@
                 <td>Mark</td>
                 <td>Otto</td>
                 <td>@mdo</td>
-              </tr>
-              <tr>
-                <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
-              </tr>
-              <tr>
-                <th scope="row">3</th>
-                <td colspan="2">Larry the Bird</td>
-                <td>@twitter</td>
               </tr>
             </tbody>
           </table>

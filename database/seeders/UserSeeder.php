@@ -17,15 +17,21 @@ class UserSeeder extends Seeder
     {
         User::create([
             'name' => 'User',
+            'nomor_id' => '1202190010',
             'email' => 'user@pkbm.com',
             'password' => Hash::make('user'),
+            'paket_program' => 'Paket A',
+            'ktp_kk' => 'null',
         ]);
 
         User::create([
             'name' => 'Admin',
+            'nomor_id' => 'null',
             'email' => 'admin@pkbm.com',
             'is_admin' => true,
             'password' => Hash::make('admin'),
+            'paket_program' => 'null',
+            'ktp_kk' => 'null',
         ]);
     }
 }
