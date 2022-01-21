@@ -79,10 +79,34 @@
               <div class="card">
                 <div class="card-body">
                   <h4 class="card-title">Ilmu Pengetahuan Alam</h4>
-                  <p class="card-text">Tugas membuat kerajinan tangan <a href="#" class="col-md-1 offset-md-7 btn btn-warning" type="button"> Kirim</a> </p>
-                  <p class="card-text">Tugas membuat kerajinan kepala <a href="#" class="col-md-1 offset-md-7 btn btn-warning" type="button"> Kirim</a> </p>
-                  <p class="card-text">Tugas membuat kerajinan kaki <a href="#" class="col-md-1 offset-md-7 btn btn-warning" type="button"> Kirim</a> </p>
-                  <p class="card-text">Tugas membuat kerajinan perut <a href="#" class="col-md-1 offset-md-7 btn btn-warning" type="button"> Kirim</a> </p>
+                  <table class="table table-borderless">
+                    <tbody>
+                
+                    <tr>
+                        <td><p class="card-text">Tugas membuat kerajinan tangan</p></td>
+                        <td>Deadline : 32 Maret 2022</td>
+                        <td><a href="#" class="btn btn-warning" type="button"> Kirim</a></td>
+                    </tr>
+
+                    <tr>
+                        <td><p class="card-text">Tugas membuat kerajinan kepala</p></td>
+                        <td>Deadline : 32 Maret 2022</td>
+                        <td><a href="#" class="btn btn-warning" type="button"> Kirim</a></td>
+                    </tr>
+
+                    <tr>
+                        <td><p class="card-text">Tugas membuat kerajinan kaki</p></td>
+                        <td>Deadline : 32 Maret 2022</td>
+                        <td><a href="#" class="btn btn-warning" type="button"> Kirim</a></td>
+                    </tr>
+
+                    <tr>
+                        <td><p class="card-text">Tugas membuat kerajinan perut</p></td>
+                        <td>Deadline : 32 Maret 2022</td>
+                        <td><a href="#" class="btn btn-warning" type="button"> Kirim</a></td>
+                    </tr>
+                    </tbody>
+                    </table>
                 </div>
               </div>
 
@@ -90,10 +114,34 @@
               <div class="card">
                 <div class="card-body">
                   <h4 class="card-title">Matematika</h4>
-                  <h class="card-text">Tugas membuat kerajinan tangan <a href="#" class="col-md-1 offset-md-7 btn btn-warning" type="button"> Kirim</a> </p>
-                  <p class="card-text">Tugas membuat kerajinan kepala <a href="#" class="col-md-1 offset-md-7 btn btn-warning" type="button"> Kirim</a> </p>
-                  <p class="card-text">Tugas membuat kerajinan kaki <a href="#" class="col-md-1 offset-md-7 btn btn-warning" type="button"> Kirim</a> </p>
-                  <p class="card-text">Tugas membuat kerajinan perut <a href="#" class="col-md-1 offset-md-7 btn btn-warning" type="button"> Kirim</a> </p>
+                  <table class="table table-borderless">
+                    <tbody>
+                
+                    <tr>
+                        <td><p class="card-text">Tugas membuat kerajinan tangan</p></td>
+                        <td>Deadline : 32 Maret 2022</td>
+                        <td><a href="#" class="btn btn-warning" type="button"> Kirim</a></td>
+                    </tr>
+
+                    <tr>
+                        <td><p class="card-text">Tugas membuat kerajinan kepala</p></td>
+                        <td>Deadline : 32 Maret 2022</td>
+                        <td><a href="#" class="btn btn-warning" type="button"> Kirim</a></td>
+                    </tr>
+
+                    <tr>
+                        <td><p class="card-text">Tugas membuat kerajinan kaki</p></td>
+                        <td>Deadline : 32 Maret 2022</td>
+                        <td><a href="#" class="btn btn-warning" type="button"> Kirim</a></td>
+                    </tr>
+
+                    <tr>
+                        <td><p class="card-text">Tugas membuat kerajinan perut</p></td>
+                        <td>Deadline : 32 Maret 2022</td>
+                        <td><a href="#" class="btn btn-warning" type="button"> Kirim</a></td>
+                    </tr>
+                    </tbody>
+                    </table>
                 </div>
               </div>
 
@@ -101,10 +149,34 @@
               <div class="card">
                 <div class="card-body">
                   <h4 class="card-title">Ilmu pengetahuan sosial</h4>
-                  <p class="card-text">Tugas membuat kerajinan tangan <a href="#" class="col-md-1 offset-md-7 btn btn-warning" type="button"> Kirim</a> </p>
-                  <p class="card-text">Tugas membuat kerajinan kepala <a href="#" class="col-md-1 offset-md-7 btn btn-warning" type="button"> Kirim</a> </p>
-                  <p class="card-text">Tugas membuat kerajinan kaki <a href="#" class="col-md-1 offset-md-7 btn btn-warning" type="button"> Kirim</a> </p>
-                  <p class="card-text">Tugas membuat kerajinan perut <a href="#" class="col-md-1 offset-md-7 btn btn-warning" type="button"> Kirim</a> </p>
+                  <table class="table table-borderless">
+                    <tbody>
+                
+                    <tr>
+                        <td><p class="card-text">Tugas membuat kerajinan tangan</p></td>
+                        <td>Deadline : 32 Maret 2022</td>
+                        <td><a href="#" class="btn btn-warning" type="button"> Kirim</a></td>
+                    </tr>
+
+                    <tr>
+                        <td><p class="card-text">Tugas membuat kerajinan kepala</p></td>
+                        <td>Deadline : 32 Maret 2022</td>
+                        <td><a href="#" class="btn btn-warning" type="button"> Kirim</a></td>
+                    </tr>
+
+                    <tr>
+                        <td><p class="card-text">Tugas membuat kerajinan kaki</p></td>
+                        <td>Deadline : 32 Maret 2022</td>
+                        <td><a href="#" class="btn btn-warning" type="button"> Kirim</a></td>
+                    </tr>
+
+                    <tr>
+                        <td><p class="card-text">Tugas membuat kerajinan perut</p></td>
+                        <td>Deadline : 32 Maret 2022</td>
+                        <td><a href="#" class="btn btn-warning" type="button"> Kirim</a></td>
+                    </tr>
+                    </tbody>
+                    </table>
                 </div>
               </div>
         </div>
