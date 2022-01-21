@@ -1,13 +1,11 @@
-<!-- Main Materi -->
 <!DOCTYPE html>
- 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="prettier/main.css">
-    <title>Materi Pembelajaran</title>
+    <title>Admin Page</title>
 </head>
  
 <body>
@@ -51,143 +49,35 @@
         </div>
     </nav>
     {{-- AKHIR DARI NAVBAR --}}
- 
- 
-    {{-- MAIN CONTENT --}}
-    <section>
-        <div class="grid-container">
-            <!-- left content -->
-            <div id="grid-left" class="pt-5 pb-5">
-                <div id="tugas" class="row justify-content-center">
-                    <div class="col-1">
-                        <img src="prettier/emoji/kelas.png" alt="..">
-                    </div>
-                    <div class="col-6">
-                      <p class="kelas" style="color:#3167AF">Kelas</p>
+
+    <div class="container mt-5 mb-5">
+        <div class="row">
+            <div class="col-sm-4 text-center">
+                <div class="card">
+                    <div class="card-body">
+                    <h5 class="card-title">Daftar Siswa</h5>
+                    <a href="/lihatsiswa" class="btn btn-primary">Lihat</a>
                     </div>
                 </div>
- 
-                <div id="tugas" class="row justify-content-center">
-                    <div class="col-1">
-                      <img src="prettier/emoji/tugas.png" alt="..">
-                    </div>
-                    <div class="col-6">
-                      <p>Tugas</p>
-                    </div>
+                </div>
+            <div class="col-sm-4 text-center">
+            <div class="card">
+                <div class="card-body">
+                <h5 class="card-title">Kelas</h5>
+                <a href="#" class="btn btn-primary">Tambahkan</a>
                 </div>
             </div>
- 
-            <!-- right content -->
- 
-            <div id="grid-right" class="pt-5 pb-5">
-                <div class="ps-3">
-                  <h5>Semua Kelas</h6>
+            </div>
+            <div class="col-sm-4 text-center">
+                <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Tugas</h5>
+                    <a href="#" class="btn btn-primary">Tambahkan</a>
                 </div>
- 
-                <div class="container mt-4">
-                    <div class="row justify-content-start pb-5">
-                        <div class="col-4">
-                            <div class="card">
-                                <img src="prettier/images/science.jpg" class="card-img-top" alt="ipa" width="250px" height="190px">
-                                <div class="card-body">
-                                    <h5 class="card-title">Ilmu Pengetahuan Alam</h5>
-                                    <p class="card-text">Ilmu alam mempelajari aspek-aspek fisik & nonmanusia tentang
-                                        Bumi
-                                        dan alam sekitarnya. Ilmu-ilmu alam membentuk landasan bagi ilmu terapan, yang
-                                        keduanya dibedakan dari ilmu sosial, humaniora, teologi, dan seni.</p>
-                                </div>
-                                <div id="tugas" class="row justify-content-center">
-                                    <div class="col-1">
-                                        <img src="prettier/emoji/bab.png" alt="..">
-                                    </div>
-                                    <div class="col-9">
-                                        <p>4 Bab</p>
-                                    </div>
-                                </div>
- 
-                                <div id="tugas" class="row justify-content-center">
-                                    <div class="col-1">
-                                        <img src="prettier/emoji/sub-bab.png" alt="..">
-                                    </div>
-                                    <div class="col-9 ">
-                                        <p>12 Sub-bab</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-footer" style="background-color: #3167af;">
-                                <a class="btn text-light" style="width: 100%; color: #3167af;" href="/materidetail">MULAI</a>
-                            </div>
-                        </div>
- 
-                        <div class="col-4">
-                            <div class="card">
-                                <img src="prettier/images/mathematics.jpg" class="card-img-top" alt="mtk" width="250px" height="190px">
-                                <div class="card-body">
-                                    <h5 class="card-title">Matematika</h5>
-                                    <p class="card-text">Cabang matematika yang melingkupi penerapan 
-                                      pengetahuan matematika ke bidang-bidang lain, 
-                                      mengilhami dan membuat penggunaan temuan-temuan 
-                                      matematika baru seperti statistika dan teori permainan.</p>
-                                </div>
-                                <div id="tugas" class="row justify-content-center">
-                                    <div class="col-1">
-                                        <img src="prettier/emoji/bab.png" alt="..">
-                                    </div>
-                                    <div class="col-9">
-                                        <p>4 Bab</p>
-                                    </div>
-                                </div>
- 
-                                <div id="tugas" class="row justify-content-center">
-                                    <div class="col-1">
-                                        <img src="prettier/emoji/sub-bab.png" alt="..">
-                                    </div>
-                                    <div class="col-9 ">
-                                        <p>12 Sub-bab</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-footer" style="background-color: #3167af;">
-                                <button class="btn text-light" style="width: 100%; color: #3167af;">LANJUTKAN</button>
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="card">
-                                <img src="prettier/images/social.jpg" class="card-img-top" alt="ips" width="250px" height="190px">
-                                <div class="card-body">
-                                    <h5 class="card-title">Ilmu Pengetahuan Sosial</h5>
-                                    <p class="card-text">Sekelompok disiplin akademis yang mempelajari aspek-aspek yang berhubungan dengan manusia dan lingkungan sosialnya. Ilmu ini berbeda dengan seni dan humaniora yang menekankan kepada ilmu humaniora.</p>
-                                </div>
-                                <div id="tugas" class="row justify-content-center">
-                                    <div class="col-1">
-                                        <img src="prettier/emoji/bab.png" alt="..">
-                                    </div>
-                                    <div class="col-9">
-                                        <p>4 Bab</p>
-                                    </div>
-                                </div>
- 
-                                <div id="tugas" class="row justify-content-center">
-                                    <div class="col-1">
-                                        <img src="prettier/emoji/sub-bab.png" alt="..">
-                                    </div>
-                                    <div class="col-9 ">
-                                        <p>12 Sub-bab</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-footer" style="background-color: #3167af;">
-                                <button class="btn text-light" style="width: 100%; color: #3167af;">LANJUTKAN</button>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
- 
-        </div>
-    </section>
-    {{-- END OF MAIN CONTENT --}}
+    </div>
     
     {{-- FOOTER --}}
     <div class="bottom footer p-4" style="background-color: #3167AF">

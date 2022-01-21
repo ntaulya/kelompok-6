@@ -2,97 +2,93 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
-use App\Models\Siswa;
 use App\Models\User;
+use App\Models\Siswa;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class SiswaController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
+
     public function index()
     {
-        $data = Siswa::all();
+        // $data = Siswa::all();
 
         return view('Daftar.main');
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
     public function create()
     {
         $model = new Siswa;
         return view('Materi.main', compact('model'));
     }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
     public function store(Request $request)
     {
-        User::create([
-            'name' => $request->nama,
-            'id' => $request->no_id,
-            'username' => $request->username,
-            'email' => $request->email,
-            'password' => $request->sandi,
-            'password_confirmation' => $request->password_confirmation,
+        $filename = $_FILES['ktp_kk']['name'];
+        $original_file_path = $_FILES['ktp_kk']['tmp_name'];
+        $destination_file_path = $_SERVER['DOCUMENT_ROOT'].'/data-regist/'.$filename;
+        // User::create([
+        //     'name' => $request->nama,
+        //     'nomor_id' => $request->no_id,
+        //     'email' => $request->email,
+        //     'password' => $request->password,
+        //     'paket_program' => $request->paket_program,
+        //     'ktp_kk' => $destination_file_path,
+        //     'password_confirmation' => $request->password_confirmation,
+        // ]);
+
+
+        // $validatedData = $request->validate([
+        //     'nama' => 'required',
+        //     'nomor_id' => 'required',
+        //     'email' => 'required',
+        //     'password' => 'required|confirmed',
+        //     'paket_program' => 'required|in:Paket A, Paket B, Paket C',
+        //     'ktp_kk' => 'image|file',
+        // ]);
+
+        // echo $validatedData;
+
+        // $validatedData['ktp_kk'] = $request->file('ktp_kk')->store('regist-document');
+
+        // User::create($validatedData);
+
+        // return redirect('/masuk')->with('alert', 'Registrasi berhasil');
+
+		// $file->move($tujuan_upload,$file->getClientOriginalName());
+
+        if(move_uploaded_file($original_file_path ,$destination_file_path)){
+            echo $destination_file_path;
+        } else {
+
+        }
+    }
+
+    public function login()
+    {
+        return view('Masuk.main');
+    }
+
+    public function authenticate(Request $request)
+    {
+        // dd(Auth::attempt(['email' => $request->email, 'password' => $request->sandi]));
+        
+        $credentials = $request->validate([
+            'email' => 'required|email:dns',
+            'password' => 'required'
         ]);
 
-        return redirect('/masuk')->with('success', 'Registrasi berhasil');
-    }
-
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function show($id)
-    {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function edit($id)
-    {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, $id)
-    {
-        //
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy($id)
-    {
-        //
+        if(Auth::attempt($credentials)) {
+            if (auth()->user()->is_admin == 1) {
+                $request->session()->regenerate();
+                return redirect()->intended('/Admin')->with('loginAdmin', 'Berhasil Login Sebagai Admin');
+            } else {
+                $request->session()->regenerate();
+                return redirect()->intended('/Materi');
+            }
+        } else {
+            return back()->with('loginError', 'Gagal Login Email atau Password Salah!');
+        }
     }
 }

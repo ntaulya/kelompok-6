@@ -1,9 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\MahasiswaController;
 use App\Http\Controllers\SiswaController;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\MateriController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,14 +18,6 @@ use App\Http\Controllers\AdminController;
 
 Route::get('/', function () {
     return view('index');
-});
-
-Route::get('/bug', function () {
-    return view('welcome');
-});
-
-Route::get('/kalender', function () {
-    return view('kalender.main');
 });
 
 Route::get('/lokasi', function () {
@@ -52,22 +44,6 @@ Route::get('/suksesdaftar', function () {
     return view('lokasi.suksesdaftar');
 });
 
-Route::get('/masuk', function () {
-    return view('Masuk.main');
-});
-
-Route::get('/materi', function () {
-    return view('Materi.main');
-});
-
-Route::get('/mainmateri', function () {
-    return view('Materi.mainmateri');
-});
-
-Route::get('/isimateri', function () {
-    return view('Materi.materi');
-});
-
 Route::get('/profilku', function () {
     return view('Profile.profilku');
 });
@@ -78,6 +54,19 @@ Route::get('/tugas', function () {
 
 // Route::get('/mahasiswa', [MahasiswaController::class, 'mahasiswa']);
 Route::get('/daftar', [SiswaController::class, 'index']);
-Route::post('/daftar', [SiswaController::class, 'store']);
+Route::post('/daftar_store', [SiswaController::class, 'store'])->name('daftar_store');
 Route::get('/siswa', [SiswaController::class]);
 Route::get('/admin', [AdminController::class]);
+
+// Admin
+Route::get('/Admin', [AdminController::class, 'index']);
+Route::get('/lihatsiswa', [AdminController::class, 'lihatsiswa']);
+
+//Login
+Route::get('/masuk', [SiswaController::class, 'login']);
+Route::post('/masuk', [SiswaController::class, 'authenticate'])->name('login');
+
+//Materi
+Route::get('/Materi', [MateriController::class, 'materi']);
+Route::get('/materidetail', [MateriController::class, 'materidetail']);
+Route::get('/isimateri', [MateriController::class, 'isimateri']);
