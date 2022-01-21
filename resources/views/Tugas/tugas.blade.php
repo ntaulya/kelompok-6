@@ -83,26 +83,26 @@
                     <tbody>
                 
                     <tr>
-                        <td><p class="card-text">Tugas membuat kerajinan tangan</p></td>
-                        <td>Deadline : 32 Maret 2022</td>
+                        <td><p class="card-text">Tugas Bab 1</p></td>
+                        <td><p class="text-black-50">Deadline: 32 Maret 2022</p></td>
                         <td><a href="#" class="btn btn-warning" type="button" href="/kumpultugas"> Kirim</a></td>
                     </tr>
 
                     <tr>
-                        <td><p class="card-text">Tugas membuat kerajinan kepala</p></td>
-                        <td>Deadline : 32 Maret 2022</td>
+                        <td><p class="card-text">Tugas Bab 2</p></td>
+                        <td><p class="text-black-50">Deadline: 32 Maret 2022</p></td>
                         <td><a href="#" class="btn btn-warning" type="button"> Kirim</a></td>
                     </tr>
 
                     <tr>
-                        <td><p class="card-text">Tugas membuat kerajinan kaki</p></td>
-                        <td>Deadline : 32 Maret 2022</td>
+                        <td><p class="card-text">Tugas Bab 3</p></td>
+                        <td><p class="text-black-50">Deadline: 32 Maret 2022</p></td>
                         <td><a href="#" class="btn btn-warning" type="button"> Kirim</a></td>
                     </tr>
 
                     <tr>
-                        <td><p class="card-text">Tugas membuat kerajinan perut</p></td>
-                        <td>Deadline : 32 Maret 2022</td>
+                        <td><p class="card-text">Tugas Bab 4</p></td>
+                        <td><p class="text-black-50">Deadline: 32 Maret 2022</p></td>
                         <td><a href="#" class="btn btn-warning" type="button"> Kirim</a></td>
                     </tr>
                     </tbody>
@@ -118,26 +118,26 @@
                     <tbody>
                 
                     <tr>
-                        <td><p class="card-text">Tugas membuat kerajinan tangan</p></td>
-                        <td>Deadline : 32 Maret 2022</td>
+                        <td><p class="card-text">Tugas Bab 1</p></td>
+                        <td><p class="text-black-50">Deadline: 32 Maret 2022</p></td>
                         <td><a href="#" class="btn btn-warning" type="button"> Kirim</a></td>
                     </tr>
 
                     <tr>
-                        <td><p class="card-text">Tugas membuat kerajinan kepala</p></td>
-                        <td>Deadline : 32 Maret 2022</td>
+                        <td><p class="card-text">Tugas Bab 2</p></td>
+                        <td><p class="text-black-50">Deadline: 32 Maret 2022</p></td>
                         <td><a href="#" class="btn btn-warning" type="button"> Kirim</a></td>
                     </tr>
 
                     <tr>
-                        <td><p class="card-text">Tugas membuat kerajinan kaki</p></td>
-                        <td>Deadline : 32 Maret 2022</td>
+                        <td><p class="card-text">Tugas Bab 3</p></td>
+                        <td><p class="text-black-50">Deadline: 32 Maret 2022</p></td>
                         <td><a href="#" class="btn btn-warning" type="button"> Kirim</a></td>
                     </tr>
 
                     <tr>
-                        <td><p class="card-text">Tugas membuat kerajinan perut</p></td>
-                        <td>Deadline : 32 Maret 2022</td>
+                        <td><p class="card-text">Tugas Bab 4</p></td>
+                        <td><p class="text-black-50">Deadline: 32 Maret 2022</p></td>
                         <td><a href="#" class="btn btn-warning" type="button"> Kirim</a></td>
                     </tr>
                     </tbody>
@@ -153,26 +153,26 @@
                     <tbody>
                 
                     <tr>
-                        <td><p class="card-text">Tugas membuat kerajinan tangan</p></td>
-                        <td>Deadline : 32 Maret 2022</td>
+                        <td><p class="card-text">Tugas Bab 1</p></td>
+                        <td><p class="text-black-50">Deadline: 32 Maret 2022</p></td>
                         <td><a href="#" class="btn btn-warning" type="button"> Kirim</a></td>
                     </tr>
 
                     <tr>
-                        <td><p class="card-text">Tugas membuat kerajinan kepala</p></td>
-                        <td>Deadline : 32 Maret 2022</td>
+                        <td><p class="card-text">Tugas Bab 2</p></td>
+                        <td><p class="text-black-50">Deadline: 32 Maret 2022</p></td>
                         <td><a href="#" class="btn btn-warning" type="button"> Kirim</a></td>
                     </tr>
 
                     <tr>
-                        <td><p class="card-text">Tugas membuat kerajinan kaki</p></td>
-                        <td>Deadline : 32 Maret 2022</td>
+                        <td><p class="card-text">Tugas Bab 3</p></td>
+                        <td><p class="text-black-50">Deadline: 32 Maret 2022</p></td>
                         <td><a href="#" class="btn btn-warning" type="button"> Kirim</a></td>
                     </tr>
 
                     <tr>
-                        <td><p class="card-text">Tugas membuat kerajinan perut</p></td>
-                        <td>Deadline : 32 Maret 2022</td>
+                        <td><p class="card-text">Tugas Bab 4</p></td>
+                        <td><p class="text-black-50">Deadline: 32 Maret 2022</p></td>
                         <td><a href="#" class="btn btn-warning" type="button"> Kirim</a></td>
                     </tr>
                     </tbody>
