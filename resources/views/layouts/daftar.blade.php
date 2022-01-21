@@ -30,10 +30,10 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-masuk">
-          <a class="nav-link" style="color: white" href="/masuk">Masuk</a>
+          <button type="button" class="btn" style="background-color: #F7DE06; color: #3167AF;"><a href="/masuk" style="text-decoration: none;"><b>Masuk</b></a></button>
         </li>
         <li class="nav-daftar">
-          <button type="button" class="btn" style="background-color: #F7DE06; color: #3167AF"><a href="/daftar">Daftar</a></button>
+          <a class="nav-link" style="color: white" href="/daftar">Daftar</a>
         </li>
       </ul>
     </div>

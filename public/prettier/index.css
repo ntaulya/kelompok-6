@@ -16,7 +16,8 @@
 }
 
 .tentang {
-    margin-left: 70px;
+    margin: 0 0 70px 70px;
+    padding-right: 50px;
 }
 
 .tentang-text {
