@@ -93,7 +93,7 @@
                                             <td>
                                                 <p class="text-black-50">Deadline: 32 Maret 2022</p>
                                             </td>
-                                            <td><a href="#" class="btn btn-warning" type="button" href="/kumpultugas"> Kirim</a></td>
+                                            <td><a class="btn btn-warning" type="button" href="/kumpultugas"> Kirim</a></td>
                                         </tr>
                                         <tr>
                                             <td>
