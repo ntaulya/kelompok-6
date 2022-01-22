@@ -19,8 +19,18 @@ class MateriController extends Controller
         return view('Materi.materidetail');
     }
 
-    public function isimateri()
+    public function ipa()
     {
-        return view('Materi.isimateri');
+        return view('Materi.ipa');
+    }
+
+    public function ips()
+    {
+        return view('Materi.ips');
+    }
+
+    public function indo()
+    {
+        return view('Materi.indo');
     }
 }
