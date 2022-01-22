@@ -68,6 +68,7 @@ Route::get('/admin', [AdminController::class]);
 
 // Admin
 Route::get('/Admin', [AdminController::class, 'index']);
+Route::get('/lihatsiswa', [AdminController::class, 'lihatsiswa']);
 
 //Login
 Route::get('/masuk', [SiswaController::class, 'login']);
@@ -78,3 +79,8 @@ Route::get('/keluar', [SiswaController::class, 'logout']);
 Route::get('/Materi', [MateriController::class, 'materi']);
 Route::get('/materidetail', [MateriController::class, 'materidetail']);
 Route::get('/isimateri', [MateriController::class, 'isimateri']);
+
+//Coba Session
+Route::get('/session/get', [SessionController::class, 'getSessionData'])->name('session.get');
+Route::get('/session/set', [SessionController::class, 'storeSessionData'])->name('session.store');
+Route::get('/session/remove', [SessionController::class, 'deleteSessionData']);
