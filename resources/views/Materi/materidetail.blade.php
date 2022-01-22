@@ -42,7 +42,7 @@
                     </button>
                     <div class="dropdown-content" id="myDropdown">
                       <a href="/profilku">Profilku</a>
-                      <a href="#">Keluar</a>
+                      <a href="/keluar">Keluar</a>
                     </div>
                 </div>
             </ul>

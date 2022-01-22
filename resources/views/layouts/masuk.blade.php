@@ -11,13 +11,15 @@
 <body>
     {{-- NAVBAR --}}
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #3167AF">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="index.php">
         {{-- Logo PKBM --}}
         <div class="container">
           <div class="row">
-            <div class="col-lg-2 mx-2 mb-2">
-              <img src="prettier/images/pkbm.png" width="40" height="50" class="d-inline" style="margin-right:10px;" alt="">
-              <p class="d-inline mx-2 pb-0 mb-0" style="color:white;">Pusat Kegiatan Belajar Masyarakat At-Taufiq</p>
+            <div class="col-lg-2 mb-2" style="margin-left: 10px;">
+              <img src="prettier/images/pkbm.png" width="40" height="50" class="d-inline" style="" alt="">
+            </div>
+            <div class="col-lg-2" style="margin-top: 15px;">
+              <p class="d-inline pb-0 mb-0" style="color:white;">Pusat Kegiatan Belajar Masyarakat At-Taufiq</p>
             </div>
           </div>
         </div>
@@ -26,9 +28,9 @@
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="collapse navbar-collapse" id="navbarNav" style="margin-left: 150px;">
         <ul class="navbar-nav">
-          <li class="nav-masuk">
+          <li class="nav-masuk" style="margin-right: 10px;">
             <a class="nav-link" style="color: white" href="/masuk">Masuk</a>
           </li>
           <li class="nav-daftar">

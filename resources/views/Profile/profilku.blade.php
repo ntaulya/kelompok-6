@@ -10,14 +10,14 @@
         <div class="form-group row mt-5">
           <label for="inputPassword" class="col-sm-2 col-form-label">Nama Lengkap</label>
           <div class="col-sm-10">
-            <input type="text" class="form-control" id="inputPassword" placeholder="Neta Aulya Kurnia Ningrum">
+            <input type="text" class="form-control" id="inputPassword" value="{{ auth()->user()->name }}" readonly>
           </div>
         </div>
 
         <div class="form-group row mt-3">
           <label for="inputPassword" class="col-sm-2 col-form-label">Nomor ID Siswa</label>
           <div class="col-sm-10">
-            <input type="text" class="form-control" id="inputPassword" placeholder="1202190010" readonly>
+            <input type="text" class="form-control" id="inputPassword" value="{{ auth()->user()->nomor_id }}" readonly>
           </div>
         </div>
 
@@ -25,19 +25,19 @@
           <label for="inputPassword" class="col-sm-2 col-form-label">Paket Program</label>
           <div class="col-sm-10">
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="{{ auth()->user()->paket_program }}">
               <label class="form-check-label" for="exampleRadios1">
                 Paket Kesetaraan A
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="{{ auth()->user()->paket_program }}">
               <label class="form-check-label" for="exampleRadios2">
                 Paket Kesetaraan B
               </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="{{ auth()->user()->paket_program }}">
               <label class="form-check-label" for="exampleRadios3">
                 Paket Kesetaraan C
               </label>
@@ -46,23 +46,16 @@
         </div>
 
         <div class="form-group row mt-3">
-          <label for="inputPassword" class="col-sm-2 col-form-label">Username</label>
-          <div class="col-sm-10">
-            <input type="text" class="form-control" id="inputPassword" placeholder="netaaulya">
-          </div>
-        </div>
-
-        <div class="form-group row mt-3">
           <label for="inputPassword" class="col-sm-2 col-form-label">E-mail</label>
           <div class="col-sm-10">
-            <input type="email" class="form-control" id="inputPassword" placeholder="netaaulya@gmail.com">
+            <input type="email" class="form-control" id="inputPassword" value="{{ auth()->user()->email }}" readonly>
           </div>
         </div>
 
         <div class="form-group row mt-3">
           <label for="inputPassword" class="col-sm-2 col-form-label">Kata Sandi</label>
           <div class="col-sm-10">
-            <input type="password" class="form-control" id="inputPassword" placeholder="neta1233.">
+            <input type="password" class="form-control" id="inputPassword" value="{{ auth()->user()->password }}" readonly>
           </div>
         </div>
 

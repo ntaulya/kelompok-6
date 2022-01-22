@@ -5,6 +5,22 @@
 <div class="container align-content-center px-5 pb-5 pt-4">
     <div class="row justify-content-center d-flex">
         <div class="col-5 justify-content-center align-middle">
+
+            @if(session()->has('success'))
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    {{ session('success') }}
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            @endif
+
+            <!-- alert login gagal -->
+            @if(session()->has('loginError'))
+                <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                    {{ session('loginError') }}
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            @endif
+            
             <center>
                 <h4>Silahkan Masuk!</h4>
             </center> <br>
