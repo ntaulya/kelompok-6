@@ -46,13 +46,11 @@ class SiswaController extends Controller
         }
     }
 
-    public function login()
-    {
+    public function login() {
         return view('Masuk.main');
     }
 
-    public function authenticate(Request $request)
-    {
+    public function authenticate(Request $request) {
         // dd(Auth::attempt(['email' => $request->email, 'password' => $request->sandi]));
         
         $credentials = $request->validate([
@@ -71,5 +69,15 @@ class SiswaController extends Controller
         } else {
             return back()->with('loginError', 'Gagal Login Email atau Password Salah!');
         }
+    }
+
+    public function logout(Request $request) {
+        Auth::logout();
+
+        $request->session()->invalidate();
+
+        $request->session()->regenerateToken();
+
+        return redirect('/');
     }
 }
