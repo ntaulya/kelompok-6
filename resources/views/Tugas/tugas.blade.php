@@ -51,31 +51,31 @@
         </div>
     </nav>
     {{-- AKHIR DARI NAVBAR --}}
-
+ 
     {{-- MAIN CONTENT --}}
     <section>
       <div class="grid-container">
           <!-- left content -->
           <div id="grid-left" class="pt-5 pb-5">
               <div id="tugas" class="row justify-content-center">
-                  <div class="col-1">
-                      <img src="prettier/emoji/kelas.png" alt="..">
-                  </div>
-                  <div class="col-6">
-                    <p class="kelas" style="color:#3167AF">Kelas</p>
-                  </div>
-              </div>
-
-              <div id="tugas" class="row justify-content-center">
-                  <div class="col-1">
-                    <img src="prettier/emoji/tugas.png" alt="..">
-                  </div>
-                  <div class="col-6">
-                    <p>Tugas</p>
-                  </div>
-              </div>
+                <div class="col-1">
+                    <i class="fa fa-book" style="color:#9c9ea1;" aria-hidden="true"></i>
+                </div>
+                <div class="col-6">
+                  <a href="/Materi" style="text-decoration:none;"><p class="kelas" style="color:#9c9ea1;">Kelas</p></a>
+                </div>
+            </div>
+ 
+               <div id="tugas" class="row justify-content-center">
+                <div class="col-1">
+                    <i class="fa fa-tasks" style='color:#3167AF' aria-hidden="true"></i>
+                </div>
+                <div class="col-6">
+                  <a href="/tugas" style="text-decoration: none; color:#3167AF">Tugas</a>
+                </div>
+            </div>
           </div>
-
+ 
                    
           <div id="grid-right" class="pt-5 pb-5">
                 <div class="card">
@@ -93,19 +93,19 @@
                         <td><p class="text-black-50">Deadline: 32 Maret 2022</p></td>
                         <td><a href="#" class="btn btn-warning" type="button" href="/kumpultugas"> Kirim</a></td>
                     </tr>
-
+ 
                     <tr>
                         <td><p class="card-text">Tugas Bab 2</p></td>
                         <td><p class="text-black-50">Deadline: 32 Maret 2022</p></td>
                         <td><a href="#" class="btn btn-warning" type="button"> Kirim</a></td>
                     </tr>
-
+ 
                     <tr>
                         <td><p class="card-text">Tugas Bab 3</p></td>
                         <td><p class="text-black-50">Deadline: 32 Maret 2022</p></td>
                         <td><a href="#" class="btn btn-warning" type="button"> Kirim</a></td>
                     </tr>
-
+ 
                     <tr>
                         <td><p class="card-text">Tugas Bab 4</p></td>
                         <td><p class="text-black-50">Deadline: 32 Maret 2022</p></td>
@@ -115,7 +115,7 @@
                     </table>
                 </div>
               </div>
-
+ 
               <!-- satu kotak-->
               <div class="card">
                 <div class="card-body">
@@ -128,19 +128,19 @@
                         <td><p class="text-black-50">Deadline: 32 Maret 2022</p></td>
                         <td><a href="#" class="btn btn-warning" type="button"> Kirim</a></td>
                     </tr>
-
+ 
                     <tr>
                         <td><p class="card-text">Tugas Bab 2</p></td>
                         <td><p class="text-black-50">Deadline: 32 Maret 2022</p></td>
                         <td><a href="#" class="btn btn-warning" type="button"> Kirim</a></td>
                     </tr>
-
+ 
                     <tr>
                         <td><p class="card-text">Tugas Bab 3</p></td>
                         <td><p class="text-black-50">Deadline: 32 Maret 2022</p></td>
                         <td><a href="#" class="btn btn-warning" type="button"> Kirim</a></td>
                     </tr>
-
+ 
                     <tr>
                         <td><p class="card-text">Tugas Bab 4</p></td>
                         <td><p class="text-black-50">Deadline: 32 Maret 2022</p></td>
@@ -150,7 +150,7 @@
                     </table>
                 </div>
               </div>
-
+ 
                <!-- satu kotak-->
               <div class="card">
                 <div class="card-body">
@@ -163,19 +163,19 @@
                         <td><p class="text-black-50">Deadline: 32 Maret 2022</p></td>
                         <td><a href="#" class="btn btn-warning" type="button"> Kirim</a></td>
                     </tr>
-
+ 
                     <tr>
                         <td><p class="card-text">Tugas Bab 2</p></td>
                         <td><p class="text-black-50">Deadline: 32 Maret 2022</p></td>
                         <td><a href="#" class="btn btn-warning" type="button"> Kirim</a></td>
                     </tr>
-
+ 
                     <tr>
                         <td><p class="card-text">Tugas Bab 3</p></td>
                         <td><p class="text-black-50">Deadline: 32 Maret 2022</p></td>
                         <td><a href="#" class="btn btn-warning" type="button"> Kirim</a></td>
                     </tr>
-
+ 
                     <tr>
                         <td><p class="card-text">Tugas Bab 4</p></td>
                         <td><p class="text-black-50">Deadline: 32 Maret 2022</p></td>
@@ -187,7 +187,7 @@
               </div>
         </div>
     </section>
-
+ 
     {{-- FOOTER --}}
     <div class="bottom footer p-4" style="background-color: #3167AF">
       <div class="footer-top">
@@ -200,7 +200,7 @@
                           pendidikan dengan kualitas yang sama seperti pendidikan formal
                       </p>
                   </div>
-
+ 
                   <div class="col-lg-2 col-md-6 footer-links">
                       <h4 class="judul-footer">Links</h4>
                       <li class="link" style="list-style:none;" href="#home">Home</a></li>
@@ -209,16 +209,16 @@
                       <li class="link" style="list-style:none;" href="#mengapa">Mengapa Kami</li>
                       <li class="link" style="list-style:none;" href="#kegiatan">Kegiatan</li>
                   </div>
-
+ 
                   <div class="col-lg-3 col-md-6 footer-links">
                       <h4 class="judul-footer">Bantuan</h4>
                       <li class="bantuan" style="list-style:none;" href="/daftar">Cara Mendaftar</a></li>
                       <li class="bantuan" style="list-style:none;" href="/masuk">Masuk</a></li>
                   </div>
-
+ 
                   <div class="col-lg-4 col-md-6 footer-links">
                       <h6 class="judul-footer">Yuk berlangganan untuk mendapatkan info terkini</h6>
-
+ 
                       <div class="input-group">
                           <input type="text" placeholder="Masukan Email Anda" class="form-control">
                           <span class="input-group-btn">
@@ -247,7 +247,7 @@
           </div>
       </div>
       {{-- AKHIR DARI FOOTER --}}
-
+ 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
