@@ -79,7 +79,7 @@
                 <div style="margin-bottom:0%; margin-left:15px">
                     <ol class="breadcrumb">
                       <li class="breadcrumb-item"><a href="/Materi">Semua Kelas</a></li>
-                      <li class="breadcrumb-item active" aria-current="page">Ilmu Pengetahuan Alam</li>
+                      <li class="breadcrumb-item active" aria-current="page">Program Kesetaraan</li>
                     </ol>
                 </div>
                 <div class="card" style="width: 95%; margin-left:15px">
@@ -89,7 +89,7 @@
                         <h6>Konten Pelajaran</h6>
                         <div class="card mb-2">
                             <div class="card-body">
-                                <h6 style="color: #3167AF">1. Objek IPA dan Pengamatannya</h6>
+                                <h6 style="color: #3167AF">1. Ilmu Pengetahuan Alam (IPA) Paket A</h6>
                                 <ul>
                                     <li>I : Pendahuluan</li>
                                     <li>II : Penyelidikan IPA</li>
@@ -105,7 +105,7 @@
                                             </div>
                                         </div>
                                         <div class="col-2">
-                                            <a type="button" class="btn btn-light" style="background-color: #3167AF; color:#fff" href="/isimateri">Mulai Belajar</a>
+                                            <a type="button" class="btn btn-light" style="background-color: #3167AF; color:#fff" href="/ipa">Mulai Belajar</a>
                                         </div>
                                     </div>
                                 </div>
@@ -113,13 +113,13 @@
                         </div>
                         <div class="card mb-2">
                             <div class="card-body">
-                                <h6 style="color: #3167AF">2. Klasifikasi Mahluk Hidup</h6>
+                                <h6 style="color: #3167AF">2. Bahasa Indonesia (INDO) Paket A</h6>
                                 <ul>
                                     <li>I : Pendahuluan</li>
-                                    <li>II : Ciri-ciri benda di Lingkungan Kita</li>
-                                    <li>III : Pengklasifikasian Mahluk Hidup</li>
-                                    <li>IV : Kelompok Mahluk Hidup Berukuran Kecil</li>
-                                    <li>V : Kelompok Tumbuh-Tumbuhan</li>
+                                    <li>II : Memahami Gagasan Pokok dan Gagasan Pendukung dalam Teks</li>
+                                    <li>III : Memahami Informasi dalam Teks Berdasarkan Keterhubungan Antargagasan.</li>
+                                    <li>IV : Mengidentifikasi Paragraf yang Baik atau Padu</li>
+                                    <li>V : Menata Informasi Berdasarkan Keterhubungan Gagasan ke dalam Tulisan</li>
                                 </ul>
                                 <div class="container">
                                     <div class="row row-cols-2">
@@ -129,7 +129,7 @@
                                             </div>
                                         </div>
                                         <div class="col-2">
-                                            <button type="button" class="btn btn-light" style="background-color: #3167AF; color:#fff">Mulai Belajar</button>
+                                            <a type="button" class="btn btn-light" style="background-color: #3167AF; color:#fff" href="/indo">Mulai Belajar</a>
                                         </div>
                                     </div>
                                 </div>
@@ -137,13 +137,13 @@
                         </div>
                         <div class="card mb-2">
                             <div class="card-body">
-                                <h6 style="color: #3167AF">3. Suhu dan Kalor</h6>
+                                <h6 style="color: #3167AF">3. Ilmu Pengetahuan Sosial (IPS) Paket A</h6>
                                 <ul>
                                     <li>I : Pendahuluan</li>
-                                    <li>II : Suhu dan Pemuaian</li>
-                                    <li>III : Kalor</li>
-                                    <li>IV : Perpindahan Kalor serta Penerapannya</li>
-                                    <li>V : Tes Akhir</li>
+                                    <li>II : Kondisi Kependudukan</li>
+                                    <li>III : Peta Persebaran Jumlah Penduduk di Indonesia</li>
+                                    <li>IV : Peta Persebaran Hasil Bumi di Indonesia</li>
+                                    <li>V : Kelangkaan Sumber Daya Alam</li>
                                 </ul>
                                 <div class="container">
                                     <div class="row row-cols-2">
@@ -153,7 +153,7 @@
                                             </div>
                                         </div>
                                         <div class="col-2">
-                                            <button type="button" class="btn btn-light" style="background-color: #3167AF; color:#fff">Mulai Belajar</button>
+                                            <a type="button" class="btn btn-light" style="background-color: #3167AF; color:#fff" href="/ips">Mulai Belajar</a>
                                         </div>
                                     </div>
                                 </div>

@@ -78,7 +78,11 @@ Route::get('/keluar', [SiswaController::class, 'logout']);
 //Materi
 Route::get('/Materi', [MateriController::class, 'materi']);
 Route::get('/materidetail', [MateriController::class, 'materidetail']);
-Route::get('/isimateri', [MateriController::class, 'isimateri']);
+Route::get('/ipa', [MateriController::class, 'ipa']);
+Route::get('/ips', [MateriController::class, 'ips']);
+Route::get('/indo', [MateriController::class, 'indo']);
+
+
 
 //Coba Session
 Route::get('/session/get', [SessionController::class, 'getSessionData'])->name('session.get');
