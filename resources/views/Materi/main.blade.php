@@ -90,11 +90,9 @@
                             <div class="card">
                                 <img src="prettier/images/science.jpg" class="card-img-top" alt="ipa" width="250px" height="190px">
                                 <div class="card-body">
-                                    <h5 class="card-title">Ilmu Pengetahuan Alam</h5>
-                                    <p class="card-text">Ilmu alam mempelajari aspek-aspek fisik & nonmanusia tentang
-                                        Bumi
-                                        dan alam sekitarnya. Ilmu-ilmu alam membentuk landasan bagi ilmu terapan, yang
-                                        keduanya dibedakan dari ilmu sosial, humaniora, teologi, dan seni.</p>
+                                    <h5 class="card-title">Program Kesetaraan</h5>
+                                    <p class="card-text">Pendidikan kesetaraan adalah pendidikan non formal yang ditujukan kepada warga negara yang tidak
+                                         berkesempatan mengenyam pendidikan formal. Biasa dikenal sebagai Paket A,B dan C</p>
                                 </div>
                                 <div id="tugas" class="row justify-content-center">
                                     <div class="col-1">
@@ -123,11 +121,10 @@
                             <div class="card">
                                 <img src="prettier/images/mathematics.jpg" class="card-img-top" alt="mtk" width="250px" height="190px">
                                 <div class="card-body">
-                                    <h5 class="card-title">Matematika</h5>
-                                    <p class="card-text">Cabang matematika yang melingkupi penerapan 
-                                      pengetahuan matematika ke bidang-bidang lain, 
-                                      mengilhami dan membuat penggunaan temuan-temuan 
-                                      matematika baru seperti statistika dan teori permainan.</p>
+                                    <h5 class="card-title">Kursus dan Pelatihan</h5>
+                                    <p class="card-text">Merupakan layanan yang menyediakan kursus dan pelatihan, seperti kursus menjahit, kursus komputer dan lainnya
+                                        yang berguna untuk meningkatkan daya saing peserta didik di dunia kerja.
+                                    </p>
                                 </div>
                                 <div id="tugas" class="row justify-content-center">
                                     <div class="col-1">
@@ -147,16 +144,18 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="card-footer" style="background-color: #3167af;">
-                                <button class="btn text-light" style="width: 100%; color: #3167af;">LANJUTKAN</button>
+                            <div class="card-footer" style="background-color: #4d6a8f;">
+                                <button class="btn text-light" style="width: 100%; color: #4d6a8f;">KELAS BELUM DIBUKA</button>
                             </div>
                         </div>
                         <div class="col-4">
                             <div class="card">
                                 <img src="prettier/images/social.jpg" class="card-img-top" alt="ips" width="250px" height="190px">
                                 <div class="card-body">
-                                    <h5 class="card-title">Ilmu Pengetahuan Sosial</h5>
-                                    <p class="card-text">Sekelompok disiplin akademis yang mempelajari aspek-aspek yang berhubungan dengan manusia dan lingkungan sosialnya. Ilmu ini berbeda dengan seni dan humaniora yang menekankan kepada ilmu humaniora.</p>
+                                    <h5 class="card-title">Keaksaraan Buta Mandiri</h5>
+                                    <p class="card-text">Pendidikan keaksaraan adalah salah satu bentuk layanan Pendidikan non formal bagi warga masyarakat buta aksara untuk belajar membaca, menulis, dan berhitung. Agar peserta didik tidak tertinggal
+
+                                    </p>
                                 </div>
                                 <div id="tugas" class="row justify-content-center">
                                     <div class="col-1">
@@ -176,8 +175,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="card-footer" style="background-color: #3167af;">
-                                <button class="btn text-light" style="width: 100%; color: #3167af;">LANJUTKAN</button>
+                            <div class="card-footer" style="background-color: #4d6a8f;">
+                                <button class="btn text-light" style="width: 100%; color: #4d6a8f;">KELAS BELUM DIBUKA</button>
                             </div>
                         </div>
                     </div>
