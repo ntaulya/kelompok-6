@@ -76,14 +76,12 @@
 
 
             <div id="grid-right" class="pt-5 pb-5">
-                <div class="card">
-                    <h5>Ilmu Pengetahuan Alam</h5>
-                </div>
-                <div style="margin-bottom:0%">
+                <h5 style="margin-left: 10px">Ilmu Pengetahuan Alam</h5>
+                <div style="margin-bottom:0%; margin-left: 10px">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item active"><a href="/tugas">Semua Tugas</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Ilmu Pengetahuan Alam</li>
-                        <li class="breadcrumb-item" aria-current="page">Tugas BAB 1</li>
+                        <li class="breadcrumb-item"><a href="/tugas">Semua Tugas</a></li>
+                        <li class="breadcrumb-item"><a href="/tugas">Ilmu Pengetahuan Alam</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Tugas BAB 1</li>
                     </ol>
                 </div>
                 <div class="card">

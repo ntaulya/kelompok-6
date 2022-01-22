@@ -76,11 +76,11 @@
 
             {{-- right content --}}
             <div id="grid-right" class="pt-5 pb-5">
-                <h5 style="margin-left: 15px">Semua Tugas</h5>
+                <h5 style="margin-left: 10px">Semua Tugas</h5>
 
                 <div class="container mt-4">
                     <div class="row justify-content-start pb-5">
-                        <div class="card mb-3" style="width:100%; margin-left: 15px">
+                        <div class="card mb-3" style="width:100%; margin-left: 10px">
                             <div class="card-body">
                                 <h4 class="card-title">Ilmu Pengetahuan Alam</h4>
                                 <hr>
@@ -128,7 +128,7 @@
                         </div>
                         <br>
                         <!-- satu kotak-->
-                        <div class="card mb-3" style="width:100%; margin-left: 15px">
+                        <div class="card mb-3" style="width:100%; margin-left: 10px">
                             <div class="card-body">
                                 <h4 class="card-title">Matematika</h4>
                                 <hr>
@@ -176,7 +176,7 @@
                         </div>
                         <br>
                         <!-- satu kotak-->
-                        <div class="card mb-3" style="width:100%; margin-left: 15px">
+                        <div class="card mb-3" style="width:100%; margin-left: 10px">
                             <div class="card-body">
                                 <h4 class="card-title">Ilmu Pengetahuan Sosial</h4>
                                 <hr>
