@@ -4,20 +4,20 @@
 
 <div class="card border border-primary mb-5" style="width: 100%;">
     <div class="card-body mb-5">
-      <h4 class="card-title text-center mb-5 pb-2" style="color: #3167AF;">Daftar Akun</h4>
+      <h4 class="card-title text-center mb-5 pb-2" style="color: #3167AF; margin-top: 25px;">Daftar Akun</h4>
       <form action="{{ route('daftar_store') }}" method="POST" enctype="multipart/form-data">
         @csrf
         <div class="form-group row mt-5">
           <label for="inputPassword" class="col-sm-2 col-form-label">Nama Lengkap</label>
           <div class="col-sm-10">
-            <input type="text" class="form-control" id="inputPassword" placeholder="" name="nama">
+            <input type="text" class="form-control" id="inputPassword" placeholder="Masukkan Nama Lengkap" name="nama">
           </div>
         </div>
 
         <div class="form-group row mt-3">
           <label for="inputPassword" class="col-sm-2 col-form-label">Nomor ID Siswa</label>
           <div class="col-sm-10">
-            <input type="text" class="form-control" id="inputPassword" placeholder="" name="no_id">
+            <input type="text" class="form-control" id="inputPassword" placeholder="Masukkan Nomor ID Siswa" name="no_id">
           </div>
         </div>
 
@@ -48,21 +48,21 @@
         <div class="form-group row mt-3">
           <label for="inputPassword" class="col-sm-2 col-form-label">E-mail</label>
           <div class="col-sm-10">
-            <input type="email" class="form-control" id="inputPassword" placeholder="" name="email">
+            <input type="email" class="form-control" id="inputPassword" placeholder="Masukkan E-mail" name="email">
           </div>
         </div>
 
         <div class="form-group row mt-3">
           <label for="inputPassword" class="col-sm-2 col-form-label">Kata Sandi</label>
           <div class="col-sm-10">
-            <input type="password" class="form-control" id="inputPassword" placeholder="" name="password">
+            <input type="password" class="form-control" id="inputPassword" placeholder="Masukkan Kata Sandi" name="password">
           </div>
         </div>
 
         <div class="form-group row mt-3">
             <label for="inputPassword" class="col-sm-2 col-form-label">Konfirmasi Kata Sandi</label>
             <div class="col-sm-10">
-              <input type="password" class="form-control" id="inputPassword" placeholder="" name="password_confirmation">
+              <input type="password" class="form-control" id="inputPassword" placeholder="Konfirmasi Kata Sandi" name="password_confirmation">
             </div>
           </div>
 
@@ -72,7 +72,7 @@
         </div>
 
         <div class="container text-center mt-5">
-          <input type="submit" class="btn" style="background-color: #F7DE06; color: #3167AF;" value="Daftar"/>
+          <button type="button" class="btn" style="background-color: #F7DE06; color: #3167AF; text-decoration: none; padding: 8px 30px 8px 30px;"><b>Daftar</b></button>
         </div>
 
       </form>
