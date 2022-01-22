@@ -66,10 +66,10 @@
                 </div>
                 <div id="tugas" class="row justify-content-center">
                     <div class="col-1">
-                      <img src="prettier/emoji/tugas.png" alt="..">
+                        <i class="fa fa-tasks" style='color:#9c9ea1;' aria-hidden="true"></i>
                     </div>
                     <div class="col-6">
-                      <p>Tugas</p>
+                      <a href="/tugas" style="text-decoration: none; color:#9c9ea1;">Tugas</a>
                     </div>
                 </div>
             </div>
