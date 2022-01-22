@@ -73,6 +73,7 @@ Route::get('/lihatsiswa', [AdminController::class, 'lihatsiswa']);
 //Login
 Route::get('/masuk', [SiswaController::class, 'login']);
 Route::post('/masuk', [SiswaController::class, 'authenticate'])->name('login');
+Route::get('/keluar', [SiswaController::class, 'logout']);
 
 //Materi
 Route::get('/Materi', [MateriController::class, 'materi']);
