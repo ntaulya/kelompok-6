@@ -60,7 +60,7 @@
             <div id="grid-left" class="pt-5 pb-5">
                 <div id="tugas" class="row justify-content-center">
                     <div class="col-1">
-                        <img src="prettier/emoji/kelas.png" alt="..">
+                        <i class="fa fa-book" style="color:#3167AF;" aria-hidden="true"></i>
                     </div>
                     <div class="col-6">
                       <p class="kelas" style="color:#3167AF">Kelas</p>
@@ -69,10 +69,10 @@
  
                 <div id="tugas" class="row justify-content-center">
                     <div class="col-1">
-                      <img src="prettier/emoji/tugas.png" alt="..">
+                        <i class="fa fa-tasks" style='color:#9c9ea1' aria-hidden="true"></i>
                     </div>
                     <div class="col-6">
-                      <p>Tugas</p>
+                      <a href="/tugas" style="text-decoration: none; color:#9c9ea1">Tugas</a>
                     </div>
                 </div>
             </div>
@@ -154,7 +154,7 @@
                                 <div class="card-body">
                                     <h5 class="card-title">Keaksaraan Buta Mandiri</h5>
                                     <p class="card-text">Pendidikan keaksaraan adalah salah satu bentuk layanan Pendidikan non formal bagi warga masyarakat buta aksara untuk belajar membaca, menulis, dan berhitung. Agar peserta didik tidak tertinggal
-
+ 
                                     </p>
                                 </div>
                                 <div id="tugas" class="row justify-content-center">
