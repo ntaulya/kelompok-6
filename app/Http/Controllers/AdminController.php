@@ -12,7 +12,11 @@ class AdminController extends Controller
         return view('Admin.main');
     }
 
-    public function lihatsiswa(){
-        return view('Admin.lihatsiswa');
+    public function lihatsiswa(Request $request)
+    {
+        $id = $request->get('id');
+        $users = User::find($id);
+
+        return view('Admin.main', ['pages' => 'main'], compact('users'));
     }
 }
