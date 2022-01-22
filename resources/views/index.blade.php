@@ -12,7 +12,7 @@
 
   {{-- NAVBAR --}}
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #3167AF">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.php">
           {{-- Logo PKBM --}}
           <div class="container">
             <div class="row">
@@ -62,7 +62,7 @@
       <h4 class="judul text-center">Tentang</h4>
       <div class="row">
         <div class="col-sm-2">
-          <img class="tentang" src="prettier/images/ink.png" width="200px" width="200px">
+          <img class="tentang" src="prettier/images/ink.png" width="200px">
         </div>
         <div class="col-sm-9 mt-2" style="color:white; font-size: 19px;">
           Pusat Kegiatan Belajar Masyarakat (PKBM) At-Taufiq adalah lembaga yang dibentuk 
@@ -74,10 +74,10 @@
       </div>
     </div>
     
-    <div class="container mt-5">
+    <div class="container" style="padding-top: 60px; padding-bottom: 50px;">
       <div class="row">
         <div class="col-sm-2">
-          <img class="visi-misi-gambar" src="prettier/images/visi-misi.png" width="200px" width="200px">
+          <img class="visi-misi-gambar" src="prettier/images/visi-misi.png" width="200px">
         </div>
         <div class="col-sm-10">
           <h5 class="visi-judul text-right">Visi</h5>
@@ -97,11 +97,11 @@
         <h5 class="judul text-center">Mengapa PKBM?</h5>
         <div class="row">
           <div class="col-sm-12 mt-2" style="color:white;">
-            <img class="ceklis" src="prettier/emoji/checklist-emoji.png" width="20px" width="20px">
+            <img class="ceklis" src="prettier/emoji/checklist-emoji.png" width="20px">
             Pembelajaran pada PKBM sudah setara dengan pendidikan formal
           </div>
           <div class="col-sm-12 mt-3" style="color:white;">
-            <img class="ceklis" src="prettier/emoji/checklist-emoji.png" width="20px" width="20px">
+            <img class="ceklis" src="prettier/emoji/checklist-emoji.png" width="20px">
             Di PKBM menyediakan layanan program berupa:
             <ul>
               <li>Pendidikan Anak Usia Dini (PAUD)</li>
@@ -113,19 +113,19 @@
             </ul>
           </div>
           <div class="col-sm-12" style="color:white;">
-            <img class="ceklis" src="prettier/emoji/checklist-emoji.png" width="20px" width="20px">
+            <img class="ceklis" src="prettier/emoji/checklist-emoji.png" width="20px">
             Meningkatkan kemandirian dan kreativitas peserta didik
           </div>
           <div class="col-sm-12 mt-3" style="color:white;">
-            <img class="ceklis" src="prettier/emoji/checklist-emoji.png" width="20px" width="20px">
+            <img class="ceklis" src="prettier/emoji/checklist-emoji.png" width="20px">
             Pembelajaran peserta didik  merupakan pembelajaran yang fleksibel, dapat dilakukan dimana saja dan kapan saja
           </div>
           <div class="col-sm-12 mt-3" style="color:white;">
-            <img class="ceklis" src="prettier/emoji/checklist-emoji.png" width="20px" width="20px">
+            <img class="ceklis" src="prettier/emoji/checklist-emoji.png" width="20px">
             Pembelajaran peserta didik menerapkan teori dalam praktik nyata sehingga kedepannya lebih mudah dalam penerapan kehidupan sehari-hari 
           </div>
           <div class="col-sm-12 mt-3" style="color:white;">
-            <img class="ceklis" src="prettier/emoji/checklist-emoji.png" width="20px" width="20px">
+            <img class="ceklis" src="prettier/emoji/checklist-emoji.png" width="20px">
             Peserta didik memperoleh keterampilan yang dapat digunakan ketika lulus pembelajaran 
           </div>
         </div>

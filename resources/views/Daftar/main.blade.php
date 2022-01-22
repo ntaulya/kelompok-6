@@ -4,7 +4,7 @@
 
 <div class="card border border-primary mb-5" style="width: 100%;">
     <div class="card-body mb-5">
-      <h5 class="card-title text-center text-primary mb-5 pb-2">Daftar Akun</h5>
+      <h4 class="card-title text-center mb-5 pb-2" style="color: #3167AF;">Daftar Akun</h4>
       <form action="{{ route('daftar_store') }}" method="POST" enctype="multipart/form-data">
         @csrf
         <div class="form-group row mt-5">
@@ -72,7 +72,7 @@
         </div>
 
         <div class="container text-center mt-5">
-          <input type="submit" class="btn btn-primary" value="Daftar"/>
+          <input type="submit" class="btn" style="background-color: #F7DE06; color: #3167AF;" value="Daftar"/>
         </div>
 
       </form>

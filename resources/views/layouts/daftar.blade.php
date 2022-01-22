@@ -12,7 +12,7 @@
 
   {{-- NAVBAR --}}
   <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #3167AF">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="index.php">
       {{-- Logo PKBM --}}
       <div class="container">
         <div class="row">
