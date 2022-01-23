@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="prettier/main.css">
-    <title>Materi Pembelajaran</title>
+    <title>Upload Tugas</title>
 </head>
 
 <body>
@@ -84,30 +84,37 @@
                         <li class="breadcrumb-item active" aria-current="page">Tugas BAB 1</li>
                     </ol>
                 </div>
-                <div class="card">
+                <div class="card" style="margin-left: 10px">
                     <div class="card-body">
-                        <h5 class="text-primary">Tugas BAB 1</h5>
-                        <p class="card-text">Tugas:</p>
-                        <p class="card-text">1. Membuat jangka sorong</p>
-                        <p class="card-text">2. Memodifikasi jangka sorong</p>
+                        <h5 class="text-primary">Tugas BAB 1</h5><br>
+                        <p class="card-text">Tugas :<br>
+                            1. Membuat jangka sorong<br>
+                            2. Memodifikasi jangka sorong
+                        </p>
                         <div class="container">
                             <div class="row justify-content-md-center">
                                 <div class="col col-lg-2">
-
-                                </div>
-                                <div class="col-md-auto">
-                                    <div class="text-center">
-                                        <img src="prettier\images\upload.png" width="80" height="80" class="rounded" alt="upload">
-                                    </div>
-                                </div>
-                                <div class="col col-lg-2">
-                                </div>
-                                <div class="text-center"><a><button type="button" class="btn btn-secondary btn-sm">Pilih File</button></a></div>
-                                <div class="text-center"><p>Atau tarik kesini</p></div>
                             </div>
-
-
+                            <div class="col-md-auto">
+                                <div class="text-center">
+                                    <img src="prettier\images\upload.png" width="80" height="80" class="rounded" alt="upload">
+                                </div>
+                            </div>
+                            <div class="col col-lg-2">
+                                </div>
+                                <form>
+                                    <div class="form-group">
+                                      <input type="file" class="form-control-file" id="exampleFormControlFile1" style="margin-left: 400px">
+                                      <p class="text-center">Atau tarik kesini</p>
+                                    </div>
+                                  </form>
+                                </div>
+                            </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     {{-- FOOTER --}}

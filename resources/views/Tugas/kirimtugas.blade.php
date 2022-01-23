@@ -18,7 +18,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-2 mx-2 mb-2">
-                        <img src="prettier/images/pkbm.png" width="40" height="50" class="d-inline" style="margin-right:10px;" alt="">
+                        <img src="prettier/images/pkbm.png" width="40" height="51" class="d-inline" style="margin-right:10px;" alt="">
                         <p class="d-inline mx-2 pb-0 mb-0" style="color:white;">PKBM At-Taufiq</p>
                     </div>
                 </div>

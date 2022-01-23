@@ -59,6 +59,10 @@ Route::get('/kumpultugas', function () {
     return view('tugas.kumpultugas');
 });
 
+Route::get('/kirimtugas', function () {
+    return view('tugas.kirimtugas');
+});
+
 
 
 // Route::get('/mahasiswa', [MahasiswaController::class, 'mahasiswa']);
