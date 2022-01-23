@@ -5,6 +5,8 @@
     @if ( !$users->count() )
         Tidak ada data pengguna!
     @else  
+    @php $nomor = 0; @endphp
+    @php $nomor++; @endphp
     <table class="table">
         <thead>
             <tr>
@@ -20,7 +22,7 @@
         <tbody>
             @foreach( $users as $user )
             <tr>
-                <td></td>
+                <td>@php $nomor @endphp</td>
                 <td>{{$user->name }}</td>
                 <td>{{$user->nomor_id }}</td>
                 <td>{{$user->email }}</td>
