@@ -81,7 +81,7 @@
             <div id="grid-right" class="pt-5 pb-5">
                 <div style="margin-bottom:0%; margin-left:15px">
                     <ol class="breadcrumb">
-                      <li class="breadcrumb-item"><a href="/Materi">Semua Kelas</a></li>
+                      <li class="breadcrumb-item"><a href="/Materi" style="text-decoration: none;">Semua Kelas</a></li>
                       <li class="breadcrumb-item active" aria-current="page">Program Kesetaraan</li>
                     </ol>
                 </div>

@@ -5,8 +5,8 @@
     {{-- ISI MATERI --}}
       <div style="margin-bottom:0%; margin-top:20px">
           <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="/Materi">Semua Kelas</a></li>
-            <li class="breadcrumb-item"><a href="/materidetail">Konten Pelajaran</a></li>
+            <li class="breadcrumb-item"><a href="/Materi" style="text-decoration: none;">Semua Kelas</a></li>
+            <li class="breadcrumb-item"><a href="/materidetail" style="text-decoration: none;">Konten Pelajaran</a></li>
             <li class="breadcrumb-item active" aria-current="page">Ilmu Pengetahuan Alam (IPA) Paket A</li>
           </ol>
       </div>
