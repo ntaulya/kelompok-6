@@ -71,7 +71,7 @@
         </div>
 
         <div class="container text-center mt-5">
-          <a href="" class="btn btn-primary">Edit Profile</a></button>
+          <a href="/editprofile" class="btn btn-primary">Edit Profile</a></button>
         </div>
 
       </form>

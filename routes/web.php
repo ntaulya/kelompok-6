@@ -28,17 +28,17 @@ Route::post('/daftar-ujian', [RegisterLokasiController::class, 'store'])->name('
 Route::get('/lokasi', [RegisterLokasiController::class, 'index']);
 Route::get('/taufiq', [RegisterLokasiController::class, 'taufiq']);
 Route::get('/taqwa', [RegisterLokasiController::class, 'taqwa']);
-Route::get('/RegLok1', [RegisterLokasiController::class, 'RegLok1']);
-Route::get('/Reglok2', [RegisterLokasiController::class, 'RegLok2']);
-Route::get('/suksesdaftar', [RegisterLokasiController::class, 'suksesdaftar']);
+Route::get('/RegLok1', [RegisterLokasiController::class, 'RegisLok1']);
+Route::get('/Reglok2', [RegisterLokasiController::class, 'RegisLok2']);
+Route::get('/suksesDaftar', [RegisterLokasiController::class, 'suksesDaftar']);
 
 //Profile
 Route::get('/profilku', [ProfileController::class, 'index'])->name('profile');
 
 //Tugas
-Route::get('/tugas', [RegisterLokasiController::class, 'index']);
-Route::get('/kumpultugas', [RegisterLokasiController::class, 'kumpultugas']);
-Route::get('/kirimtugas', [RegisterLokasiController::class, 'kirimtugas']);
+Route::get('/tugas', [TugasController::class, 'index']);
+Route::get('/kumpultugas', [TugasController::class, 'kumpultugas']);
+Route::get('/kirimtugas', [TugasController::class, 'kirimtugas']);
 
 //Daftar
 Route::get('/daftar', [SiswaController::class, 'index']);

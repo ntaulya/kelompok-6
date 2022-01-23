@@ -36,15 +36,15 @@ class RegisterLokasiController extends Controller
         return view('lokasi.taqwa');
     }
 
-    public function RegLok1 (Request $request) {
-        return view('lokasi.RegLok1');
+    public function RegisLok1 (Request $request) {
+        return view('lokasi.RegisLok1');
     }
 
-    public function RegLok2 (Request $request) {
-        return view('lokasi.RegLok2');
+    public function RegisLok2 (Request $request) {
+        return view('lokasi.RegisLok2');
     }
 
-    public function suksesdaftar (Request $request) {
+    public function suksesDaftar (Request $request) {
         return view('lokasi.suksesdaftar');
     }
 }
