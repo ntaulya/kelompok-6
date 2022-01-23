@@ -4,6 +4,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SiswaController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\MateriController;
+use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\RegisterLokasiController;
 use App\Http\Controllers\SessionController;
 
 /*
@@ -41,13 +43,13 @@ Route::get('/RegLok2', function () {
     return view('lokasi.RegisLok2');
 });
 
+Route::post('/daftar-ujian', [RegisterLokasiController::class, 'store'])->name('daftar-ujian');
+
 Route::get('/suksesdaftar', function () {
     return view('lokasi.suksesdaftar');
-});
+})->name('suksesDaftar');
 
-Route::get('/profilku', function () {
-    return view('Profile.profilku');
-});
+Route::get('/profilku', [ProfileController::class, 'index'])->name('profile');
 
 //tugas
 Route::get('/tugas', function () {
