@@ -1,4 +1,4 @@
-@extends('layouts.main')
+@extends('layouts.pengaturan')
 @section('title','Profil Saya')
 @section('container')
 
