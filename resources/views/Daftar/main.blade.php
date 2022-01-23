@@ -72,7 +72,7 @@
         </div>
 
         <div class="container text-center mt-5">
-          <button type="button" class="btn" style="background-color: #F7DE06; color: #3167AF; text-decoration: none; padding: 8px 30px 8px 30px;"><b>Daftar</b></button>
+          <button type="submit" class="btn" style="background-color: #F7DE06; color: #3167AF; text-decoration: none; padding: 8px 30px 8px 30px;"><b>Daftar</b></button>
         </div>
 
       </form>
