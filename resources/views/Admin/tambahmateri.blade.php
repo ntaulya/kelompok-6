@@ -4,30 +4,32 @@
 
 <div class="card border border-primary mb-5" style="width: 100%;">
     <div class="card-body mb-5">
+    <h5 class="text-center">Tambah Materi</h5>
       <form class="form-inline">
         <div class="form-group row mt-5">
           <label for="inputPassword" class="col-sm-2 col-form-label">Nama Lengkap</label>
           <div class="col-sm-10">
-            <input type="text" class="form-control" id="inputPassword" value="{{ auth()->user()->name }}" readonly>
+            <input type="text" class="form-control" id="inputPassword" value="" readonly>
           </div>
         </div>
 
         <div class="form-group row mt-3">
           <label for="inputPassword" class="col-sm-2 col-form-label">Nomor ID Siswa</label>
           <div class="col-sm-10">
-            <input type="text" class="form-control" id="inputPassword" value="{{ auth()->user()->nomor_id }}" readonly>
+            <input type="text" class="form-control" id="inputPassword" value="" readonly>
           </div>
         </div>
 
         <div class="form-group row mt-3">
           <label for="inputPassword" class="col-sm-2 col-form-label">Paket Program</label>
           <div class="col-sm-10">
-            <input type="text" class="form-control" id="inputPassword" value="{{ Auth::user()->paket_program }}" readonly>
+            <input type="text" class="form-control" id="inputPassword" value="" readonly>
           </div>
         </div>
 
         <div class="form-group row mt-3">
             <label for="exampleFormControlSelect1">Mata Pelajaran</label>
+            <div class="col-sm-10">
                 <select class="form-control" id="exampleFormControlSelect1">
                     <option>IPA</option>
                     <option>Matematika</option>
@@ -35,6 +37,7 @@
                     <option>Bahasa Indonesia</option>
                     <option>Bahasa Inggris</option>
                 </select>
+            </div>
         </div>
 
         <div class="form-group row mt-3">
@@ -59,7 +62,8 @@
         </div>
 
         <div class="container text-center mt-5">
-          <a href="" class="btn btn-primary">Tambah Materi</a></button>
+          <a href="" class="btn btn-primary">Tambah Materi</a>
+          <a href="" class="btn btn-warning" style="margin-left: 10px">Batalkan</a>
         </div>
 
       </form>

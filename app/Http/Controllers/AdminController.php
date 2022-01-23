@@ -16,6 +16,6 @@ class AdminController extends Controller
     }
 
     public function tambahmateri() {
-        return view(Admin.tambahmateri);
+        return view('Admin.tambahmateri');
     }
 }
