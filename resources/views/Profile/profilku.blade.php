@@ -45,28 +45,28 @@
         <div class="form-group row mt-3">
           <label for="inputPassword" class="col-sm-2 col-form-label">Mata Pelajaran</label>
           <div class="col-sm-10">
-            <input type="text" class="form-control" id="inputPassword" value="{{ $data_ujian->mata_pelajaran }}" readonly>
+            <input type="text" class="form-control" id="inputPassword" value="{{ $data_ujian->mata_pelajaran ?? 'Tidak ada mata pelajaran yang diuji'}}" readonly>
           </div>
         </div>
 
         <div class="form-group row mt-3">
           <label for="inputPassword" class="col-sm-2 col-form-label">Tanggal Ujian</label>
           <div class="col-sm-10">
-            <input type="text" class="form-control" id="inputPassword" value="{{ $data_ujian->tanggal_ujian }}" readonly>
+            <input type="text" class="form-control" id="inputPassword" value="{{ $data_ujian->tanggal_ujian ?? 'Jadwal Ujian belum tersedia'}}" readonly>
           </div>
         </div>
 
         <div class="form-group row mt-3">
           <label for="inputPassword" class="col-sm-2 col-form-label">Jam Ujian</label>
           <div class="col-sm-10">
-            <input type="text" class="form-control" id="inputPassword" value="{{ $data_ujian->jam_ujian }}" readonly>
+            <input type="text" class="form-control" id="inputPassword" value="{{ $data_ujian->jam_ujian ?? 'Jam Ujian belum tersedia'}}" readonly>
           </div>
         </div>
 
         <div class="form-group row mt-3">
           <label for="inputPassword" class="col-sm-2 col-form-label">Lokasi Ujian</label>
           <div class="col-sm-10">
-            <input type="text" class="form-control" id="inputPassword" value="{{ $data_ujian->lokasi_ujian }}" readonly>
+            <input type="text" class="form-control" id="inputPassword" value="{{ $data_ujian->lokasi_ujian ?? 'Lokasi Ujian belum tersedia'}}" readonly>
           </div>
         </div>
 
