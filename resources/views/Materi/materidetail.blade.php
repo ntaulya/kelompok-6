@@ -56,20 +56,21 @@
         <div class="grid-container">
             <!-- left content -->
             <div id="grid-left" class="pt-5 pb-5">
-                <div id="kelas" class="row justify-content-center">
+                <div id="tugas" class="row justify-content-center">
                     <div class="col-1">
-                        <img src="prettier/emoji/kelas.png" alt="..">
+                        <i class="fa fa-book" style="color:#3167AF;" aria-hidden="true"></i>
                     </div>
                     <div class="col-6">
                       <p class="kelas" style="color:#3167AF">Kelas</p>
                     </div>
                 </div>
+ 
                 <div id="tugas" class="row justify-content-center">
                     <div class="col-1">
-                        <i class="fa fa-tasks" style='color:#9c9ea1;' aria-hidden="true"></i>
+                        <i class="fa fa-tasks" style='color:#9c9ea1' aria-hidden="true"></i>
                     </div>
                     <div class="col-6">
-                      <a href="/tugas" style="text-decoration: none; color:#9c9ea1;">Tugas</a>
+                      <a href="/tugas" style="text-decoration: none; color:#9c9ea1">Tugas</a>
                     </div>
                 </div>
             </div>
