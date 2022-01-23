@@ -2,7 +2,9 @@
 @section('title','Admin Page')
 @section('container')
 
-    <? $nomor = 0; ?>
+    @if ( !$users->count() )
+        Tidak ada data pengguna!
+    @else  
     <table class="table">
         <thead>
             <tr>
@@ -36,5 +38,6 @@
             @endforeach
         </tbody>
     </table>
+    @endif
 
 @endsection
