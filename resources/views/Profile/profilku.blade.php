@@ -24,24 +24,7 @@
         <div class="form-group row mt-3">
           <label for="inputPassword" class="col-sm-2 col-form-label">Paket Program</label>
           <div class="col-sm-10">
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="{{ auth()->user()->paket_program }}">
-              <label class="form-check-label" for="exampleRadios1">
-                Paket Kesetaraan A
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="{{ auth()->user()->paket_program }}">
-              <label class="form-check-label" for="exampleRadios2">
-                Paket Kesetaraan B
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="{{ auth()->user()->paket_program }}">
-              <label class="form-check-label" for="exampleRadios3">
-                Paket Kesetaraan C
-              </label>
-            </div>
+            <input type="text" class="form-control" id="inputPassword" value="{{ Auth::user()->paket_program }}" readonly>
           </div>
         </div>
 
@@ -56,6 +39,34 @@
           <label for="inputPassword" class="col-sm-2 col-form-label">Kata Sandi</label>
           <div class="col-sm-10">
             <input type="password" class="form-control" id="inputPassword" value="{{ auth()->user()->password }}" readonly>
+          </div>
+        </div>
+
+        <div class="form-group row mt-3">
+          <label for="inputPassword" class="col-sm-2 col-form-label">Mata Pelajaran</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="inputPassword" value="{{ $data_ujian->mata_pelajaran }}" readonly>
+          </div>
+        </div>
+
+        <div class="form-group row mt-3">
+          <label for="inputPassword" class="col-sm-2 col-form-label">Tanggal Ujian</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="inputPassword" value="{{ $data_ujian->tanggal_ujian }}" readonly>
+          </div>
+        </div>
+
+        <div class="form-group row mt-3">
+          <label for="inputPassword" class="col-sm-2 col-form-label">Jam Ujian</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="inputPassword" value="{{ $data_ujian->jam_ujian }}" readonly>
+          </div>
+        </div>
+
+        <div class="form-group row mt-3">
+          <label for="inputPassword" class="col-sm-2 col-form-label">Lokasi Ujian</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="inputPassword" value="{{ $data_ujian->lokasi_ujian }}" readonly>
           </div>
         </div>
 
