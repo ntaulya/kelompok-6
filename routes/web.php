@@ -6,7 +6,6 @@ use App\Http\Controllers\AdminController;
 use App\Http\Controllers\MateriController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\RegisterLokasiController;
-use App\Http\Controllers\SessionController;
 
 /*
 |--------------------------------------------------------------------------
@@ -83,10 +82,3 @@ Route::get('/materidetail', [MateriController::class, 'materidetail']);
 Route::get('/ipa', [MateriController::class, 'ipa']);
 Route::get('/ips', [MateriController::class, 'ips']);
 Route::get('/indo', [MateriController::class, 'indo']);
-
-
-
-//Coba Session
-Route::get('/session/get', [SessionController::class, 'getSessionData'])->name('session.get');
-Route::get('/session/set', [SessionController::class, 'storeSessionData'])->name('session.store');
-Route::get('/session/remove', [SessionController::class, 'deleteSessionData']);
