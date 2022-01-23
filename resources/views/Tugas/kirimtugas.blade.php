@@ -60,24 +60,26 @@
             <div id="grid-left" class="pt-5 pb-5">
                 <div id="tugas" class="row justify-content-center">
                     <div class="col-1">
-                        <img src="prettier/emoji/kelas.png" alt="..">
+                        <i class="fa fa-book" style="color:#9c9ea1;" aria-hidden="true"></i>
                     </div>
                     <div class="col-6">
-                        <p class="kelas" style="color:#3167AF">Kelas</p>
+                        <a href="/Materi" style="text-decoration:none;">
+                            <p class="kelas" style="color:#9c9ea1;">Kelas</p>
+                        </a>
                     </div>
                 </div>
 
                 <div id="tugas" class="row justify-content-center">
                     <div class="col-1">
-                        <img src="prettier/emoji/tugas.png" alt="..">
+                        <i class="fa fa-tasks" style='color:#3167AF' aria-hidden="true"></i>
                     </div>
                     <div class="col-6">
-                        <p>Tugas</p>
+                        <a href="/tugas" style="text-decoration: none; color:#3167AF">Tugas</a>
                     </div>
                 </div>
             </div>
 
-
+            {{-- right content --}}
             <div id="grid-right" class="pt-5 pb-5">
                 <h5 style="margin-left: 10px">Ilmu Pengetahuan Alam</h5>
                 <div style="margin-bottom:0%; margin-left: 10px">

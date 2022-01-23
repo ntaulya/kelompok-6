@@ -79,7 +79,7 @@
                 </div>
             </div>
 
-
+            {{-- right content --}}
             <div id="grid-right" class="pt-5 pb-5">
                 <div class="card">
                     <h5>Semua Tugas</h5>
