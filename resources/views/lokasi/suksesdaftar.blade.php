@@ -1,4 +1,4 @@
-@extends('layouts.main')
+@extends('layouts.lokasi')
 @section('title','Berhasil Daftar Lokasi Ujian')
 @section('container')
 
