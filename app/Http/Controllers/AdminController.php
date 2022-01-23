@@ -11,8 +11,4 @@ class AdminController extends Controller
     {
         return view('Admin.main');
     }
-
-    public function lihatsiswa(){
-        return view('Admin.lihatsiswa');
-    }
 }

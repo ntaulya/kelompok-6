@@ -69,7 +69,6 @@ Route::get('/admin', [AdminController::class]);
 
 // Admin
 Route::get('/Admin', [AdminController::class, 'index']);
-Route::get('/lihatsiswa', [AdminController::class, 'lihatsiswa']);
 
 //Login
 Route::get('/masuk', [SiswaController::class, 'login']);
