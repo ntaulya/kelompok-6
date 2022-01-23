@@ -13,38 +13,41 @@
 <body>
     {{-- NAVBAR --}}
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #3167AF">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="/Materi">
             {{-- Logo PKBM --}}
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-2 mx-2 mb-2">
-                        <img src="prettier/images/pkbm.png" width="40" height="50" class="d-inline" style="margin-right:10px;" alt="">
-                        <p class="d-inline mx-2 pb-0 mb-0" style="color:white;">PKBM At-Taufiq</p>
-                    </div>
+                  <div class="col-lg-2 mb-2" style="margin-left: 10px; margin-right: 17px;">
+                    <img src="prettier/images/pkbm.png" width="40" height="50" class="d-inline" style="" alt="">
+                  </div>
+                  <div class="col-lg-2" style="margin-top: 15px;">
+                    <p class="d-inline pb-0 mb-0" style="color:white;">PKBM At-Taufiq</p>
+                  </div>
                 </div>
-            </div>
+              </div>
             {{-- END OF LOGO --}}
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse" id="navbarNav" style="margin-left: 110px;">
             <ul class="navbar-nav">
                 <li class="nav-materi">
-                    <a class="nav-link" style="color: #fff" href="/materi">Materi Pembelajaran</a>
+                    <a class="nav-link" style="color: #F7DE06" href="/Materi" style="margin-left: 20px;">Materi Pembelajaran</a>
                 </li>
                 <li class="nav-peta">
-                    <a class="nav-link" style="color: #fff" href="/lokasi">Peta Lokasi</a>
+                    <a class="nav-link" style="color: #fff" href="/lokasi" style="margin-left: 20px;">Peta Lokasi</a>
                 </li>
-                <div class="dropdown">
+                <div class="dropdown" style="margin-left: 15px;">
                     <button class="dropbtn" onclick="myFunction()">Pengaturan
-                        <i class="fa fa-caret-down"></i>
+                      <i class="fa fa-caret-down"></i>
                     </button>
                     <div class="dropdown-content" id="myDropdown">
-                        <a href="/profilku">Profilku</a>
-                        <a href="/keluar">Keluar</a>
+                      <a href="/profilku">Profilku</a>
+                      <a href="/keluar">Keluar</a>
                     </div>
-                </div>
+                </div> 
             </ul>
         </div>
     </nav>
