@@ -63,6 +63,9 @@ Route::get('/kirimtugas', function () {
     return view('tugas.kirimtugas');
 });
 
+Route::get('/tugaskekirim', function () {
+    return view('tugas.tugaskekirim');
+});
 
 
 //Daftar
