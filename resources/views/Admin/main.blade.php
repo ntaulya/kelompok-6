@@ -2,7 +2,7 @@
 @section('title','Admin Page')
 @section('container')
 
-    <? $nomor = 1; ?>
+    <? $nomor = 0; ?>
     <table class="table">
         <thead>
             <tr>
@@ -18,17 +18,17 @@
         <tbody>
             @foreach( $users as $user )
             <tr>
-                <td><? $nomor++ ?></td>
+                <td></td>
                 <td>{{$user->name }}</td>
                 <td>{{$user->nomor_id }}</td>
                 <td>{{$user->email }}</td>
                 <td>{{$user->paket_program }}</td>
                 <td>{{$user->ktp_kk }}</td>
                 <div class="row">
-                    <td>
+                    <td class="col-lg-6">
                         <button type="button" class="btn btn-primary">Tambah Materi</button>
                     </td>
-                    <td>
+                    <td class="col-lg-6">
                         <button type="button" class="btn btn-warning">Tambah Tugas</button>
                     </td>
                 </div>
