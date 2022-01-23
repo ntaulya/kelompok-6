@@ -65,14 +65,13 @@ Route::get('/kirimtugas', function () {
 
 
 
-// Route::get('/mahasiswa', [MahasiswaController::class, 'mahasiswa']);
+//Daftar
 Route::get('/daftar', [SiswaController::class, 'index']);
 Route::post('/daftar', [SiswaController::class, 'store'])->name('daftar_store');
-Route::get('/siswa', [SiswaController::class]);
-Route::get('/admin', [AdminController::class]);
 
 // Admin
 Route::get('/Admin', [AdminController::class, 'index']);
+Route::get('/tambahmateri', [AdminController::class, 'tambahmateri']);
 
 //Login
 Route::get('/masuk', [SiswaController::class, 'login']);

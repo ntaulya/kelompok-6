@@ -5,8 +5,7 @@
     @if ( !$users->count() )
         Tidak ada data pengguna!
     @else  
-    @php $nomor = 0; @endphp
-    @php $nomor++; @endphp
+    <?php $nomor = 0; ?>
     <table class="table">
         <thead>
             <tr>
@@ -21,8 +20,9 @@
         </thead>
         <tbody>
             @foreach( $users as $user )
+            <?php $nomor++; ?>
             <tr>
-                <td>@php $nomor @endphp</td>
+                <td>{{ $nomor }}</td>
                 <td>{{$user->name }}</td>
                 <td>{{$user->nomor_id }}</td>
                 <td>{{$user->email }}</td>
@@ -30,10 +30,10 @@
                 <td>{{$user->ktp_kk }}</td>
                 <div class="row">
                     <td class="col-lg-6">
-                        <button type="button" class="btn btn-primary">Tambah Materi</button>
+                        <a type="button" class="btn btn-primary" href="/tambahmateri">Tambah Materi</a>
                     </td>
                     <td class="col-lg-6">
-                        <button type="button" class="btn btn-warning">Tambah Tugas</button>
+                        <a type="button" class="btn btn-warning" href="/tambahtugas">Tambah Tugas</a>
                     </td>
                 </div>
             </tr>

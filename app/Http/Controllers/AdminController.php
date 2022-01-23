@@ -10,8 +10,12 @@ class AdminController extends Controller
 {
     public function index()
     {
-        $users = DB::table('users')->select('id','name','nomor_id', 'email', 'paket_program', 'ktp_kk')->get();
+        $users = DB::table('users')->select('id','name','nomor_id', 'email', 'paket_program', 'ktp_kk')->where('is_admin', '=', null)->get();
 
         return view('Admin.main')->with('users', $users);
+    }
+
+    public function tambahmateri() {
+        return view(Admin.tambahmateri);
     }
 }
