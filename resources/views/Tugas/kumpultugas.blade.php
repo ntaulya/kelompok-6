@@ -38,13 +38,13 @@
                 </li>
                 <div class="dropdown">
                     <button class="dropbtn" onclick="myFunction()">Pengaturan
-                      <i class="fa fa-caret-down"></i>
+                        <i class="fa fa-caret-down"></i>
                     </button>
                     <div class="dropdown-content" id="myDropdown">
-                      <a href="/profilku">Profilku</a>
-                      <a href="/keluar">Keluar</a>
+                        <a href="/profilku">Profilku</a>
+                        <a href="/keluar">Keluar</a>
                     </div>
-                </div> 
+                </div>
             </ul>
         </div>
     </nav>
@@ -94,26 +94,26 @@
                         <div class="container">
                             <div class="row justify-content-md-center">
                                 <div class="col col-lg-2">
-                            </div>
-                            <div class="col-md-auto">
-                                <div class="text-center">
-                                    <img src="prettier\images\upload.png" width="80" height="80" class="rounded" alt="upload">
                                 </div>
-                            </div>
-                            <div class="col col-lg-2">
+                                <div class="col-md-auto">
+                                    <div class="text-center">
+                                        <img src="prettier\images\upload.png" width="80" height="80" class="rounded" alt="upload">
+                                    </div>
+                                </div>
+                                <div class="col col-lg-2">
                                 </div>
                                 <form>
                                     <div class="form-group">
-                                      <input type="file" class="form-control-file" id="exampleFormControlFile1" style="margin-left: 400px">
-                                      <p class="text-center">Atau tarik kesini</p>
+                                        <input type="file" class="form-control-file" id="exampleFormControlFile1" style="margin-left: 400px">
+                                        <p class="text-center">Atau tarik kesini</p>
                                     </div>
-                                  </form>
-                                </div>
+                                </form>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     </section>
 
@@ -183,17 +183,17 @@
             /* When the user clicks on the button, 
             toggle between hiding and showing the dropdown content */
             function myFunction() {
-              document.getElementById("myDropdown").classList.toggle("show");
+                document.getElementById("myDropdown").classList.toggle("show");
             }
-            
+
             // Close the dropdown if the user clicks outside of it
             window.onclick = function(e) {
-              if (!e.target.matches('.dropbtn')) {
-              var myDropdown = document.getElementById("myDropdown");
-                if (myDropdown.classList.contains('show')) {
-                  myDropdown.classList.remove('show');
+                if (!e.target.matches('.dropbtn')) {
+                    var myDropdown = document.getElementById("myDropdown");
+                    if (myDropdown.classList.contains('show')) {
+                        myDropdown.classList.remove('show');
+                    }
                 }
-              }
             }
         </script>
     </div>

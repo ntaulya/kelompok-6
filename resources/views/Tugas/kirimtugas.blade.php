@@ -38,13 +38,13 @@
                 </li>
                 <div class="dropdown">
                     <button class="dropbtn" onclick="myFunction()">Pengaturan
-                      <i class="fa fa-caret-down"></i>
+                        <i class="fa fa-caret-down"></i>
                     </button>
                     <div class="dropdown-content" id="myDropdown">
-                      <a href="/profilku">Profilku</a>
-                      <a href="/keluar">Keluar</a>
+                        <a href="/profilku">Profilku</a>
+                        <a href="/keluar">Keluar</a>
                     </div>
-                </div> 
+                </div>
             </ul>
         </div>
     </nav>
@@ -169,17 +169,17 @@
             /* When the user clicks on the button, 
             toggle between hiding and showing the dropdown content */
             function myFunction() {
-              document.getElementById("myDropdown").classList.toggle("show");
+                document.getElementById("myDropdown").classList.toggle("show");
             }
-            
+
             // Close the dropdown if the user clicks outside of it
             window.onclick = function(e) {
-              if (!e.target.matches('.dropbtn')) {
-              var myDropdown = document.getElementById("myDropdown");
-                if (myDropdown.classList.contains('show')) {
-                  myDropdown.classList.remove('show');
+                if (!e.target.matches('.dropbtn')) {
+                    var myDropdown = document.getElementById("myDropdown");
+                    if (myDropdown.classList.contains('show')) {
+                        myDropdown.classList.remove('show');
+                    }
                 }
-              }
             }
         </script>
     </div>
