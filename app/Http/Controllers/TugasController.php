@@ -18,4 +18,8 @@ class TugasController extends Controller
     public function kirimtugas(Request $request) {
         return view ('Tugas.kirimtugas');
     }
+
+    public function tugaskekirim(Request $request) {
+        return view ('Tugas.tugaskekirim');
+    }
 }

@@ -47,6 +47,7 @@ Route::get('/profilku', [ProfileController::class, 'index'])->name('profile');
 Route::get('/tugas', [TugasController::class, 'index']);
 Route::get('/kumpultugas', [TugasController::class, 'kumpultugas']);
 Route::get('/kirimtugas', [TugasController::class, 'kirimtugas']);
+Route::get('/tugaskekirim', [TugasController::class, 'tugaskekirim']);
 
 //Daftar
 Route::get('/daftar', [SiswaController::class, 'index']);
