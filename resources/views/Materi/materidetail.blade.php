@@ -1,4 +1,3 @@
-<!-- Main Materi -->
 <!DOCTYPE html>
  
 <head>
@@ -13,33 +12,41 @@
 <body>
     {{-- NAVBAR --}}
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #3167AF">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="/Materi">
             {{-- Logo PKBM --}}
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-2 mx-2 mb-2">
-                        <img src="prettier/images/pkbm.png" width="40" height="50" class="d-inline"
-                            style="margin-right:10px;" alt="">
-                        <p class="d-inline mx-2 pb-0 mb-0" style="color:white;">PKBM At-Taufiq</p>
-                    </div>
+                  <div class="col-lg-2 mb-2" style="margin-left: 10px; margin-right: 17px;">
+                    <img src="prettier/images/pkbm.png" width="40" height="50" class="d-inline" style="" alt="">
+                  </div>
+                  <div class="col-lg-2" style="margin-top: 15px;">
+                    <p class="d-inline pb-0 mb-0" style="color:white;">PKBM At-Taufiq</p>
+                  </div>
                 </div>
-            </div>
+              </div>
             {{-- END OF LOGO --}}
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse" id="navbarNav" style="margin-left: 110px;">
             <ul class="navbar-nav">
                 <li class="nav-materi">
-                    <a class="nav-link" style="color: #fff" href="/materi">Materi Pembelajaran</a>
+                    <a class="nav-link" style="color: #F7DE06" href="/Materi" style="margin-left: 20px;">Materi Pembelajaran</a>
                 </li>
                 <li class="nav-peta">
-                    <a class="nav-link" style="color: #fff" href="/lokasi">Peta Lokasi</a>
+                    <a class="nav-link" style="color: #fff" href="/lokasi" style="margin-left: 20px;">Peta Lokasi</a>
                 </li>
-                <li class="nav-profil">
-                    <a class="nav-link" style="color: #fff" href="/profilku">Profilku</a>
-                </li>
+                <div class="dropdown" style="margin-left: 15px;">
+                    <button class="dropbtn" onclick="myFunction()">Pengaturan
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content" id="myDropdown">
+                      <a href="/profilku">Profilku</a>
+                      <a href="/keluar">Keluar</a>
+                    </div>
+                </div> 
             </ul>
         </div>
     </nav>
@@ -51,20 +58,21 @@
         <div class="grid-container">
             <!-- left content -->
             <div id="grid-left" class="pt-5 pb-5">
-                <div id="kelas" class="row justify-content-center">
+                <div id="tugas" class="row justify-content-center">
                     <div class="col-1">
-                        <img src="prettier/emoji/kelas.png" alt="..">
+                        <i class="fa fa-book" style="color:#3167AF;" aria-hidden="true"></i>
                     </div>
                     <div class="col-6">
                       <p class="kelas" style="color:#3167AF">Kelas</p>
                     </div>
                 </div>
+ 
                 <div id="tugas" class="row justify-content-center">
                     <div class="col-1">
-                      <img src="prettier/emoji/tugas.png" alt="..">
+                        <i class="fa fa-tasks" style='color:#9c9ea1' aria-hidden="true"></i>
                     </div>
                     <div class="col-6">
-                      <p>Tugas</p>
+                      <a href="/tugas" style="text-decoration: none; color:#9c9ea1">Tugas</a>
                     </div>
                 </div>
             </div>
@@ -73,8 +81,8 @@
             <div id="grid-right" class="pt-5 pb-5">
                 <div style="margin-bottom:0%; margin-left:15px">
                     <ol class="breadcrumb">
-                      <li class="breadcrumb-item"><a href="/materi">Semua Kelas</a></li>
-                      <li class="breadcrumb-item active" aria-current="page">Ilmu Pengetahuan Alam</li>
+                      <li class="breadcrumb-item"><a href="/Materi" style="text-decoration: none;">Semua Kelas</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">Program Kesetaraan</li>
                     </ol>
                 </div>
                 <div class="card" style="width: 95%; margin-left:15px">
@@ -84,7 +92,7 @@
                         <h6>Konten Pelajaran</h6>
                         <div class="card mb-2">
                             <div class="card-body">
-                                <h6 style="color: #3167AF">1. Objek IPA dan Pengamatannya</h6>
+                                <h6 style="color: #3167AF">1. Ilmu Pengetahuan Alam (IPA) Paket A</h6>
                                 <ul>
                                     <li>I : Pendahuluan</li>
                                     <li>II : Penyelidikan IPA</li>
@@ -100,7 +108,7 @@
                                             </div>
                                         </div>
                                         <div class="col-2">
-                                            <a type="button" class="btn btn-light" style="background-color: #3167AF; color:#fff" href="/isimateri">Mulai Belajar</a>
+                                            <a type="button" class="btn btn-light" style="background-color: #3167AF; color:#fff" href="/ipa">Mulai Belajar</a>
                                         </div>
                                     </div>
                                 </div>
@@ -108,13 +116,13 @@
                         </div>
                         <div class="card mb-2">
                             <div class="card-body">
-                                <h6 style="color: #3167AF">2. Klasifikasi Mahluk Hidup</h6>
+                                <h6 style="color: #3167AF">2. Bahasa Indonesia (INDO) Paket A</h6>
                                 <ul>
                                     <li>I : Pendahuluan</li>
-                                    <li>II : Ciri-ciri benda di Lingkungan Kita</li>
-                                    <li>III : Pengklasifikasian Mahluk Hidup</li>
-                                    <li>IV : Kelompok Mahluk Hidup Berukuran Kecil</li>
-                                    <li>V : Kelompok Tumbuh-Tumbuhan</li>
+                                    <li>II : Memahami Gagasan Pokok dan Gagasan Pendukung dalam Teks</li>
+                                    <li>III : Memahami Informasi dalam Teks Berdasarkan Keterhubungan Antargagasan.</li>
+                                    <li>IV : Mengidentifikasi Paragraf yang Baik atau Padu</li>
+                                    <li>V : Menata Informasi Berdasarkan Keterhubungan Gagasan ke dalam Tulisan</li>
                                 </ul>
                                 <div class="container">
                                     <div class="row row-cols-2">
@@ -124,7 +132,7 @@
                                             </div>
                                         </div>
                                         <div class="col-2">
-                                            <button type="button" class="btn btn-light" style="background-color: #3167AF; color:#fff">Mulai Belajar</button>
+                                            <a type="button" class="btn btn-light" style="background-color: #3167AF; color:#fff" href="/indo">Mulai Belajar</a>
                                         </div>
                                     </div>
                                 </div>
@@ -132,13 +140,13 @@
                         </div>
                         <div class="card mb-2">
                             <div class="card-body">
-                                <h6 style="color: #3167AF">3. Suhu dan Kalor</h6>
+                                <h6 style="color: #3167AF">3. Ilmu Pengetahuan Sosial (IPS) Paket A</h6>
                                 <ul>
                                     <li>I : Pendahuluan</li>
-                                    <li>II : Suhu dan Pemuaian</li>
-                                    <li>III : Kalor</li>
-                                    <li>IV : Perpindahan Kalor serta Penerapannya</li>
-                                    <li>V : Tes Akhir</li>
+                                    <li>II : Kondisi Kependudukan</li>
+                                    <li>III : Peta Persebaran Jumlah Penduduk di Indonesia</li>
+                                    <li>IV : Peta Persebaran Hasil Bumi di Indonesia</li>
+                                    <li>V : Kelangkaan Sumber Daya Alam</li>
                                 </ul>
                                 <div class="container">
                                     <div class="row row-cols-2">
@@ -148,7 +156,7 @@
                                             </div>
                                         </div>
                                         <div class="col-2">
-                                            <button type="button" class="btn btn-light" style="background-color: #3167AF; color:#fff">Mulai Belajar</button>
+                                            <a type="button" class="btn btn-light" style="background-color: #3167AF; color:#fff" href="/ips">Mulai Belajar</a>
                                         </div>
                                     </div>
                                 </div>
@@ -226,5 +234,22 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script>
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+          document.getElementById("myDropdown").classList.toggle("show");
+        }
+        
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(e) {
+          if (!e.target.matches('.dropbtn')) {
+          var myDropdown = document.getElementById("myDropdown");
+            if (myDropdown.classList.contains('show')) {
+              myDropdown.classList.remove('show');
+            }
+          }
+        }
+    </script>
 </body>
 </html>
