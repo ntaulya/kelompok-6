@@ -8,8 +8,8 @@
     {{-- Begin OF Data Diri Peserta PKBM --}}
     <div style="margin-bottom:0%">
         <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="/lokasi">Peta Lokasi PKBM</a></li>
-          <li class="breadcrumb-item"><a href="/taqwa">PKBM At-Taqwa</a></li>
+          <li class="breadcrumb-item"><a href="/lokasi" style="text-decoration: none;">Peta Lokasi PKBM</a></li>
+          <li class="breadcrumb-item"><a href="/taqwa" style="text-decoration: none;">PKBM At-Taqwa</a></li>
           <li class="breadcrumb-item active" aria-current="page">Data Diri</li>
         </ol>
     </div>
