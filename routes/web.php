@@ -29,8 +29,16 @@ Route::get('/lokasi', [RegisterLokasiController::class, 'index']);
 Route::get('/taufiq', [RegisterLokasiController::class, 'taufiq']);
 Route::get('/taqwa', [RegisterLokasiController::class, 'taqwa']);
 Route::get('/RegLok1', [RegisterLokasiController::class, 'RegisLok1']);
-Route::get('/Reglok2', [RegisterLokasiController::class, 'RegisLok2']);
-Route::get('/suksesDaftar', [RegisterLokasiController::class, 'suksesDaftar']);
+
+// ROUTE SAKRAL, Jangan dirubah. gatau kenapa kalau dijadiin inline malah gakebaca
+Route::get('/RegLok2', function () {
+    return view('lokasi.RegisLok2');
+});
+Route::get('/suksesdaftar', function () {
+    return view('lokasi.suksesdaftar');
+})->name('suksesDaftar');
+// End of Route Sakral.
+
 
 //Profile
 Route::get('/profilku', [ProfileController::class, 'index'])->name('profile');
