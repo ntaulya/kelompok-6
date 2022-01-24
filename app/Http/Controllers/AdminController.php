@@ -15,8 +15,26 @@ class AdminController extends Controller
         return view('Admin.main')->with('users', $users);
     }
 
-    public function tambahmateri() {
+    public function tambahmateri(Request $request) {
         return view('Admin.tambahmateri');
+    }
+
+    public function storetambahmateri(Request $request) {
+        $filename = $_FILES['materi']['name'];
+        $original_file_path = $_FILES['materi']['tmp_name'];
+        
+        Materi::create([
+            'mata_pelajaran' => $request->mata_pelajaran,
+            'jumlah_bab' => $request->jumlah_bab,
+            'jumlah_subbab' => $request->jumlah_subbab,
+            'materi' => $destination_file_path = $_SERVER['DOCUMENT_ROOT'].'/materi/'.$filename,
+        ]);
+
+        if(move_uploaded_file($original_file_path ,$destination_file_path)){
+            return redirect('/tambahmateri')->with('alert', 'Materi berhasil ditambah');
+        } else {
+            echo "Materi gagal ditambah";
+        }
     }
 
     public function tambahtugas() {
