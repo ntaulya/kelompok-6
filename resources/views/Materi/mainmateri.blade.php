@@ -100,6 +100,7 @@
                                             </div>
                                         </div>
                                         <div class="col-2">
+                                          <a type="button" class="btn btn-light" style="background-color: #3167AF; color:#fff" href="/isimateri">Mulai Belajar</a>
                                             <button type="button" class="btn btn-light" style="background-color: #3167AF; color:#fff">Mulai Belajar</button>
                                         </div>
                                     </div>
@@ -161,6 +162,7 @@
         </div>
     </section>
     {{-- END OF MAIN CONTENT --}}
+
  
     {{-- FOOTER --}}
     <div class="bottom footer p-4" style="background-color: #3167AF">

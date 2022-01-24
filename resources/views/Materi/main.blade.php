@@ -109,7 +109,7 @@
                                 </div>
                             </div>
                             <div class="card-footer" style="background-color: #3167af;">
-                                <button class="btn text-light" style="width: 100%; color: #3167af;">MULAI</button>
+                                <a class="btn text-light" style="width: 100%; color: #3167af;" href="/mainmateri">MULAI</a>
                             </div>
                         </div>
  
