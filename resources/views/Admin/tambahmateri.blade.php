@@ -6,11 +6,11 @@
     <div class="card-body mb-5">
     <h5 class="text-center">Tambah Materi</h5>
     @csrf
-      <form class="form-inline" method="POST" action="{{}}">
+      <form class="form-inline" method="POST" action="">
         <div class="form-group row mt-5">
           <label for="inputPassword" class="col-sm-2 col-form-label">Nama Lengkap</label>
           <div class="col-sm-10">
-            <input type="text" class="form-control" id="inputPassword" value="{{$user->$name}}" readonly name="nama_lengkap">
+            <input type="text" class="form-control" id="inputPassword" value="{{$user->$name}}" readonly name="name">
           </div>
         </div>
 

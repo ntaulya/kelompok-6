@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Admin;
+use App\Models\User;
 use Illuminate\Support\Facades\DB;
 
 class AdminController extends Controller
@@ -16,7 +17,11 @@ class AdminController extends Controller
     }
 
     public function tambahmateri(Request $request) {
-        return view('Admin.tambahmateri');
+
+        $id = $request->get('id');
+        $user = User::find($id);
+
+        return view('Admin.tambahmateri', compact('user'));
     }
 
     public function storetambahmateri(Request $request) {
