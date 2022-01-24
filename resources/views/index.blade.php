@@ -13,13 +13,15 @@
   {{-- NAVBAR --}}
   {{-- NAVBAR --}}
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #3167AF">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.php">
           {{-- Logo PKBM --}}
           <div class="container">
             <div class="row">
-              <div class="col-lg-2 mx-2 mb-2">
-                <img src="prettier/images/pkbm.png" width="40" height="50" class="d-inline" style="margin-right:10px;" alt="">
-                <p class="d-inline mx-2 pb-0 mb-0" style="color:white;">Pusat Kegiatan Belajar Masyarakat At-Taufiq</p>
+              <div class="col-lg-2 mb-2" style="margin-left: 10px;">
+                <img src="prettier/images/pkbm.png" width="40" height="50" class="d-inline" style="" alt="">
+              </div>
+              <div class="col-lg-2" style="margin-top: 15px;">
+                <p class="d-inline pb-0 mb-0" style="color:white;">Pusat Kegiatan Belajar Masyarakat At-Taufiq</p>
               </div>
             </div>
           </div>
@@ -28,13 +30,13 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse" id="navbarNav" style="margin-left: 150px;">
           <ul class="navbar-nav">
-            <li class="nav-masuk">
+            <li class="nav-masuk" style="margin-right: 10px;">
               <a class="nav-link" style="color: white" href="/masuk">Masuk</a>
             </li>
             <li class="nav-daftar">
-              <button type="button" class="btn" style="background-color: #F7DE06; color: #3167AF"><a href="/daftar">Daftar</a></button>
+              <button type="button" class="btn" style="background-color: #F7DE06; color: #3167AF;"><a href="/daftar" style="text-decoration: none;"><b>Daftar</b></a></button>
             </li>
           </ul>
         </div>
@@ -43,32 +45,42 @@
 
 
     {{-- MAIN CONTENT --}}
-    <div class="container mt-5">
-      <h5>Solusi Pendidikan Indonesia Maju</h5>
-      {{-- <img class="d-inline mx-2 pb-0 mb-0" src="prettier/images/education.png" width="300px" height="190px" style="text-align: right"> --}}
-      <p>Mari menjadi pelopor pendidikan di Indonesia yang berkontribusi<br>penting dalam pembangunan manusia</p>
-      <button type="button" class="btn btn-light" style="background-color: #7397CB; color: #fff">Mulai Belajar<img src="prettier/emoji/book-emoji.png" width="30px" height="30px"></button>
+    <div class="container" style="margin-top: 150px; margin-bottom: 200px;">
+      <div class="row">
+        <div class="col-sm-1">
+        </div>
+        <div class="col-sm-7">
+          <br><br><br>
+          <h4>Solusi Pendidikan Indonesia Maju</h4>
+          <p>Mari menjadi pelopor pendidikan di Indonesia yang berkontribusi<br>penting dalam pembangunan manusia</p>
+          <button type="button" class="btn btn-light" style="background-color: #7397CB; color: #fff">Mulai Belajar<img src="prettier/emoji/book-emoji.png" width="30px" height="30px"></button>
+        </div>
+        <div class="col-sm-4">
+          <img class="" src="prettier/images/education.png" width="300px" height="280px">
+        </div>
+      </div>
     </div>
     
-    <div class="col-lg-12 col-md-6 mt-5" style="background-color: #3167AF">
-      <h5 class="judul text-center">Tentang</h5>
+    <div class="col-lg-12 col-md-6" style="background-color: #3167AF; padding-top: 2rem;">
+      <h4 class="judul text-center">Tentang</h4>
       <div class="row">
         <div class="col-sm-2">
-          <img class="tentang" src="prettier/images/ink.png" width="200px" width="200px">
+          <img class="tentang" src="prettier/images/ink.png" width="200px">
         </div>
-        <div class="col-sm-10 mt-2" style="color:white;">
+        <div class="col-sm-9 mt-2" style="color:white; font-size: 19px;">
           Pusat Kegiatan Belajar Masyarakat (PKBM) At-Taufiq adalah lembaga yang dibentuk 
           oleh masyarakat untuk masyarakat yang bergerak dalam bidang pendidikan Non Formal
           yang berada di desa Majannang, Kecamatan Parigi, Kab. Gowa. PKBM ini masih berada di bawah pengawasan dan bimbingan dari Dinas Pendidikan Nasional. 
           PKBM ini bisa berupa tingkat desa ataupun kecamatan</p>
         </div>
+
       </div>
     </div>
     
-    <div class="container mt-5">
+    <div class="container" style="padding-top: 60px; padding-bottom: 50px;">
       <div class="row">
         <div class="col-sm-2">
-          <img class="visi-misi-gambar" src="prettier/images/visi-misi.png" width="200px" width="200px">
+          <img class="visi-misi-gambar" src="prettier/images/visi-misi.png" width="200px">
         </div>
         <div class="col-sm-10">
           <h5 class="visi-judul text-right">Visi</h5>
@@ -83,16 +95,16 @@
       </div>
     </div>
 
-    <div class="col-lg-12 col-md-6 mt-5" style="background-color: #3167AF; margin-top: 2px; margin-bottom: 3px">
+    <div class="col-lg-12 col-md-6" style="background-color: #3167AF; padding-top: 2rem; padding-bottom: 50px">
       <div class="container">
         <h5 class="judul text-center">Mengapa PKBM?</h5>
         <div class="row">
           <div class="col-sm-12 mt-2" style="color:white;">
-            <img class="ceklis" src="prettier/emoji/checklist-emoji.png" width="20px" width="20px">
+            <img class="ceklis" src="prettier/emoji/checklist-emoji.png" width="20px">
             Pembelajaran pada PKBM sudah setara dengan pendidikan formal
           </div>
           <div class="col-sm-12 mt-3" style="color:white;">
-            <img class="ceklis" src="prettier/emoji/checklist-emoji.png" width="20px" width="20px">
+            <img class="ceklis" src="prettier/emoji/checklist-emoji.png" width="20px">
             Di PKBM menyediakan layanan program berupa:
             <ul>
               <li>Pendidikan Anak Usia Dini (PAUD)</li>
@@ -104,19 +116,19 @@
             </ul>
           </div>
           <div class="col-sm-12" style="color:white;">
-            <img class="ceklis" src="prettier/emoji/checklist-emoji.png" width="20px" width="20px">
+            <img class="ceklis" src="prettier/emoji/checklist-emoji.png" width="20px">
             Meningkatkan kemandirian dan kreativitas peserta didik
           </div>
           <div class="col-sm-12 mt-3" style="color:white;">
-            <img class="ceklis" src="prettier/emoji/checklist-emoji.png" width="20px" width="20px">
+            <img class="ceklis" src="prettier/emoji/checklist-emoji.png" width="20px">
             Pembelajaran peserta didik  merupakan pembelajaran yang fleksibel, dapat dilakukan dimana saja dan kapan saja
           </div>
           <div class="col-sm-12 mt-3" style="color:white;">
-            <img class="ceklis" src="prettier/emoji/checklist-emoji.png" width="20px" width="20px">
+            <img class="ceklis" src="prettier/emoji/checklist-emoji.png" width="20px">
             Pembelajaran peserta didik menerapkan teori dalam praktik nyata sehingga kedepannya lebih mudah dalam penerapan kehidupan sehari-hari 
           </div>
           <div class="col-sm-12 mt-3" style="color:white;">
-            <img class="ceklis" src="prettier/emoji/checklist-emoji.png" width="20px" width="20px">
+            <img class="ceklis" src="prettier/emoji/checklist-emoji.png" width="20px">
             Peserta didik memperoleh keterampilan yang dapat digunakan ketika lulus pembelajaran 
           </div>
         </div>
@@ -128,8 +140,9 @@
       <p class="deskripsi text-center">Kami melakukan pembelajaran berbasis online dan onsite dengan rincian sebagai berikut</p>
         <div class="row row-cols-1 row-cols-md-3">
           <div class="col mb-4">
+
             <div class="card">
-              <img src="prettier/images/kesetaraan.jpeg" class="card-img-top" alt="pendidikan kesetaraan">
+              <img src="prettier/images/kesetaraan.jpeg" class="card-img-top" alt="pendidikan kesetaraan" width="300px" height="240px">
                 <div class="card-body">
                   <h5 class="card-title">Pendidikan Kesetaraan</h5>
                   <p class="card-text">Merupakan bagian dari Pendidikan non-formal yang memberikan layanan Pendidikan Program Paket A, Program Paket B, dan Program Paket C</p>
@@ -138,7 +151,7 @@
           </div>
           <div class="col mb-4">
             <div class="card">
-              <img src="prettier/images/tpad.jpeg" class="card-img-top" alt="taman pendidikan al-quran dewasa">
+              <img src="prettier/images/tpad.jpeg" class="card-img-top" alt="taman pendidikan al-quran dewasa" width="300px" height="240px">
                 <div class="card-body">
                   <h5 class="card-title">Kursus dan Pelatihan</h5>
                   <p class="card-text">Merupakan layanan yang menyediakan kursus dan pelatihan, seperti kursus menjahit, kursus komputer dan lainnya</p>
@@ -147,7 +160,7 @@
           </div>
           <div class="col mb-4">
             <div class="card">
-              <img src="prettier/images/pkeluarga.jpeg" class="card-img-top" alt="pendidikan keluarga">
+              <img src="prettier/images/pkeluarga.jpeg" class="card-img-top" alt="pendidikan keluarga" width="300px" height="240px">
                 <div class="card-body">
                   <h5 class="card-title">Pendidikan Keluarga</h5>
                   <p class="card-text">Merupakan layanan yang memberikan edukasi tentang hidup berkeluarga</p>
@@ -156,7 +169,7 @@
           </div>
           <div class="col mb-4">
             <div class="card">
-              <img src="prettier/images/paud.jpeg" class="card-img-top" alt="pendidikan anak usia dini">
+              <img src="prettier/images/paud.jpeg" class="card-img-top" alt="pendidikan anak usia dini" width="300px" height="240px">
                 <div class="card-body">
                   <h5 class="card-title">PAUD</h5>
                   <p class="card-text">Merupakan anak-anak yang belajar di kelompok paud atau anak-anak yang berusia 0-6 tahun</p>
@@ -165,7 +178,7 @@
           </div>
           <div class="col mb-4">
             <div class="card">
-              <img src="prettier/images/tbm.jpeg" class="card-img-top" alt="taman bacaan masyarakat">
+              <img src="prettier/images/tbm.jpeg" class="card-img-top" alt="taman bacaan masyarakat" width="300px" height="240px">
                 <div class="card-body">
                   <h5 class="card-title">Taman Bacaan Masyarakat</h5>
                   <p class="card-text">Merupakan layanan yang menyediakan berbagai macam bacaan/buku untuk masyarakat sekitar</p>
@@ -174,7 +187,7 @@
           </div>
           <div class="col mb-4">
             <div class="card">
-              <img src="prettier/images/kbm.jpeg" class="card-img-top" alt="keaksaraan buta mandiri">
+              <img src="prettier/images/kbm.jpeg" class="card-img-top" alt="keaksaraan buta mandiri" width="300px" height="240px">
                 <div class="card-body">
                   <h5 class="card-title">Keaksaraan Buta Mandiri</h5>
                   <p class="card-text">Merupakan bentuk layanan Pendidikan non-formal bagi warga masyarakat yang tidak bisa membaca, menulis, dan berhitung.</p>

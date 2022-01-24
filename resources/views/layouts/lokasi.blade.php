@@ -34,10 +34,10 @@
     <div class="collapse navbar-collapse" id="navbarNav" style="margin-left: 110px;">
         <ul class="navbar-nav">
             <li class="nav-materi">
-                <a class="nav-link" style="color: #F7DE06" href="/Materi" style="margin-left: 20px;">Materi Pembelajaran</a>
+                <a class="nav-link" style="color: #fff" href="/Materi" style="margin-left: 20px;">Materi Pembelajaran</a>
             </li>
             <li class="nav-peta">
-                <a class="nav-link" style="color: #fff" href="/lokasi" style="margin-left: 20px;">Peta Lokasi</a>
+                <a class="nav-link" style="color: #F7DE06" href="/lokasi" style="margin-left: 20px;">Peta Lokasi</a>
             </li>
             <div class="dropdown" style="margin-left: 15px;">
                 <button class="dropbtn" onclick="myFunction()">Pengaturan

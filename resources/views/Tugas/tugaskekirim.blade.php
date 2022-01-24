@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="prettier/main.css">
-    <title>Materi Pembelajaran</title>
+    <title>Upload Tugas</title>
 </head>
 
 <body>
@@ -80,162 +80,84 @@
 
             {{-- right content --}}
             <div id="grid-right" class="pt-5 pb-5">
-                <div class="card">
-                    <h5>Semua Tugas</h5>
+                <h5 style="margin-left: 10px">Ilmu Pengetahuan Alam</h5>
+                <div style="margin-bottom:0%; margin-left: 10px">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="/tugas">Semua Tugas</a></li>
+                        <li class="breadcrumb-item"><a href="/tugas">Ilmu Pengetahuan Alam</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Tugas BAB 1</li>
+                    </ol>
                 </div>
-
-                <div class="card">
+                <div class="card" style="margin-left: 10px">
                     <div class="card-body">
-                        <h4 class="card-title">Ilmu Pengetahuan Alam</h4>
-                        <table class="table table-borderless">
+                        <h5 class="text-primary">Tugas BAB 1</h5><br>
+                        <p class="card-text">Tugas :<br>
+                            1. Membuat jangka sorong<br>
+                            2. Memodifikasi jangka sorong
+                        </p>
+                        <table class="table table-striped table-bordered">
                             <tbody>
 
                                 <tr>
-                                    <td>
-                                        <p class="card-text">Tugas Bab 1</p>
+                                    <td colspan="0">
+                                        <p class="text-center">Status Tugas</p>
                                     </td>
                                     <td>
-                                        <p class="text-black-50">Deadline: 32 Maret 2022</p>
+                                        <p class="text-left">Telah dikumpulkan</p>
                                     </td>
-                                    <td><a  class="btn btn-warning" type="button" href="/kumpultugas"> Kirim</a></td>
+                                </tr>
+
+                                <tr>
+                                    <td colspan="0">
+                                        <p class="text-center">Status Nilai</p>
+                                    </td>
+                                    <td>
+                                        <p class="text-left">Belum dinilai</p>
+                                    </td>
                                 </tr>
 
                                 <tr>
                                     <td>
-                                        <p class="card-text">Tugas Bab 2</p>
+                                        <p class="text-center">Deadline</p>
                                     </td>
                                     <td>
-                                        <p class="text-black-50">Deadline: 32 Maret 2022</p>
+                                        <p class="text-left">Rabu, 32 Maret 2022, 23.59 WIB</p>
                                     </td>
-                                    <td><a href="#" class="btn btn-warning" type="button"> Kirim</a></td>
                                 </tr>
 
                                 <tr>
                                     <td>
-                                        <p class="card-text">Tugas Bab 3</p>
+                                        <p class="text-center">Waktu yang Tersisa</p>
                                     </td>
                                     <td>
-                                        <p class="text-black-50">Deadline: 32 Maret 2022</p>
+                                        <p class="text-left">Tugas telah dikumpulkan 3 jam sebelum deadline</p>
                                     </td>
-                                    <td><a href="#" class="btn btn-warning" type="button"> Kirim</a></td>
                                 </tr>
 
                                 <tr>
-                                    <td>
-                                        <p class="card-text">Tugas Bab 4</p>
+                                    <td colspan="0">
+                                        <p class="text-center">Terakhir diubah</p>
                                     </td>
                                     <td>
-                                        <p class="text-black-50">Deadline: 32 Maret 2022</p>
+                                        <p class="text-left">Rabu, 32 Maret 2022, 20.59 WIB</p>
                                     </td>
-                                    <td><a href="#" class="btn btn-warning" type="button"> Kirim</a></td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-
-                <!-- satu kotak-->
-                <div class="card">
-                    <div class="card-body">
-                        <h4 class="card-title">Matematika</h4>
-                        <table class="table table-borderless">
-                            <tbody>
-
-                                <tr>
-                                    <td>
-                                        <p class="card-text">Tugas Bab 1</p>
-                                    </td>
-                                    <td>
-                                        <p class="text-black-50">Deadline: 32 Maret 2022</p>
-                                    </td>
-                                    <td><a href="#" class="btn btn-warning" type="button"> Kirim</a></td>
                                 </tr>
 
                                 <tr>
-                                    <td>
-                                        <p class="card-text">Tugas Bab 2</p>
+                                    <td colspan="0">
+                                        <p class="text-center">Tugas</p>
                                     </td>
                                     <td>
-                                        <p class="text-black-50">Deadline: 32 Maret 2022</p>
+                                    <i class="fa fa-book" style="color:#9c9ea1;" aria-hidden="true"></i><p class="text-left">Tugasbab1.png</p>
                                     </td>
-                                    <td><a href="#" class="btn btn-warning" type="button"> Kirim</a></td>
                                 </tr>
-
-                                <tr>
-                                    <td>
-                                        <p class="card-text">Tugas Bab 3</p>
-                                    </td>
-                                    <td>
-                                        <p class="text-black-50">Deadline: 32 Maret 2022</p>
-                                    </td>
-                                    <td><a href="#" class="btn btn-warning" type="button"> Kirim</a></td>
-                                </tr>
-
-                                <tr>
-                                    <td>
-                                        <p class="card-text">Tugas Bab 4</p>
-                                    </td>
-                                    <td>
-                                        <p class="text-black-50">Deadline: 32 Maret 2022</p>
-                                    </td>
-                                    <td><a href="#" class="btn btn-warning" type="button"> Kirim</a></td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-
-                <!-- satu kotak-->
-                <div class="card">
-                    <div class="card-body">
-                        <h4 class="card-title">Ilmu pengetahuan sosial</h4>
-                        <table class="table table-borderless">
-                            <tbody>
-
-                                <tr>
-                                    <td>
-                                        <p class="card-text">Tugas Bab 1</p>
-                                    </td>
-                                    <td>
-                                        <p class="text-black-50">Deadline: 32 Maret 2022</p>
-                                    </td>
-                                    <td><a href="#" class="btn btn-warning" type="button"> Kirim</a></td>
-                                </tr>
-
-                                <tr>
-                                    <td>
-                                        <p class="card-text">Tugas Bab 2</p>
-                                    </td>
-                                    <td>
-                                        <p class="text-black-50">Deadline: 32 Maret 2022</p>
-                                    </td>
-                                    <td><a href="#" class="btn btn-warning" type="button"> Kirim</a></td>
-                                </tr>
-
-                                <tr>
-                                    <td>
-                                        <p class="card-text">Tugas Bab 3</p>
-                                    </td>
-                                    <td>
-                                        <p class="text-black-50">Deadline: 32 Maret 2022</p>
-                                    </td>
-                                    <td><a href="#" class="btn btn-warning" type="button"> Kirim</a></td>
-                                </tr>
-
-                                <tr>
-                                    <td>
-                                        <p class="card-text">Tugas Bab 4</p>
-                                    </td>
-                                    <td>
-                                        <p class="text-black-50">Deadline: 32 Maret 2022</p>
-                                    </td>
-                                    <td><a href="#" class="btn btn-warning" type="button"> Kirim</a></td>
-                                </tr>
+                                
                             </tbody>
                         </table>
                     </div>
                 </div>
             </div>
+        </div>
     </section>
 
     {{-- FOOTER --}}
@@ -302,7 +224,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
         <script>
             /* When the user clicks on the button, 
-        toggle between hiding and showing the dropdown content */
+            toggle between hiding and showing the dropdown content */
             function myFunction() {
                 document.getElementById("myDropdown").classList.toggle("show");
             }

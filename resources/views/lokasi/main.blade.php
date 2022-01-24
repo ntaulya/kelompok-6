@@ -1,4 +1,4 @@
-@extends('layouts.main')
+@extends('layouts.lokasi')
 @section('title','Pilih Lokasi Tempat Ujian')
 @section('container')
 
