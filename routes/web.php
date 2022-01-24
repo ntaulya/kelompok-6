@@ -42,6 +42,8 @@ Route::get('/suksesdaftar', function () {
 
 //Profile
 Route::get('/profilku', [ProfileController::class, 'index'])->name('profile');
+Route::get('/profilku/{id}', [ProfileController::class, 'show'])->name('viewEdit');
+Route::post('/edit/{id}', [ProfileController::class, 'update'])->name('edit');
 
 //Tugas
 Route::get('/tugas', [TugasController::class, 'index']);
