@@ -1,4 +1,3 @@
-<!-- Main Materi -->
 <!DOCTYPE html>
  
 <head>
@@ -79,112 +78,94 @@
             </div>
  
             <!-- right content -->
- 
             <div id="grid-right" class="pt-5 pb-5">
-                <div class="ps-3">
-                  <h5>Semua Kelas</h6>
+                <div style="margin-bottom:0%; margin-left:15px">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item"><a href="/Materi" style="text-decoration: none;">Semua Kelas</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">Program Kesetaraan</li>
+                    </ol>
                 </div>
- 
-                <div class="container mt-4">
-                    <div class="row justify-content-start pb-5">
-                        <div class="col-4">
-                            <div class="card">
-                                <img src="prettier/images/science.jpg" class="card-img-top" alt="ipa" width="250px" height="190px">
-                                <div class="card-body">
-                                    <h5 class="card-title">Program Kesetaraan</h5>
-                                    <p class="card-text">Pendidikan kesetaraan adalah pendidikan non formal yang ditujukan kepada warga negara yang tidak
-                                         berkesempatan mengenyam pendidikan formal. Biasa dikenal sebagai Paket A,B dan C</p>
+                <div class="card" style="width: 95%; margin-left:15px">
+                    <img src="prettier/images/science.jpg" class="card-img-top" alt="ipa" style="width: 100%; height:400px">
+                    <div class="card-body">
+                      <div class="card-text">
+                        <h6>Konten Pelajaran</h6>
+                        <div class="card mb-2">
+                            <div class="card-body">
+                                <h6 style="color: #3167AF">1. Ilmu Pengetahuan Alam (IPA) Paket A</h6>
+                                <ul>
+                                    <li>I : Pendahuluan</li>
+                                    <li>II : Penyelidikan IPA</li>
+                                    <li>III : Pengukuan Dasar</li>
+                                    <li>IV : Jangka Sorong dan Mikrometer Sekrup</li>
+                                    <li>V : Mengolah Data Hasil Pengukuran</li>
+                                </ul>
+                                <div class="container">
+                                    <div class="row row-cols-2">
+                                        <div class="col-10">
+                                            <div class="progress mt-2">
+                                                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <a type="button" class="btn btn-light" style="background-color: #3167AF; color:#fff" href="/ipa">Mulai Belajar</a>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div id="tugas" class="row justify-content-center">
-                                    <div class="col-1">
-                                        <img src="prettier/emoji/bab.png" alt="..">
-                                    </div>
-                                    <div class="col-9">
-                                        <p>4 Bab</p>
-                                    </div>
-                                </div>
- 
-                                <div id="tugas" class="row justify-content-center">
-                                    <div class="col-1">
-                                        <img src="prettier/emoji/sub-bab.png" alt="..">
-                                    </div>
-                                    <div class="col-9 ">
-                                        <p>12 Sub-bab</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-footer" style="background-color: #3167af;">
-                                <a class="btn text-light" style="width: 100%; color: #3167af;" href="/materidetail">MULAI</a>
                             </div>
                         </div>
- 
-                        <div class="col-4">
-                            <div class="card">
-                                <img src="prettier/images/mathematics.jpg" class="card-img-top" alt="mtk" width="250px" height="190px">
-                                <div class="card-body">
-                                    <h5 class="card-title">Kursus dan Pelatihan</h5>
-                                    <p class="card-text">Merupakan layanan yang menyediakan kursus dan pelatihan, seperti kursus menjahit, kursus komputer dan lainnya
-                                        yang berguna untuk meningkatkan daya saing peserta didik di dunia kerja.
-                                    </p>
-                                </div>
-                                <div id="tugas" class="row justify-content-center">
-                                    <div class="col-1">
-                                        <img src="prettier/emoji/bab.png" alt="..">
-                                    </div>
-                                    <div class="col-9">
-                                        <p>4 Bab</p>
-                                    </div>
-                                </div>
- 
-                                <div id="tugas" class="row justify-content-center">
-                                    <div class="col-1">
-                                        <img src="prettier/emoji/sub-bab.png" alt="..">
-                                    </div>
-                                    <div class="col-9 ">
-                                        <p>12 Sub-bab</p>
+                        <div class="card mb-2">
+                            <div class="card-body">
+                                <h6 style="color: #3167AF">2. Bahasa Indonesia (INDO) Paket A</h6>
+                                <ul>
+                                    <li>I : Pendahuluan</li>
+                                    <li>II : Memahami Gagasan Pokok dan Gagasan Pendukung dalam Teks</li>
+                                    <li>III : Memahami Informasi dalam Teks Berdasarkan Keterhubungan Antargagasan.</li>
+                                    <li>IV : Mengidentifikasi Paragraf yang Baik atau Padu</li>
+                                    <li>V : Menata Informasi Berdasarkan Keterhubungan Gagasan ke dalam Tulisan</li>
+                                </ul>
+                                <div class="container">
+                                    <div class="row row-cols-2">
+                                        <div class="col-10">
+                                            <div class="progress mt-2">
+                                                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <a type="button" class="btn btn-light" style="background-color: #3167AF; color:#fff" href="/indo">Mulai Belajar</a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="card-footer" style="background-color: #4d6a8f;">
-                                <button class="btn text-light" style="width: 100%; color: #4d6a8f;">KELAS BELUM DIBUKA</button>
                             </div>
                         </div>
-                        <div class="col-4">
-                            <div class="card">
-                                <img src="prettier/images/social.jpg" class="card-img-top" alt="ips" width="250px" height="190px">
-                                <div class="card-body">
-                                    <h5 class="card-title">Keaksaraan Buta Mandiri</h5>
-                                    <p class="card-text">Pendidikan keaksaraan adalah salah satu bentuk layanan Pendidikan non formal bagi warga masyarakat buta aksara untuk belajar membaca, menulis, dan berhitung. Agar peserta didik tidak tertinggal
- 
-                                    </p>
-                                </div>
-                                <div id="tugas" class="row justify-content-center">
-                                    <div class="col-1">
-                                        <img src="prettier/emoji/bab.png" alt="..">
-                                    </div>
-                                    <div class="col-9">
-                                        <p>4 Bab</p>
-                                    </div>
-                                </div>
- 
-                                <div id="tugas" class="row justify-content-center">
-                                    <div class="col-1">
-                                        <img src="prettier/emoji/sub-bab.png" alt="..">
-                                    </div>
-                                    <div class="col-9 ">
-                                        <p>12 Sub-bab</p>
+                        <div class="card mb-2">
+                            <div class="card-body">
+                                <h6 style="color: #3167AF">3. Ilmu Pengetahuan Sosial (IPS) Paket A</h6>
+                                <ul>
+                                    <li>I : Pendahuluan</li>
+                                    <li>II : Kondisi Kependudukan</li>
+                                    <li>III : Peta Persebaran Jumlah Penduduk di Indonesia</li>
+                                    <li>IV : Peta Persebaran Hasil Bumi di Indonesia</li>
+                                    <li>V : Kelangkaan Sumber Daya Alam</li>
+                                </ul>
+                                <div class="container">
+                                    <div class="row row-cols-2">
+                                        <div class="col-10">
+                                            <div class="progress mt-2">
+                                                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <a type="button" class="btn btn-light" style="background-color: #3167AF; color:#fff" href="/ips">Mulai Belajar</a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="card-footer" style="background-color: #4d6a8f;">
-                                <button class="btn text-light" style="width: 100%; color: #4d6a8f;">KELAS BELUM DIBUKA</button>
                             </div>
                         </div>
                     </div>
+                  </div>
                 </div>
             </div>
-        </div>
- 
         </div>
     </section>
     {{-- END OF MAIN CONTENT --}}
@@ -247,28 +228,28 @@
                 </div>
             </div>
         </div>
-        {{-- AKHIR DARI FOOTER --}}
- 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-        <script>
-            /* When the user clicks on the button, 
-            toggle between hiding and showing the dropdown content */
-            function myFunction() {
-              document.getElementById("myDropdown").classList.toggle("show");
-            }
-            
-            // Close the dropdown if the user clicks outside of it
-            window.onclick = function(e) {
-              if (!e.target.matches('.dropbtn')) {
-              var myDropdown = document.getElementById("myDropdown");
-                if (myDropdown.classList.contains('show')) {
-                  myDropdown.classList.remove('show');
-                }
-              }
-            }
-        </script>
     </div>
+    {{-- AKHIR DARI FOOTER --}}
+ 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script>
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+          document.getElementById("myDropdown").classList.toggle("show");
+        }
+        
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(e) {
+          if (!e.target.matches('.dropbtn')) {
+          var myDropdown = document.getElementById("myDropdown");
+            if (myDropdown.classList.contains('show')) {
+              myDropdown.classList.remove('show');
+            }
+          }
+        }
+    </script>
 </body>
 </html>
