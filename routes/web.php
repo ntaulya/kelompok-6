@@ -6,6 +6,7 @@ use App\Http\Controllers\AdminController;
 use App\Http\Controllers\MateriController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\RegisterLokasiController;
+use App\Http\Controllers\TugasController;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,51 +23,31 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/lokasi', function () {
-    return view('lokasi.main');
-});
+//Lokasi
+Route::post('/daftar-ujian', [RegisterLokasiController::class, 'store'])->name('daftar-ujian');
+Route::get('/lokasi', [RegisterLokasiController::class, 'index']);
+Route::get('/taufiq', [RegisterLokasiController::class, 'taufiq']);
+Route::get('/taqwa', [RegisterLokasiController::class, 'taqwa']);
+Route::get('/RegLok1', [RegisterLokasiController::class, 'RegisLok1']);
 
-Route::get('/taufiq', function () {
-    return view('lokasi.taufiq');
-});
-
-Route::get('/taqwa', function () {
-    return view('lokasi.taqwa');
-});
-
-Route::get('/RegLok1', function () {
-    return view('lokasi.RegisLok1');
-});
-
+// ROUTE SAKRAL, Jangan dirubah. gatau kenapa kalau dijadiin inline malah gakebaca
 Route::get('/RegLok2', function () {
     return view('lokasi.RegisLok2');
 });
-
-Route::post('/daftar-ujian', [RegisterLokasiController::class, 'store'])->name('daftar-ujian');
-
 Route::get('/suksesdaftar', function () {
     return view('lokasi.suksesdaftar');
 })->name('suksesDaftar');
+// End of Route Sakral.
 
+
+//Profile
 Route::get('/profilku', [ProfileController::class, 'index'])->name('profile');
 
-//tugas
-Route::get('/tugas', function () {
-    return view('Tugas.tugas');
-});
-
-Route::get('/kumpultugas', function () {
-    return view('tugas.kumpultugas');
-});
-
-Route::get('/kirimtugas', function () {
-    return view('tugas.kirimtugas');
-});
-
-Route::get('/tugaskekirim', function () {
-    return view('tugas.tugaskekirim');
-});
-
+//Tugas
+Route::get('/tugas', [TugasController::class, 'index']);
+Route::get('/kumpultugas', [TugasController::class, 'kumpultugas']);
+Route::get('/kirimtugas', [TugasController::class, 'kirimtugas']);
+Route::get('/tugaskekirim', [TugasController::class, 'tugaskekirim']);
 
 //Daftar
 Route::get('/daftar', [SiswaController::class, 'index']);
@@ -75,6 +56,7 @@ Route::post('/daftar', [SiswaController::class, 'store'])->name('daftar_store');
 // Admin
 Route::get('/Admin', [AdminController::class, 'index']);
 Route::get('/tambahmateri', [AdminController::class, 'tambahmateri']);
+Route::get('/tambahtugas', [AdminController::class, 'tambahtugas']);
 
 //Login
 Route::get('/masuk', [SiswaController::class, 'login']);
