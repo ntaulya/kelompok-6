@@ -9,7 +9,7 @@
     <h5 class="card-title">Peta Lokasi PKBM AT-Taqwa</h5>
     <div style="margin-bottom:0%">
         <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="/lokasi">Peta Lokasi PKBM</a></li>
+          <li class="breadcrumb-item"><a href="/lokasi" style="text-decoration: none;">Peta Lokasi PKBM</a></li>
           <li class="breadcrumb-item active" aria-current="page">PKBM AT-Taqwa</li>
         </ol>
     </div>

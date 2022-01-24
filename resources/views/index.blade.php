@@ -60,8 +60,8 @@
       </div>
     </div>
     
-    <div class="col-lg-12 col-md-6" style="background-color: #3167AF; padding-top: 2rem;">
-      <h4 class="judul text-center">Tentang</h4>
+    <div class="col-lg-12 col-md-6" style="background-color: #3167AF; padding-top: 75px;">
+      <h4 class="judul text-center">Tentang</h4><br>
       <div class="row">
         <div class="col-sm-2">
           <img class="tentang" src="prettier/images/ink.png" width="200px">
@@ -78,13 +78,16 @@
     
     <div class="container" style="padding-top: 60px; padding-bottom: 50px;">
       <div class="row">
-        <div class="col-sm-2">
-          <img class="visi-misi-gambar" src="prettier/images/visi-misi.png" width="200px">
+        <div class="col-sm-1">
         </div>
-        <div class="col-sm-10">
-          <h5 class="visi-judul text-right">Visi</h5>
+        <div class="col-sm-4">
+          <img class="visi-misi-gambar" src="prettier/images/visi-misi.png" width="300px">
+        </div>
+        <div class="col-sm-7">
+          <h5 class="visi-judul text-right" style="color: #3167AF;">Visi</h5>
             <p class="visi text-right">Menjadi lembaga pendidikan dan pelatihan yang berkualitas<br>menciptakan usaha mandiri</p>
-          <h5 class="misi-judul text-right">Misi</h5>
+          <br>
+            <h5 class="misi-judul text-right" style="color: #3167AF;">Misi</h5>
             <p class="misi text-right">1. Menyelenggarakan pendidikan dan pelatihan bagi masyarakat<br>
               2. Melakukan pelatihan dan bimbingan sesuai dengan kebutuhan lapagan pekerjaan yang ada<br>
               3. Memberikan motivasi menjadi wirausaha yang mandiri<br>

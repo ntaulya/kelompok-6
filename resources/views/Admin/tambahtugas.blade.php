@@ -1,10 +1,10 @@
 @extends('layouts.main')
-@section('title','Tambah Materi')
+@section('title','Tambah Tugas')
 @section('container')
 
 <div class="card border border-primary mb-5" style="width: 100%;">
     <div class="card-body mb-5">
-    <h5 class="text-center">Tambah Materi</h5>
+    <h5 class="text-center">Tambah Tugas</h5>
       <form class="form-inline">
         <div class="form-group row mt-5">
           <label for="inputPassword" class="col-sm-2 col-form-label">Nama Lengkap</label>
@@ -42,32 +42,16 @@
         </div>
 
         <div class="form-group row mt-3">
-          <label for="inputPassword" class="col-sm-2 col-form-label">Jumlah Bab</label>
-          <div class="col-sm-10">
-            <input type="number" class="form-control" id="inputPassword">
-          </div>
-        </div>
-
-        <div class="form-group row mt-3">
-            <label for="inputPassword" class="col-sm-2 col-form-label">Jumlah Sub-Bab</label>
+            <label for="exampleFormControlTextarea1" class="col-sm-2 col-form-label">Deskripsi Tugas</label>
             <div class="col-sm-10">
-              <input type="number" class="form-control" id="inputPassword">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
             </div>
         </div>
 
-        <div class="form-group row mt-3">
-          <label for="inputPassword" class="col-sm-2 col-form-label">Upload Materi</label>
-          <div class="col-sm-10">
-            <input type="file" class="form-control-file" id="exampleFormControlFile1">
-          </div>
-        </div>
-
         <div class="container text-center mt-5">
-          <a href="" class="btn btn-primary">Tambah Materi</a>
-          <a href="/Admin" class="btn btn-warning" style="margin-left: 10px">Batalkan</a>
-        </div>
-
-      </form>
+            <a href="" class="btn btn-primary">Tambah Tugas</a>
+            <a href="/Admin" class="btn btn-warning" style="margin-left: 10px">Batalkan</a>
+          </div>
     </div>
 </div>
 

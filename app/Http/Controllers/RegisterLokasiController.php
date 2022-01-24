@@ -23,4 +23,28 @@ class RegisterLokasiController extends Controller
         Auth::user()->dataUjians()->create($validation);
         return redirect(route('suksesDaftar'));
     }
+
+    public function index (Request $request) {
+        return view('lokasi.main');
+    }
+
+    public function taufiq (Request $request) {
+        return view('lokasi.taufiq');
+    }
+
+    public function taqwa (Request $request) {
+        return view('lokasi.taqwa');
+    }
+
+    public function RegisLok1 (Request $request) {
+        return view('lokasi.RegisLok1');
+    }
+
+    public function RegisLok2 (Request $request) {
+        return view('lokasi.RegisLok2');
+    }
+
+    public function suksesDaftar (Request $request) {
+        return view('lokasi.suksesdaftar');
+    }
 }
