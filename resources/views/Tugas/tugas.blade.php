@@ -80,13 +80,13 @@
 
             {{-- right content --}}
             <div id="grid-right" class="pt-5 pb-5">
-                <div class="card">
-                    <h5>Semua Tugas</h5>
+                <div style="margin-left: 23px">
+                    <h5>Semua Tugas</h5><br>
                 </div>
 
-                <div class="card">
+                <div class="card" style="margin-left: 20px; margin-right: 20px; margin-bottom: 20px;">
                     <div class="card-body">
-                        <h4 class="card-title">Ilmu Pengetahuan Alam</h4>
+                        <h4 class="card-title">Ilmu Pengetahuan Alam</h4><hr/>
                         <table class="table table-borderless">
                             <tbody>
 
@@ -97,7 +97,7 @@
                                     <td>
                                         <p class="text-black-50">Deadline: 32 Maret 2022</p>
                                     </td>
-                                    <td><a  class="btn btn-warning" type="button" href="/kumpultugas"> Kirim</a></td>
+                                    <td><a href="/kumpultugas" class="btn" style="background-color: #F7DE06; color: #3167AF;" type="button"><b> Lihat </b></a></td>
                                 </tr>
 
                                 <tr>
@@ -107,7 +107,7 @@
                                     <td>
                                         <p class="text-black-50">Deadline: 32 Maret 2022</p>
                                     </td>
-                                    <td><a href="#" class="btn btn-warning" type="button"> Kirim</a></td>
+                                    <td><a href="#" class="btn" style="background-color: #F7DE06; color: #3167AF;" type="button"><b> Lihat </b></a></td>
                                 </tr>
 
                                 <tr>
@@ -117,7 +117,7 @@
                                     <td>
                                         <p class="text-black-50">Deadline: 32 Maret 2022</p>
                                     </td>
-                                    <td><a href="#" class="btn btn-warning" type="button"> Kirim</a></td>
+                                    <td><a href="#" class="btn" style="background-color: #F7DE06; color: #3167AF;" type="button"><b> Lihat </b></a></td>
                                 </tr>
 
                                 <tr>
@@ -127,68 +127,18 @@
                                     <td>
                                         <p class="text-black-50">Deadline: 32 Maret 2022</p>
                                     </td>
-                                    <td><a href="#" class="btn btn-warning" type="button"> Kirim</a></td>
+                                    <td><a href="#" class="btn" style="background-color: #F7DE06; color: #3167AF;" type="button"><b> Lihat </b></a></td>
                                 </tr>
                             </tbody>
                         </table>
                     </div>
-                </div>
-
-                <!-- satu kotak-->
-                <div class="card">
-                    <div class="card-body">
-                        <h4 class="card-title">Matematika</h4>
-                        <table class="table table-borderless">
-                            <tbody>
-
-                                <tr>
-                                    <td>
-                                        <p class="card-text">Tugas Bab 1</p>
-                                    </td>
-                                    <td>
-                                        <p class="text-black-50">Deadline: 32 Maret 2022</p>
-                                    </td>
-                                    <td><a href="#" class="btn btn-warning" type="button"> Kirim</a></td>
-                                </tr>
-
-                                <tr>
-                                    <td>
-                                        <p class="card-text">Tugas Bab 2</p>
-                                    </td>
-                                    <td>
-                                        <p class="text-black-50">Deadline: 32 Maret 2022</p>
-                                    </td>
-                                    <td><a href="#" class="btn btn-warning" type="button"> Kirim</a></td>
-                                </tr>
-
-                                <tr>
-                                    <td>
-                                        <p class="card-text">Tugas Bab 3</p>
-                                    </td>
-                                    <td>
-                                        <p class="text-black-50">Deadline: 32 Maret 2022</p>
-                                    </td>
-                                    <td><a href="#" class="btn btn-warning" type="button"> Kirim</a></td>
-                                </tr>
-
-                                <tr>
-                                    <td>
-                                        <p class="card-text">Tugas Bab 4</p>
-                                    </td>
-                                    <td>
-                                        <p class="text-black-50">Deadline: 32 Maret 2022</p>
-                                    </td>
-                                    <td><a href="#" class="btn btn-warning" type="button"> Kirim</a></td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
+                    <div class="card-body" style="background-color: #3167AF; padding-top:25px;"></div>
                 </div>
 
                 <!-- satu kotak-->
-                <div class="card">
+                <div class="card" style="margin-left: 20px; margin-right: 20px; margin-bottom: 20px;">
                     <div class="card-body">
-                        <h4 class="card-title">Ilmu pengetahuan sosial</h4>
+                        <h4 class="card-title">Matematika</h4><hr/>
                         <table class="table table-borderless">
                             <tbody>
 
@@ -199,7 +149,7 @@
                                     <td>
                                         <p class="text-black-50">Deadline: 32 Maret 2022</p>
                                     </td>
-                                    <td><a href="#" class="btn btn-warning" type="button"> Kirim</a></td>
+                                    <td><a href="#" class="btn" style="background-color: #F7DE06; color: #3167AF;" type="button"><b> Lihat </b></a></td>
                                 </tr>
 
                                 <tr>
@@ -209,7 +159,7 @@
                                     <td>
                                         <p class="text-black-50">Deadline: 32 Maret 2022</p>
                                     </td>
-                                    <td><a href="#" class="btn btn-warning" type="button"> Kirim</a></td>
+                                    <td><a href="#" class="btn" style="background-color: #F7DE06; color: #3167AF;" type="button"><b> Lihat </b></a></td>
                                 </tr>
 
                                 <tr>
@@ -219,7 +169,7 @@
                                     <td>
                                         <p class="text-black-50">Deadline: 32 Maret 2022</p>
                                     </td>
-                                    <td><a href="#" class="btn btn-warning" type="button"> Kirim</a></td>
+                                    <td><a href="#" class="btn" style="background-color: #F7DE06; color: #3167AF;" type="button"><b> Lihat </b></a></td>
                                 </tr>
 
                                 <tr>
@@ -229,11 +179,64 @@
                                     <td>
                                         <p class="text-black-50">Deadline: 32 Maret 2022</p>
                                     </td>
-                                    <td><a href="#" class="btn btn-warning" type="button"> Kirim</a></td>
+                                    <td><a href="#" class="btn" style="background-color: #F7DE06; color: #3167AF;" type="button"><b> Lihat </b></a></td>
                                 </tr>
                             </tbody>
                         </table>
                     </div>
+                    <div class="card-body" style="background-color: #3167AF; padding-top:25px;"></div>
+                </div>
+
+                <!-- satu kotak-->
+                <div class="card" style="margin-left: 20px; margin-right: 20px">
+                    <div class="card-body">
+                        <h4 class="card-title">Ilmu pengetahuan sosial</h4><hr/>
+                        <table class="table table-borderless">
+                            <tbody>
+
+                                <tr>
+                                    <td>
+                                        <p class="card-text">Tugas Bab 1</p>
+                                    </td>
+                                    <td>
+                                        <p class="text-black-50">Deadline: 32 Maret 2022</p>
+                                    </td>
+                                    <td><a href="#" class="btn" style="background-color: #F7DE06; color: #3167AF;" type="button"><b> Lihat </b></a></td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <p class="card-text">Tugas Bab 2</p>
+                                    </td>
+                                    <td>
+                                        <p class="text-black-50">Deadline: 32 Maret 2022</p>
+                                    </td>
+                                    <td><a href="#" class="btn" style="background-color: #F7DE06; color: #3167AF;" type="button"><b> Lihat </b></a></td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <p class="card-text">Tugas Bab 3</p>
+                                    </td>
+                                    <td>
+                                        <p class="text-black-50">Deadline: 32 Maret 2022</p>
+                                    </td>
+                                    <td><a href="#" class="btn" style="background-color: #F7DE06; color: #3167AF;" type="button"><b> Lihat </b></a></td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <p class="card-text">Tugas Bab 4</p>
+                                    </td>
+                                    <td>
+                                        <p class="text-black-50">Deadline: 32 Maret 2022</p>
+                                    </td>
+                                    <td><a href="#" class="btn" style="background-color: #F7DE06; color: #3167AF;" type="button"><b> Lihat </b></a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="card-body" style="background-color: #3167AF; padding-top:25px;"></div>
                 </div>
             </div>
     </section>
