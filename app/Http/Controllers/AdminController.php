@@ -45,4 +45,8 @@ class AdminController extends Controller
     public function tambahtugas() {
         return view('Admin.tambahtugas');
     }
+
+    public function tambahtugas() {
+        return view('Admin.tambahtugas');
+    }
 }
