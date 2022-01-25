@@ -37,7 +37,7 @@
     <div class="card mb-3" style="width: 100%;">
       <div class="row no-gutters">
         <div class="col-md-4">
-          <img src="https://i.ytimg.com/vi/UVhHYHYXao8/mqdefault.jpg" width="300px" height="140px" alt="Lokasi 1">
+          <img src="prettier/images/taqwa.png" width="300px" height="140px" alt="Lokasi 1">
         </div>
         <div class="col-md-8">
           <div class="card-body">
