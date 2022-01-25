@@ -5,7 +5,7 @@
 <div class="card border border-primary mb-5" style="width: 100%;">
     <div class="card-body mb-5">
       <h4 class="card-title text-center mb-5 pb-2" style="color: #3167AF; margin-top: 25px;">Daftar Akun</h4>
-      <form action="{{ route('daftar_store') }}" method="POST" enctype="multipart/form-data">
+      <form action="{{ route('daftar_store') }}" method="POST" enctype="multipart/form-data" autocomplete="off">
         @csrf
         <div class="form-group row mt-5">
           <label for="inputPassword" class="col-sm-2 col-form-label">Nama Lengkap</label>
