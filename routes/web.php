@@ -7,6 +7,9 @@ use App\Http\Controllers\MateriController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\RegisterLokasiController;
 use App\Http\Controllers\TugasController;
+use App\Http\Middleware\CanEditPost;
+use Illuminate\Support\Facades\Auth;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -34,6 +37,8 @@ Route::get('/RegLok1', [RegisterLokasiController::class, 'RegisLok1']);
 Route::get('/RegLok2', function () {
     return view('lokasi.RegisLok2');
 });
+
+
 Route::get('/suksesdaftar', function () {
     return view('lokasi.suksesdaftar');
 })->name('suksesDaftar');

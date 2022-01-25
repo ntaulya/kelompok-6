@@ -28,7 +28,7 @@
         <div class="col-md-12">
           <div class="card-body" style="width: 100%;">
             <h5 class="card-title">PKBM AT-Taqwa</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, perferendis optio! Veniam consequatur commodi, magnam nisi saepe quidem blanditiis adipisci officia, nulla, cupiditate numquam aspernatur. Laboriosam laborum aliquam dignissimos quasi!</p>
+            <p class="card-text">Jl. Sukamandi No.23 Desa Malabeh , Kecamatan Parigi, Kab. Gowa</p>
             <p class="card-text text-center"><a href="/RegLok2" class="btn btn-primary">Pilih Tempat Ujian</a></p>
           </div>
         </div>

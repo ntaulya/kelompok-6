@@ -26,7 +26,7 @@
             </center> <br>
             <div class="card">
                 <div class="card-body px-5 pt-4" style="background-color: #3167AF;">
-                    <form action="{{ route('login') }}" method="post">
+                    <form action="{{ route('login') }}" method="post" autocomplete="off">
                         @csrf
                         {{-- Nomor id --}}
                         <div class="form-group mb-3 mt-3">
