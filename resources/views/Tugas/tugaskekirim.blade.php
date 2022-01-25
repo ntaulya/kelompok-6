@@ -80,22 +80,22 @@
 
             {{-- right content --}}
             <div id="grid-right" class="pt-5 pb-5">
-                <h5 style="margin-left: 10px">Ilmu Pengetahuan Alam</h5>
-                <div style="margin-bottom:0%; margin-left: 10px">
+                <h5 style="margin-left: 17px">Ilmu Pengetahuan Alam</h5>
+                <div style="margin-bottom:0%; margin-left: 17px">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="/tugas">Semua Tugas</a></li>
-                        <li class="breadcrumb-item"><a href="/tugas">Ilmu Pengetahuan Alam</a></li>
+                        <li class="breadcrumb-item"><a href="/tugas" style="text-decoration: none;">Semua Tugas</a></li>
+                        <li class="breadcrumb-item"><a href="/tugas" style="text-decoration: none;">Ilmu Pengetahuan Alam</a></li>
                         <li class="breadcrumb-item active" aria-current="page">Tugas BAB 1</li>
                     </ol>
                 </div>
-                <div class="card" style="margin-left: 10px">
+                <div class="card" style="margin-left: 15px; margin-right: 15px;">
                     <div class="card-body">
                         <h5 class="text-primary">Tugas BAB 1</h5><br>
                         <p class="card-text">Tugas :<br>
                             1. Membuat jangka sorong<br>
                             2. Memodifikasi jangka sorong
                         </p>
-                        <table class="table table-striped table-bordered">
+                        <table class="table table-striped table-bordered" style="margin-top: 30px">
                             <tbody>
 
                                 <tr>
@@ -148,7 +148,7 @@
                                         <p class="text-center">Tugas</p>
                                     </td>
                                     <td>
-                                    <i class="fa fa-book" style="color:#9c9ea1;" aria-hidden="true"></i><p class="text-left">Tugasbab1.png</p>
+                                    <i class="fa fa-book" style="color:#9c9ea1;" aria-hidden="true"></i><span class="text-left"> Tugasbab1.png</span>
                                     </td>
                                 </tr>
                                 

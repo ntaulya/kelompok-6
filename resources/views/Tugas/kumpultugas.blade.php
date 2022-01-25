@@ -84,8 +84,8 @@
                 <h5 style="margin-left: 10px">Ilmu Pengetahuan Alam</h5>
                 <div style="margin-bottom:0%; margin-left: 10px">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="/tugas">Semua Tugas</a></li>
-                        <li class="breadcrumb-item"><a href="/tugas">Ilmu Pengetahuan Alam</a></li>
+                        <li class="breadcrumb-item"><a href="/tugas" style="text-decoration: none;">Semua Tugas</a></li>
+                        <li class="breadcrumb-item"><a href="/tugas" style="text-decoration: none;">Ilmu Pengetahuan Alam</a></li>
                         <li class="breadcrumb-item active" aria-current="page">Tugas BAB 1</li>
                     </ol>
                 </div>
@@ -95,13 +95,13 @@
                         <p class="card-text">Tugas :<br>
                             1. Membuat jangka sorong<br>
                             2. Memodifikasi jangka sorong
-                        </p>
+                        </p><br><hr/>
                         <div class="container">
                             <div class="row justify-content-md-center">
                                 <div class="col col-lg-2">
                                 </div>
                                 <div class="col-md-auto">
-                                    <div class="text-center">
+                                    <div class="text-center" style="margin-top: 30px;">
                                         <img src="prettier\images\upload.png" width="80" height="80" class="rounded" alt="upload">
                                     </div>
                                 </div>
@@ -110,9 +110,9 @@
                                 <form>
                                     <div class="form-group">
                                         <input type="file" class="form-control-file" id="exampleFormControlFile1" style="margin-left: 400px">
-                                        <p class="text-center">Atau tarik kesini</p>
-                                    </div>
-                                </form>
+                                    </div><br><br>
+                                </form><hr/><br><br>
+                                <center><button type="submit" class="btn" style="background-color: #3167AF; padding-left: 20px; padding-right: 20px; margin-bottom: 30px"><a href="/tugaskekirim" style="color: white; text-decoration: none;">Kirim</a></button></center>
                             </div>
                         </div>
                     </div>
