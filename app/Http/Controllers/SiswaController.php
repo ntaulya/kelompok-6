@@ -54,7 +54,7 @@ class SiswaController extends Controller
         // dd(Auth::attempt(['email' => $request->email, 'password' => $request->sandi]));
         
         $credentials = $request->validate([
-            'email' => 'required|email:dns',
+            'email' => 'required|email',
             'password' => 'required'
         ]);
 

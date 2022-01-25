@@ -5,7 +5,7 @@
 <div class="card border border-primary mb-5" style="width: 100%;">
     <div class="card-body mb-5">
       <h5 class="card-title text-center text-primary mb-5 pb-2">Profile Saya</h5>
-      <center><img class="profile-picture" src="prettier/images/profile-picture.jpg" width="150px" height="150px"></center>
+      <center><img class="profile-picture" src="{{ asset('prettier/images/profile-picture.jpg') }}" width="150px" height="150px"></center>
       <form class="form-inline">
         <div class="form-group row mt-5">
           <label for="inputPassword" class="col-sm-2 col-form-label">Nama Lengkap</label>
@@ -71,7 +71,7 @@
         </div>
 
         <div class="container text-center mt-5">
-          <a href="/editprofile" class="btn btn-primary">Edit Profile</a></button>
+          <a href="{{ route('viewEdit', Auth::id()) }}" class="btn btn-primary">Edit Profile</a></button>
         </div>
 
       </form>
