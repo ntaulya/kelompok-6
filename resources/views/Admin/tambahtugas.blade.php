@@ -5,7 +5,7 @@
 <div class="card border border-primary mb-5" style="width: 100%;">
     <div class="card-body mb-5">
     <h5 class="text-center">Tambah Tugas</h5>
-      <form class="form-inline">
+      <form class="form-inline" method="POST" action="/tambahtugas" enctype="multipart/form-data">
         <input type="hidden" name="id" value="{{$user->id}}">
         @csrf
         <div class="form-group row mt-5">
@@ -51,7 +51,7 @@
         </div>
 
         <div class="container text-center mt-5">
-            <a href="" class="btn btn-primary">Tambah Tugas</a>
+            <a href="/tambahtugas" class="btn btn-primary">Tambah Tugas</a>
             <button href="/Admin" class="btn btn-warning" style="margin-left: 10px">Batalkan</button>
           </div>
     </div>

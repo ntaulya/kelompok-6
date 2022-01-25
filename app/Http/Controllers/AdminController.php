@@ -40,7 +40,10 @@ class AdminController extends Controller
         }
     }
 
-    public function tambahtugas() {
-        return view('Admin.tambahtugas');
+    public function tambahtugas(Request $request) {
+        $id = $request->id;
+        $user = User::FindOrFail($id);
+
+        return view('Admin.tambahtugas' , compact('user'));
     }
 }
