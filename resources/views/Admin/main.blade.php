@@ -30,7 +30,7 @@
                 <td>{{$user->ktp_kk }}</td>
                 <div class="row">
                     <td class="col-lg-6">
-                        <a type="button" class="btn btn-primary" href="/tambahmateri">Tambah Materi</a>
+                        <a type="button" class="btn btn-primary" href="/tambahmateri?id=<?php echo $user->id ?>">Tambah Materi</a>
                     </td>
                     <td class="col-lg-6">
                         <a type="button" class="btn btn-warning" href="/tambahtugas">Tambah Tugas</a>

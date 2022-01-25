@@ -65,7 +65,7 @@
         </div>
 
         <div class="container text-center mt-5">
-          <button href="" class="btn btn-primary" type="submit">Tambah Materi</button>
+          <a href="/tambahmateri" class="btn btn-primary">Tambah Materi</a>
           <button href="/Admin" class="btn btn-warning" style="margin-left: 10px">Batalkan</button>
         </div>
 

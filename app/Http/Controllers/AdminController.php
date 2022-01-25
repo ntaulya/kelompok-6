@@ -17,13 +17,10 @@ class AdminController extends Controller
     }
 
     public function tambahmateri(Request $request) {
-
-        return $request->all();
         $id = $request->id;
         $user = User::FindOrFail($id);
-        
-        // return $user;
-        // return view('Admin.tambahmateri')->with(compact('user'));
+        // return view('Admin.tambahmateri')->user;
+        return view('Admin.tambahmateri' , compact('user'));
     }
 
     public function storetambahmateri(Request $request) {
