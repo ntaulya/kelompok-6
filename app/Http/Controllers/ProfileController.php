@@ -26,8 +26,8 @@ class ProfileController extends Controller
         $profil->nomor_id = $request->nomor_id;
         $profil->email = $request->email;
         $profil->password =$request->kata_sandi;
-        $profil->paket_program =$request->paket;
-        $profil->ktp = 
+        $profil->paket_program =$request->paket_program;
+        // $profil->ktp = 
         $profil->save();
 
         return redirect()->route('profile');
