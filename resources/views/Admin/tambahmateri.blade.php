@@ -5,26 +5,27 @@
 <div class="card border border-primary mb-5" style="width: 100%;">
     <div class="card-body mb-5">
     <h5 class="text-center">Tambah Materi</h5>
-    @csrf
-      <form class="form-inline" method="POST" action="">
+      <form class="form-inline" method="POST"action="/tambahmateri" enctype="multipart/form-data">
+        <input type="hidden" name="id" value="{{$user->id}}">
+        @csrf
         <div class="form-group row mt-5">
           <label for="inputPassword" class="col-sm-2 col-form-label">Nama Lengkap</label>
           <div class="col-sm-10">
-            <input type="text" class="form-control" id="inputPassword" value="{{$user->$name}}" readonly name="name">
+            <input type="text" class="form-control" id="inputPassword" value="{{$user->name}}" readonly name="name">
           </div>
         </div>
 
         <div class="form-group row mt-3">
           <label for="inputPassword" class="col-sm-2 col-form-label">Nomor ID Siswa</label>
           <div class="col-sm-10">
-            <input type="text" class="form-control" id="inputPassword" value="{{$user->$nomor_id}}" readonly name="nomor_id">
+            <input type="text" class="form-control" id="inputPassword" value="{{$user->nomor_id}}" readonly name="nomor_id">
           </div>
         </div>
 
         <div class="form-group row mt-3">
           <label for="inputPassword" class="col-sm-2 col-form-label">Paket Program</label>
           <div class="col-sm-10">
-            <input type="text" class="form-control" id="inputPassword" value="{{$user->$paket_program}}" readonly name="paket_program">
+            <input type="text" class="form-control" id="inputPassword" value="{{$user->paket_program}}" readonly name="paket_program">
           </div>
         </div>
 
@@ -64,7 +65,7 @@
         </div>
 
         <div class="container text-center mt-5">
-          <button href="" class="btn btn-primary">Tambah Materi</button>
+          <button href="" class="btn btn-primary" type="submit">Tambah Materi</button>
           <button href="/Admin" class="btn btn-warning" style="margin-left: 10px">Batalkan</button>
         </div>
 
