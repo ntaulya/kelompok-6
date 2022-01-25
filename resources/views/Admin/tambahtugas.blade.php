@@ -49,8 +49,8 @@
         </div>
 
         <div class="container text-center mt-5">
-            <a href="" class="btn btn-primary">Tambah Tugas</a>
-            <a href="/Admin" class="btn btn-warning" style="margin-left: 10px">Batalkan</a>
+            <button href="" class="btn btn-primary">Tambah Tugas</button>
+            <button href="/Admin" class="btn btn-warning" style="margin-left: 10px">Batalkan</button>
           </div>
     </div>
 </div>

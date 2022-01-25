@@ -28,6 +28,7 @@ return array(
     'App\\Models\\Admin' => $baseDir . '/app/Models/Admin.php',
     'App\\Models\\DataUjian' => $baseDir . '/app/Models/DataUjian.php',
     'App\\Models\\Mahasiswa' => $baseDir . '/app/Models/Mahasiswa.php',
+    'App\\Models\\Materi' => $baseDir . '/app/Models/Materi.php',
     'App\\Models\\Siswa' => $baseDir . '/app/Models/Siswa.php',
     'App\\Models\\User' => $baseDir . '/app/Models/User.php',
     'App\\Providers\\AppServiceProvider' => $baseDir . '/app/Providers/AppServiceProvider.php',

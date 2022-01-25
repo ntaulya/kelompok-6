@@ -538,6 +538,7 @@ class ComposerStaticInit21718564b759e6b6a78b8778396b9196
         'App\\Models\\Admin' => __DIR__ . '/../..' . '/app/Models/Admin.php',
         'App\\Models\\DataUjian' => __DIR__ . '/../..' . '/app/Models/DataUjian.php',
         'App\\Models\\Mahasiswa' => __DIR__ . '/../..' . '/app/Models/Mahasiswa.php',
+        'App\\Models\\Materi' => __DIR__ . '/../..' . '/app/Models/Materi.php',
         'App\\Models\\Siswa' => __DIR__ . '/../..' . '/app/Models/Siswa.php',
         'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
