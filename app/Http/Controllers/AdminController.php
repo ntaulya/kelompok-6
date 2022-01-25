@@ -19,7 +19,6 @@ class AdminController extends Controller
     public function tambahmateri(Request $request) {
         $id = $request->id;
         $user = User::FindOrFail($id);
-        // return view('Admin.tambahmateri')->user;
         return view('Admin.tambahmateri' , compact('user'));
     }
 

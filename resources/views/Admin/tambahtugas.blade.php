@@ -6,24 +6,26 @@
     <div class="card-body mb-5">
     <h5 class="text-center">Tambah Tugas</h5>
       <form class="form-inline">
+        <input type="hidden" name="id" value="{{$user->id}}">
+        @csrf
         <div class="form-group row mt-5">
           <label for="inputPassword" class="col-sm-2 col-form-label">Nama Lengkap</label>
           <div class="col-sm-10">
-            <input type="text" class="form-control" id="inputPassword" value="" readonly>
+            <input type="text" class="form-control" id="inputPassword" value="{{$user->name}}" readonly>
           </div>
         </div>
 
         <div class="form-group row mt-3">
           <label for="inputPassword" class="col-sm-2 col-form-label">Nomor ID Siswa</label>
           <div class="col-sm-10">
-            <input type="text" class="form-control" id="inputPassword" value="" readonly>
+            <input type="text" class="form-control" id="inputPassword" value="{{$user->nomor_id}}" readonly>
           </div>
         </div>
 
         <div class="form-group row mt-3">
           <label for="inputPassword" class="col-sm-2 col-form-label">Paket Program</label>
           <div class="col-sm-10">
-            <input type="text" class="form-control" id="inputPassword" value="" readonly>
+            <input type="text" class="form-control" id="inputPassword" value="{{$user->paket_program}}" readonly>
           </div>
         </div>
 
@@ -49,7 +51,7 @@
         </div>
 
         <div class="container text-center mt-5">
-            <button href="" class="btn btn-primary">Tambah Tugas</button>
+            <a href="" class="btn btn-primary">Tambah Tugas</a>
             <button href="/Admin" class="btn btn-warning" style="margin-left: 10px">Batalkan</button>
           </div>
     </div>
